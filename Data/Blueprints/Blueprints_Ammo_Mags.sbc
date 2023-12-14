@@ -1,0 +1,539 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+  
+    <Blueprint> <!-- Cruise_MissileX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Cruise_MissileX100</SubtypeId>
+      </Id>
+      <DisplayName>Cruise Missile x100</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Component" SubtypeId="AluminumPlate" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="200" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="100" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="100" TypeId="Component" SubtypeId="LargeCopperTube" />
+        <Item Amount="100" TypeId="Component" SubtypeId="UraniumWarhead" />
+        <Item Amount="100" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="AmmoMagazine" SubtypeId="Cruise_Missile" />
+      <BaseProductionTimeInSeconds>500</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Cruise_MissileX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Cruise_MissileX10</SubtypeId>
+      </Id>
+      <DisplayName>Cruise Missile x10</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="AluminumPlate" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="20" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="10" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="10" TypeId="Component" SubtypeId="LargeCopperTube" />
+        <Item Amount="10" TypeId="Component" SubtypeId="UraniumWarhead" />
+        <Item Amount="10" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="AmmoMagazine" SubtypeId="Cruise_Missile" />
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Cruise_Missile -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Cruise_Missile</SubtypeId>
+      </Id>
+      <DisplayName>Cruise Missile</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="AluminumPlate" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="2" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="1" TypeId="Component" SubtypeId="LargeCopperTube" />
+        <Item Amount="1" TypeId="Component" SubtypeId="UraniumWarhead" />
+        <Item Amount="1" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Cruise_Missile" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint> <!-- TorpedoX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TorpedoX100</SubtypeId>
+      </Id>
+      <DisplayName>Torpedo x100</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Component" SubtypeId="SteelPlate" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="200" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="100" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="100" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="100" TypeId="Component" SubtypeId="PlutoniumWarhead" />
+        <Item Amount="100" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="AmmoMagazine" SubtypeId="Torpedo" />
+      <BaseProductionTimeInSeconds>750</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- TorpedoX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TorpedoX10</SubtypeId>
+      </Id>
+      <DisplayName>Torpedo x10</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="SteelPlate" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="20" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="10" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="10" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="10" TypeId="Component" SubtypeId="PlutoniumWarhead" />
+        <Item Amount="10" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="AmmoMagazine" SubtypeId="Torpedo" />
+      <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Torpedo -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Torpedo</SubtypeId>
+      </Id>
+      <DisplayName>Torpedo</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="2" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="1" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PlutoniumWarhead" />
+        <Item Amount="1" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Torpedo" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+    <Blueprint> <!-- Missile200mmX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Missile200mmX100</SubtypeId>
+      </Id>
+      <DisplayName>200mm Missiles x100</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="300" TypeId="Component" SubtypeId="AluminumPlate" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="100" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="100" TypeId="Component" SubtypeId="SmallCopperTube" />
+        <Item Amount="500" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="100" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="AmmoMagazine" SubtypeId="Missile200mm" />
+      <BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Missile200mmX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Missile200mmX10</SubtypeId>
+      </Id>
+      <DisplayName>200mm Missiles x10</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Component" SubtypeId="AluminumPlate" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="10" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="10" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="10" TypeId="Component" SubtypeId="SmallCopperTube" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="10" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="AmmoMagazine" SubtypeId="Missile200mm" />
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Missile200mm -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Position0100_Missile200mm</SubtypeId>
+      </Id>
+      <DisplayName>200mm Missiles</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Component" SubtypeId="AluminumPlate" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="1" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SmallCopperTube" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="1" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Missile200mm" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+        <Blueprint> <!--Flare Gun Magazine (4 rounds)-->
+		    <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position0005_FlareGunMagazine</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_FlareClip</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\FlareGun_Ammo.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="1.2" TypeId="Ore" SubtypeId="Oxygen" />
+                <Item Amount="0.8" TypeId="Ingot" SubtypeId="Strontium" />
+                <Item Amount="0.1" TypeId="Ingot" SubtypeId="Aluminum" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="FlareClip" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+		
+        <Blueprint> <!--Semi Auto Pistol Magazine (8 rounds)-->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position0010_SemiAutoPistolMagazine</SubtypeId>
+            </Id>
+            <DisplayName>Semi Auto Pistol Magazine</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\Pistol_Warfare_Ammo.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
+                <Item Amount="0.8" TypeId="Component" SubtypeId="Cartridge" />
+                <Item Amount="0.4" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="0.8" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="0.8" TypeId="Component" SubtypeId="Bullet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="SemiAutoPistolMagazine" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!--Full Auto Pistol Magazine (20 rounds)-->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position0020_FullAutoPistolMagazine</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_FullAutoPistolMagazine</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\Pistol_FullAuto_Warfare_Ammo.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Cartridge" />
+                <Item Amount="1" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Bullet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="FullAutoPistolMagazine" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!--Elite Pistol Magazine (12 rounds)-->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position0030_ElitePistolMagazine</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_ElitePistolMagazine</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\Pistol_Elite_Warfare_Ammo.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
+                <Item Amount="1.2" TypeId="Component" SubtypeId="Cartridge" />
+                <Item Amount="0.6" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="1.2" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="1.2" TypeId="Component" SubtypeId="Bullet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="ElitePistolMagazine" />
+            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!--AutomaticRifleGun_Mag_20rd (20 rounds)-->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position0040_AutomaticRifleGun_Mag_20rd</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_AutomaticRifleGun_Mag_20rd</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo_SemiAuto.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
+                <Item Amount="4" TypeId="Component" SubtypeId="Cartridge" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="4" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="4" TypeId="Component" SubtypeId="Bullet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="AutomaticRifleGun_Mag_20rd" />
+            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!--RapidFireAutomaticRifleGun_Mag_50rd (50 rounds)-->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position0050_RapidFireAutomaticRifleGun_Mag_50rd</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_RapidFireAutomaticRifleGun_Mag_50rd</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo_RapidFire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
+                <Item Amount="10" TypeId="Component" SubtypeId="Cartridge" />
+                <Item Amount="5" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="10" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="10" TypeId="Component" SubtypeId="Bullet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="RapidFireAutomaticRifleGun_Mag_50rd" />
+            <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!--PreciseAutomaticRifleGun_Mag_5rd (30 rounds)-->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position0060_PreciseAutomaticRifleGun_Mag_5rd</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_PreciseAutomaticRifleGun_Mag_5rd</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo_Precise.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
+                <Item Amount="6" TypeId="Component" SubtypeId="Cartridge" />
+                <Item Amount="3" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="6" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="6" TypeId="Component" SubtypeId="Bullet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="PreciseAutomaticRifleGun_Mag_5rd" />
+            <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!--UltimateAutomaticRifleGun_Mag_30rd (30 rounds)-->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position0070_UltimateAutomaticRifleGun_Mag_30rd</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_UltimateAutomaticRifleGun_Mag_30rd</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo_Elite.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
+                <Item Amount="6" TypeId="Component" SubtypeId="Cartridge" />
+                <Item Amount="3" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="6" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="6" TypeId="Component" SubtypeId="Bullet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="UltimateAutomaticRifleGun_Mag_30rd" />
+            <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+        </Blueprint>
+		
+    <!--<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_5p56x45mmX100</SubtypeId>
+      </Id>
+      <DisplayName>NATO 5.56x45mms x500</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Component" SubtypeId="Cartridge" />
+        <Item Amount="500" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="500" TypeId="Component" SubtypeId="Primer" />
+        <Item Amount="500" TypeId="Component" SubtypeId="Bullet" />
+      </Prerequisites>
+      <Result Amount="500" TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" />
+      <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_5p56x45mmX10</SubtypeId>
+      </Id>
+      <DisplayName>NATO 5.56x45mms x50</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Component" SubtypeId="Cartridge" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Primer" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Bullet" />
+      </Prerequisites>
+      <Result Amount="50" TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_5p56x45mmMagazine</SubtypeId>
+      </Id>
+      <DisplayName>NATO 5.56x45mms x5</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Component" SubtypeId="Cartridge" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Primer" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Bullet" />
+      </Prerequisites>
+      <Result Amount="5" TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>-->
+  
+    <Blueprint> <!-- NATO_25x184mmX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_25x184mmX100</SubtypeId>
+      </Id>
+      <DisplayName>NATO 25x184mms x500</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Component" SubtypeId="Magazine" />
+        <Item Amount="500" TypeId="Component" SubtypeId="Cartridge" />
+        <Item Amount="500" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="500" TypeId="Component" SubtypeId="Primer" />
+        <Item Amount="500" TypeId="Component" SubtypeId="Bullet" />
+      </Prerequisites>
+      <Result Amount="500" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
+      <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- NATO_25x184mmX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_25x184mmX10</SubtypeId>
+      </Id>
+      <DisplayName>NATO 25x184mms x50</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Component" SubtypeId="Magazine" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Cartridge" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Primer" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Bullet" />
+      </Prerequisites>
+      <Result Amount="50" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- NATO_25x184mmMagazine -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_25x184mmMagazine</SubtypeId>
+      </Id>
+      <DisplayName>NATO 25x184mms x5</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Component" SubtypeId="Magazine" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Cartridge" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Primer" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Bullet" />
+      </Prerequisites>
+      <Result Amount="5" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
+      <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- NATO_25x184mmMagazine -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Position0080_NATO_25x184mmMagazine</SubtypeId>
+      </Id>
+      <DisplayName>NATO 25x184mms</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Cartridge" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Primer" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Bullet" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position0090_AutocannonClip</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_AutoCannonClip</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\AutoCanonShellBox.dds</Icon>
+            <Prerequisites>
+                <Item Amount="12" TypeId="Component" SubtypeId="Magazine" />
+                <Item Amount="12" TypeId="Component" SubtypeId="Cartridge" />
+                <Item Amount="12" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="12" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="12" TypeId="Component" SubtypeId="Bullet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="AutocannonClip" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+        </Blueprint>
+		
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position0110_MediumCalibreAmmo</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_MediumCalibreAmmo</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\MediumCalibreShell.dds</Icon>
+            <Prerequisites>
+                <Item Amount="24" TypeId="Component" SubtypeId="Cartridge" />
+                <Item Amount="24" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="24" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="24" TypeId="Component" SubtypeId="Bullet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="MediumCalibreAmmo" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position0120_LargeCalibreAmmo</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_LargeCalibreAmmo</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\LargeCalibreShell.dds</Icon>
+            <Prerequisites>
+                <Item Amount="48" TypeId="Component" SubtypeId="Cartridge" />
+                <Item Amount="48" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="48" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="48" TypeId="Component" SubtypeId="Bullet" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="LargeCalibreAmmo" />
+            <BaseProductionTimeInSeconds>14</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position0130_SmallRailgunAmmo</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SmallRailgunAmmo</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\RailgunAmmo.dds</Icon>
+            <Prerequisites>
+                <Item Amount="96" TypeId="Component" SubtypeId="Cartridge" />
+                <Item Amount="96" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="96" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="96" TypeId="Component" SubtypeId="Bullet" />
+                <Item Amount="4" TypeId="Ingot" SubtypeId="Uranium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="SmallRailgunAmmo" />
+            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position0140_LargeRailgunAmmo</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_LargeRailgunAmmo</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\RailgunAmmoLarge.dds</Icon>
+            <Prerequisites>
+                <Item Amount="192" TypeId="Component" SubtypeId="Cartridge" />
+                <Item Amount="192" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="192" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="192" TypeId="Component" SubtypeId="Bullet" />
+                <Item Amount="8" TypeId="Ingot" SubtypeId="Uranium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="LargeRailgunAmmo" />
+            <BaseProductionTimeInSeconds>14</BaseProductionTimeInSeconds>
+        </Blueprint>
+  </Blueprints>
+</Definitions>

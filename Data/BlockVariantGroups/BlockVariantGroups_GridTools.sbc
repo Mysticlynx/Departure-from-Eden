@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup> <!-- EWEShipDrillGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEShipDrillGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+            <DisplayName>Ship Drills</DisplayName>
+            <Description>Ship Drills</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrill" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockAdvancedDrill" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockEliteDrill" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockArmoredDrill" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockAdvancedDrill" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockEliteDrill" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockArmoredDrill" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- EWEShipGrinderGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEShipGrinderGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
+            <DisplayName>Ship Grinders</DisplayName>
+            <Description>Ship Grinders</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinder" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeAdvancedShipGrinder" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeEliteShipGrinder" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeArmoredShipGrinder" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinder" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallAdvancedShipGrinder" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallEliteShipGrinder" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallArmoredShipGrinder" />
+            </Blocks>
+        </BlockVariantGroup>		
+        <BlockVariantGroup> <!-- EWEShipWelderGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEShipWelderGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
+            <DisplayName>Ship Welders</DisplayName>
+            <Description>Ship Welders</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeAdvancedShipWelder" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeEliteShipWelder" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeArmoredShipWelder" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelder" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallAdvancedShipWelder" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallEliteShipWelder" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallArmoredShipWelder" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+        <BlockVariantGroup> <!-- EWEOreDetectorGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEOreDetectorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\detector.dds</Icon>
+            <DisplayName>Ore Detectors</DisplayName>
+            <Description>Ore Detectors</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeBlockAdvancedOreDetector" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeBlockEliteOreDetector" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockAdvancedOreDetector" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockEliteOreDetector" />
+            </Blocks>
+        </BlockVariantGroup>
+ 
+	</BlockVariantGroups>
+</Definitions>

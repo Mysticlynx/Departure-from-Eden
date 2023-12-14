@@ -1,0 +1,48 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipWeapons</DisplayName>
+      <Name>Weapons</Name>
+	  <StrictSearch>true</StrictSearch>
+		<ItemIds>
+		
+      <string>LargeGatlingTurret/null</string>
+      <string>LargeGatlingTurret/SmallGatlingTurret</string>
+      <string>SmallGatlingGun/null</string>
+      
+      <string>InteriorTurret/LargeInteriorTurret</string>
+      
+    	<string>LargeMissileTurret/null</string>
+    	<string>LargeMissileTurret/SmallMissileTurret</string>
+    	<string>SmallMissileLauncher/LargeMissileLauncher</string>
+    	<string>SmallMissileLauncher/null</string>
+    	<string>SmallMissileLauncherReload/SmallRocketLauncherReload</string>
+	
+    	<string>LargeMissileTurret/LargeBlockCruiseMissileTurret</string>
+    	<string>LargeMissileTurret/SmallBlockCruiseMissileTurret</string>
+    	<string>SmallMissileLauncher/SmallBlockCruiseMissileLauncher</string>
+    	<string>SmallMissileLauncher/LargeBlockCruiseMissileLauncher</string>
+	
+    	<string>LargeMissileTurret/LargeBlockTorpedoTurret</string>
+    	<string>LargeMissileTurret/SmallBlockTorpedoTurret</string>
+    	<string>SmallMissileLauncher/SmallBlockTorpedoLauncher</string>
+    	<string>SmallMissileLauncher/LargeBlockTorpedoLauncher</string>
+					
+      <string>InteriorTurret/LargeBlockPulseTurret</string>
+
+		</ItemIds>
+	</Category>
+	
+	
+  </CategoryClasses>
+</Definitions>
+
+
+
+
+

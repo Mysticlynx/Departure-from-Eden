@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>  
+  
+    <Weapon> <!-- Cruise_Missile -->
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Cruise_Missile</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1" ShootSoundName="WepShipGatlingShot" ShotsInBurst="1" />
+      <ReleaseTimeAfterFire>1</ReleaseTimeAfterFire>
+      <DeviateShotAngle>0.01</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
+      <AmmoMagazines>
+       <AmmoMagazine Subtype="Cruise_Missile" />
+      </AmmoMagazines>
+      <ReloadTime>1</ReloadTime>
+    </Weapon>
+    	
+    <Weapon> <!-- Torpedo -->
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Torpedo</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1" ShootSoundName="WepShipGatlingShot" ShotsInBurst="1" />
+      <ReleaseTimeAfterFire>1</ReleaseTimeAfterFire>
+      <DeviateShotAngle>0.01</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
+      <AmmoMagazines>
+       <AmmoMagazine Subtype="Torpedo" />
+      </AmmoMagazines>
+      <ReloadTime>1</ReloadTime>
+    </Weapon>
+
+    <Weapon> <!-- PlasmaTurret -->
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>PulseTurret</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1" ShootSoundName="SmallPlasmaTurretFire"/> <!-- 360 -->
+      <ReleaseTimeAfterFire>0.5</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
+      <AmmoMagazines>
+       <AmmoMagazine Subtype="Energy" /> <!-- Class1PlasmaPulseCharge -->
+      </AmmoMagazines>
+      <ReloadTime>1</ReloadTime>
+    </Weapon>
+
+    <Weapon> <!-- LaserTurret -->
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>LaserTurret</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1" ShootSoundName="SmallLaserTurretFire"/> <!-- 3600 -->
+      <ReleaseTimeAfterFire>0.5</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
+      <AmmoMagazines>
+       <AmmoMagazine Subtype="Energy" /> <!-- Class1LaserBeamCharge -->
+      </AmmoMagazines>
+      <ReloadTime>1</ReloadTime>
+    </Weapon>
+
+  </Weapons>
+</Definitions>

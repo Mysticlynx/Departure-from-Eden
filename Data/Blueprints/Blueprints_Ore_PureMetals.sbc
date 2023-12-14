@@ -1,0 +1,742 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint>  <!-- Bsc_Aluminum_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Aluminum_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="312" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Results>					
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_Aluminum_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Aluminum_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5000" TypeId="Ore" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1560" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Results>					
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_Aluminum_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Aluminum_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
+      <Prerequisites>
+        <Item Amount="25000" TypeId="Ore" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="7800" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Results>					
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_Cobalt_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Cobalt_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cobalt Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Co_cobalt.dds</Icon>
+      <Prerequisites>
+        <Item Amount="750" TypeId="Ore" SubtypeId="Cobalt" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="197" TypeId="Ingot" SubtypeId="Cobalt" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_Cobalt_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Cobalt_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cobalt Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Co_cobalt.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3750" TypeId="Ore" SubtypeId="Cobalt" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="983" TypeId="Ingot" SubtypeId="Cobalt" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_Cobalt_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Cobalt_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Cobalt Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Co_cobalt.dds</Icon>
+      <Prerequisites>
+        <Item Amount="18800" TypeId="Ore" SubtypeId="Cobalt" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="4910" TypeId="Ingot" SubtypeId="Cobalt" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint>  <!-- Bsc_Copper_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Copper_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Copper Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cu_copper.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Copper" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="341" TypeId="Ingot" SubtypeId="Copper" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_Copper_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Copper_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Copper Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cu_copper.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5000" TypeId="Ore" SubtypeId="Copper" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1710" TypeId="Ingot" SubtypeId="Copper" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_Copper_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Copper_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Copper Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cu_copper.dds</Icon>
+      <Prerequisites>
+        <Item Amount="25000" TypeId="Ore" SubtypeId="Copper" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="8530" TypeId="Ingot" SubtypeId="Copper" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_Gold_OreToIngot -->	
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Gold_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Gold Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Au_gold.dds</Icon>
+      <Prerequisites>
+        <Item Amount="450" TypeId="Ore" SubtypeId="Gold" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="39.2" TypeId="Ingot" SubtypeId="Gold" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_Gold_OreToIngot -->	
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Gold_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Gold Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Au_gold.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2250" TypeId="Ore" SubtypeId="Gold" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="196" TypeId="Ingot" SubtypeId="Gold" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_Gold_OreToIngot -->	
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Gold_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Gold Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Au_gold.dds</Icon>
+      <Prerequisites>
+        <Item Amount="11200" TypeId="Ore" SubtypeId="Gold" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="979" TypeId="Ingot" SubtypeId="Gold" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_Iron_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Iron_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Iron Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Iron" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="368" TypeId="Ingot" SubtypeId="Iron" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_Iron_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Iron_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Iron Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5000" TypeId="Ore" SubtypeId="Iron" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1840" TypeId="Ingot" SubtypeId="Iron" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_Iron_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Iron_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Iron Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
+      <Prerequisites>
+        <Item Amount="25000" TypeId="Ore" SubtypeId="Iron" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="9190" TypeId="Ingot" SubtypeId="Iron" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_Lead_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Lead_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Lead Ore</DisplayName>
+			<Icon>Textures\GUI\Icons\ore_Pb_lead.dds</Icon>
+      <Prerequisites>
+        <Item Amount="550" TypeId="Ore" SubtypeId="Lead" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="106" TypeId="Ingot" SubtypeId="Lead" />
+      </Results>	
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_Lead_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Lead_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Lead Ore</DisplayName>
+			<Icon>Textures\GUI\Icons\ore_Pb_lead.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2750" TypeId="Ore" SubtypeId="Lead" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="531" TypeId="Ingot" SubtypeId="Lead" />
+      </Results>	
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_Lead_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Lead_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Lead Ore</DisplayName>
+			<Icon>Textures\GUI\Icons\ore_Pb_lead.dds</Icon>
+      <Prerequisites>
+        <Item Amount="13800" TypeId="Ore" SubtypeId="Lead" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="2650" TypeId="Ingot" SubtypeId="Lead" />
+      </Results>	
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_Magnesium_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Magnesium_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Magnesium Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Mg_magnesium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="250" TypeId="Ore" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="18.1" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_Magnesium_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Magnesium_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Magnesium Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Mg_magnesium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1250" TypeId="Ore" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="90.3" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_Magnesium_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Magnesium_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Magnesium Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Mg_magnesium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="6250" TypeId="Ore" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="451" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_Molybdenum_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Molybdenum_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Molybdenum</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Molybdenum.dds</Icon>
+      <Prerequisites>
+        <Item Amount="350" TypeId="Ore" SubtypeId="Molybdenum" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="78.6" TypeId="Ingot" SubtypeId="Molybdenum" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_Molybdenum_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Molybdenum_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Molybdenum</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Molybdenum.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1750" TypeId="Ore" SubtypeId="Molybdenum" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="393" TypeId="Ingot" SubtypeId="Molybdenum" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_Molybdenum_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Molybdenum_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Molybdenum</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Molybdenum.dds</Icon>
+      <Prerequisites>
+        <Item Amount="8750" TypeId="Ore" SubtypeId="Molybdenum" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1970" TypeId="Ingot" SubtypeId="Molybdenum" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_Nickel_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Nickel_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Nickel Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ni_nickel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="750" TypeId="Ore" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="205" TypeId="Ingot" SubtypeId="Nickel" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_Nickel_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Nickel_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Nickel Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ni_nickel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3750" TypeId="Ore" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1020" TypeId="Ingot" SubtypeId="Nickel" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_Nickel_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Nickel_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Nickel Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ni_nickel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="18800" TypeId="Ore" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="5110" TypeId="Ingot" SubtypeId="Nickel" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint>  <!-- Bsc_Platinum_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Platinum_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Platinum Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Pt_platinum.dds</Icon>
+      <Prerequisites>
+        <Item Amount="200" TypeId="Ore" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Platinum" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_Platinum_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Platinum_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Platinum Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Pt_platinum.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Platinum" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_Platinum_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Platinum_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Platinum Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Pt_platinum.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5000" TypeId="Ore" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="250" TypeId="Ingot" SubtypeId="Platinum" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_Silicon_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Silicon_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Silicon Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Si_silicon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="600" TypeId="Ore" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="141" TypeId="Ingot" SubtypeId="Silicon" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>	
+    <Blueprint>  <!-- Adv_Silicon_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Silicon_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Silicon Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Si_silicon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3000" TypeId="Ore" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="706" TypeId="Ingot" SubtypeId="Silicon" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>	
+    <Blueprint>  <!-- Eli_Silicon_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Silicon_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Silicon Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Si_silicon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="15000" TypeId="Ore" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="3530" TypeId="Ingot" SubtypeId="Silicon" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>	
+	
+    <Blueprint>  <!-- Bsc_Silver_OreToIngot -->	
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Silver_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Silver Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ag_silver.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Ore" SubtypeId="Silver" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="83.2" TypeId="Ingot" SubtypeId="Silver" />						
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>	
+    <Blueprint>  <!-- Adv_Silver_OreToIngot -->	
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Silver_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Silver Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ag_silver.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2500" TypeId="Ore" SubtypeId="Silver" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="416" TypeId="Ingot" SubtypeId="Silver" />						
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>	
+    <Blueprint>  <!-- Eli_Silver_OreToIngot -->	
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Silver_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Silver Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ag_silver.dds</Icon>
+      <Prerequisites>
+        <Item Amount="12500" TypeId="Ore" SubtypeId="Silver" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="2080" TypeId="Ingot" SubtypeId="Silver" />						
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Bsc_Tin_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Tin_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Tin Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Sn_tin.dds</Icon>
+      <Prerequisites>
+        <Item Amount="850" TypeId="Ore" SubtypeId="Tin" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="349" TypeId="Ingot" SubtypeId="Tin" />
+      </Results>	
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_Tin_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Tin_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Tin Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Sn_tin.dds</Icon>
+      <Prerequisites>
+        <Item Amount="4250" TypeId="Ore" SubtypeId="Tin" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1740" TypeId="Ingot" SubtypeId="Tin" />
+      </Results>	
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_Tin_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Tin_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Tin Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Sn_tin.dds</Icon>
+      <Prerequisites>
+        <Item Amount="21200" TypeId="Ore" SubtypeId="Tin" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="8720" TypeId="Ingot" SubtypeId="Tin" />
+      </Results>	
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>  <!-- Titanium_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Titanium_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ti_titanium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="675" TypeId="Ore" SubtypeId="Titanium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="195" TypeId="Ingot" SubtypeId="Titanium" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_Titanium_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Titanium_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ti_titanium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3380" TypeId="Ore" SubtypeId="Titanium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="974" TypeId="Ingot" SubtypeId="Titanium" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_Titanium_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Titanium_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ti_titanium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="16900" TypeId="Ore" SubtypeId="Titanium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="4870" TypeId="Ingot" SubtypeId="Titanium" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint>  <!-- Bsc_Zinc_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Zinc_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Zinc Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Zn_zinc.dds</Icon>
+      <Prerequisites>
+        <Item Amount="375" TypeId="Ore" SubtypeId="Zinc" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="70.2" TypeId="Ingot" SubtypeId="Zinc" />
+      </Results>	
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_Zinc_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Zinc_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Zinc Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Zn_zinc.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1880" TypeId="Ore" SubtypeId="Zinc" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="351" TypeId="Ingot" SubtypeId="Zinc" />
+      </Results>	
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_Zinc_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Zinc_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Zinc Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Zn_zinc.dds</Icon>
+      <Prerequisites>
+        <Item Amount="9380" TypeId="Ore" SubtypeId="Zinc" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1760" TypeId="Ingot" SubtypeId="Zinc" />
+      </Results>	
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint>  <!-- Bsc_Zirconium_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bsc_Zirconium_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Zirconium Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
+      <Prerequisites>
+        <Item Amount="425" TypeId="Ore" SubtypeId="Zirconium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="82" TypeId="Ingot" SubtypeId="Zirconium" />
+      </Results>          
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Adv_Zirconium_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Adv_Zirconium_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Zirconium Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2120" TypeId="Ore" SubtypeId="Zirconium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="410" TypeId="Ingot" SubtypeId="Zirconium" />
+      </Results>          
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- Eli_Zirconium_OreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Eli_Zirconium_OreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Zirconium Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10600" TypeId="Ore" SubtypeId="Zirconium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="2050" TypeId="Ingot" SubtypeId="Zirconium" />
+      </Results>          
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+  </Blueprints>
+</Definitions>

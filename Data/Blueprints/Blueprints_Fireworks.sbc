@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position0007_FireworksBoxBlue</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_FireworksBoxBlue</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\FireworksBox.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Magnesium" />
+                <Item Amount="0.5" TypeId="Component" SubtypeId="Charge" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="FireworksBoxBlue" />
+            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position00071_FireworksBoxGreen</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_FireworksBoxGreen</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\FireworksBox.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Magnesium" />
+                <Item Amount="0.5" TypeId="Component" SubtypeId="Charge" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="FireworksBoxGreen" />
+            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position00072_FireworksBoxRed</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_FireworksBoxRed</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\FireworksBox.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Magnesium" />
+                <Item Amount="0.5" TypeId="Component" SubtypeId="Charge" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="FireworksBoxRed" />
+            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position00073_FireworksBoxYellow</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_FireworksBoxYellow</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\FireworksBox.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Magnesium" />
+                <Item Amount="0.5" TypeId="Component" SubtypeId="Charge" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="FireworksBoxYellow" />
+            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position00074_FireworksBoxPink</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_FireworksBoxPink</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\FireworksBox.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Magnesium" />
+                <Item Amount="0.5" TypeId="Component" SubtypeId="Charge" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="FireworksBoxPink" />
+            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position00075_FireworksBoxRainbow</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_FireworksBoxRainbow</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\FireworksBox.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Magnesium" />
+                <Item Amount="0.5" TypeId="Component" SubtypeId="Charge" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="FireworksBoxRainbow" />
+            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+        </Blueprint>
+  </Blueprints>
+</Definitions>

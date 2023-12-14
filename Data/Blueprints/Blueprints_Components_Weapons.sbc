@@ -1,0 +1,503 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint> <!-- FiringPinX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FiringPinX100</SubtypeId>
+      </Id>
+      <DisplayName>Firing Pin x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\FiringPin_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="FiringPin" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- FiringPinX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FiringPinX10</SubtypeId>
+      </Id>
+      <DisplayName>Firing Pin x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\FiringPin_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="FiringPin" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- FiringPin -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FiringPin</SubtypeId>
+      </Id>
+      <DisplayName>Firing Pin</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\FiringPin_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="FiringPin" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- BoltCarrierX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BoltCarrierX100</SubtypeId>
+      </Id>
+      <DisplayName>Bolt Carrier x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\BoltCarrier_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Component" SubtypeId="FiringPin" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Bolt" />
+        <Item Amount="100" TypeId="Component" SubtypeId="AluminumCotterPin" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="GumMetal" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="BoltCarrier" />
+      <BaseProductionTimeInSeconds>175</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BoltCarrierX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BoltCarrierX10</SubtypeId>
+      </Id>
+      <DisplayName>Bolt Carrier x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\BoltCarrier_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="FiringPin" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Bolt" />
+        <Item Amount="10" TypeId="Component" SubtypeId="AluminumCotterPin" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="GumMetal" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="BoltCarrier" />
+      <BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BoltCarrier -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BoltCarrier</SubtypeId>
+      </Id>
+      <DisplayName>Bolt Carrier</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\BoltCarrier_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="FiringPin" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Bolt" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AluminumCotterPin" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="GumMetal" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="BoltCarrier" />
+      <BaseProductionTimeInSeconds>7</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- BoltX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BoltX100</SubtypeId>
+      </Id>
+      <DisplayName>Bolt x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bolt_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="GumMetal" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Bolt" />
+      <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BoltX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BoltX10</SubtypeId>
+      </Id>
+      <DisplayName>Bolt x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bolt_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="GumMetal" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Bolt" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Bolt -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bolt</SubtypeId>
+      </Id>
+      <DisplayName>Bolt</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bolt_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="GumMetal" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Bolt" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- TriggerX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TriggerX100</SubtypeId>
+      </Id>
+      <DisplayName>Trigger x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Trigger_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="945Steel" />
+        <Item Amount="100" TypeId="Component" SubtypeId="SteelSpring" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Construction" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Trigger" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- TriggerX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TriggerX10</SubtypeId>
+      </Id>
+      <DisplayName>Trigger x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Trigger_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="945Steel" />
+        <Item Amount="10" TypeId="Component" SubtypeId="SteelSpring" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Construction" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Trigger" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Trigger -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Trigger</SubtypeId>
+      </Id>
+      <DisplayName>Trigger</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Trigger_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="945Steel" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SteelSpring" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Construction" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Trigger" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- BarrelX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BarrelX100</SubtypeId>
+      </Id>
+      <DisplayName>Gun Barrel x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Barrel_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="GumMetal" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="SteelWasher" />
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BarrelX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BarrelX10</SubtypeId>
+      </Id>
+      <DisplayName>Gun Barrel x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Barrel_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="GumMetal" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Barrel" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Barrel -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Gun Barrel</SubtypeId>
+      </Id>
+      <DisplayName>Barrel</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Barrel_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="GumMetal" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Barrel" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- MagazineX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MagazineX100</SubtypeId>
+      </Id>
+      <DisplayName>Magazine x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Magazine_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="945Steel" />
+        <Item Amount="100" TypeId="Component" SubtypeId="SteelSpring" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Magazine" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- MagazineX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MagazineX10</SubtypeId>
+      </Id>
+      <DisplayName>Magazine x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Magazine_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="945Steel" />
+        <Item Amount="10" TypeId="Component" SubtypeId="SteelSpring" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Magazine" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Magazine -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Magazine</SubtypeId>
+      </Id>
+      <DisplayName>Magazine</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Magazine_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="945Steel" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SteelSpring" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Magazine" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- RifleReceiver X100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RifleReceiverX100</SubtypeId>
+      </Id>
+      <DisplayName>Rifle Receiver x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Receiver_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2000" TypeId="Ingot" SubtypeId="Titanium" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Buffer" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Trigger" />
+        <Item Amount="100" TypeId="Component" SubtypeId="BoltCarrier" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="RifleReceiver" />
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- RifleReceiver X10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RifleReceiverX10</SubtypeId>
+      </Id>
+      <DisplayName>Rifle Receiver x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Receiver_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Titanium" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Buffer" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Trigger" />
+        <Item Amount="10" TypeId="Component" SubtypeId="BoltCarrier" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="RifleReceiver" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- RifleReceiver -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RifleReceiver</SubtypeId>
+      </Id>
+      <DisplayName>Rifle Receiver</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Receiver_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Titanium" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Buffer" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Trigger" />
+        <Item Amount="1" TypeId="Component" SubtypeId="BoltCarrier" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="RifleReceiver" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- PistolReceiver -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PistolReceiver</SubtypeId>
+      </Id>
+      <DisplayName>Pistol Receiver</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Receiver_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="945Steel" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Buffer" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Trigger" />
+        <Item Amount="1" TypeId="Component" SubtypeId="FiringPin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="PistolReceiver" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- TurretReceiverX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TurretReceiverX100</SubtypeId>
+      </Id>
+      <DisplayName>Turret Receiver x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Receiver_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3000" TypeId="Ingot" SubtypeId="GumMetal" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Buffer" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Trigger" />
+        <Item Amount="100" TypeId="Component" SubtypeId="BoltCarrier" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="TurretReceiver" />
+      <BaseProductionTimeInSeconds>350</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- TurretReceiverX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TurretReceiverX10</SubtypeId>
+      </Id>
+      <DisplayName>Turret Receiver x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Receiver_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="300" TypeId="Ingot" SubtypeId="GumMetal" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Buffer" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Trigger" />
+        <Item Amount="10" TypeId="Component" SubtypeId="BoltCarrier" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="TurretReceiver" />
+      <BaseProductionTimeInSeconds>70</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- TurretReceiver -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TurretReceiver</SubtypeId>
+      </Id>
+      <DisplayName>Turret Receiver</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Receiver_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Ingot" SubtypeId="GumMetal" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Buffer" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Trigger" />
+        <Item Amount="1" TypeId="Component" SubtypeId="BoltCarrier" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="TurretReceiver" />
+      <BaseProductionTimeInSeconds>14</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- BufferX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BufferX100</SubtypeId>
+      </Id>
+      <DisplayName>Buffer x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Buffer_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Component" SubtypeId="CarbideRing" />
+        <Item Amount="100" TypeId="Component" SubtypeId="SteelSpring" />
+        <Item Amount="100" TypeId="Component" SubtypeId="AluminumRod" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Buffer" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BufferX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BufferX10</SubtypeId>
+      </Id>
+      <DisplayName>Buffer x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Buffer_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="CarbideRing" />
+        <Item Amount="10" TypeId="Component" SubtypeId="SteelSpring" />
+        <Item Amount="10" TypeId="Component" SubtypeId="AluminumRod" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Buffer" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Buffer -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Buffer</SubtypeId>
+      </Id>
+      <DisplayName>Buffer</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Buffer_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="CarbideRing" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SteelSpring" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AluminumRod" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Buffer" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- RailX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RailX100</SubtypeId>
+      </Id>
+      <DisplayName>Rail x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Rail_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="GumMetal" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Rail" />
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- RailX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RailX10</SubtypeId>
+      </Id>
+      <DisplayName>Rail x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Rail_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="GumMetal" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Rail" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Rail -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Rail</SubtypeId>
+      </Id>
+      <DisplayName>Rail</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Rail_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="GumMetal" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Rail" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint> <!-- IronSightX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IronSightX100</SubtypeId>
+      </Id>
+      <DisplayName>Iron Sight x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Rail_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="IronSight" />
+      <BaseProductionTimeInSeconds>80</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- IronSightX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IronSightX10</SubtypeId>
+      </Id>
+      <DisplayName>Iron Sight x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Rail_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="IronSight" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- IronSight -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IronSight</SubtypeId>
+      </Id>
+      <DisplayName>Iron Sight</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Rail_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="945Steel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="IronSight" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+  </Blueprints>
+</Definitions>

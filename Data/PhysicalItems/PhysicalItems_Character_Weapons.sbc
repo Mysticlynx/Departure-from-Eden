@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<PhysicalItems>
+	    <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>CrudePistolItem</SubtypeId>
+            </Id>
+            <DisplayName>Crude Pistol</DisplayName>
+            <Icon>Textures\GUI\Icons\WeaponPistol_Warfare.dds</Icon>
+            <Description>Crude Pistol will serve as your first firearm. Can only fire 6 rounds before needing to reload</Description>
+            <Size>
+                <X>0.27</X>
+                <Y>0.15</Y>
+                <Z>0.08</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>6</Volume>
+			<IconSymbol>Crude</IconSymbol>
+            <Model>Models\Weapons\Pistol_Warfare.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <WeaponDefinitionId Subtype="SemiAutoPistolGun" />
+            <ShowAmmoCount>true</ShowAmmoCount>
+            <MinimumOfferAmount>1</MinimumOfferAmount>
+            <MaximumOfferAmount>20</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>100</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+	</PhysicalItems>
+</Definitions>

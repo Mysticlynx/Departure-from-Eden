@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>        
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0010_AngleGrinder" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0020_AngleGrinder2" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0030_AngleGrinder3" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0040_AngleGrinder4" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0050_HandDrill" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0060_HandDrill2" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0070_HandDrill3" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0080_HandDrill4" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0090_Welder" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0100_Welder2" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0110_Welder3" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0120_Welder4" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0010_OxygenBottle" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="AdvancedOxygenBottle" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="EliteOxygenBottle" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0020_HydrogenBottle" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="AdvancedHydrogenBottle" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="EliteHydrogenBottle" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0040_Datapad" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0005_FlareGun" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0005_FlareGunMagazine" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0010_SemiAutoPistol" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0020_FullAutoPistol" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0030_EliteAutoPistol" />
+		<Entry Class="EliteTools" BlueprintSubtypeId="Position0040_AutomaticRifle" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0050_RapidFireAutomaticRifle" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0060_PreciseAutomaticRifle" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0070_UltimateAutomaticRifle" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0080_BasicHandHeldLauncher" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0090_AdvancedHandHeldLauncher" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0010_SemiAutoPistolMagazine" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0020_FullAutoPistolMagazine" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0030_ElitePistolMagazine" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0040_AutomaticRifleGun_Mag_20rd" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0050_RapidFireAutomaticRifleGun_Mag_50rd" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0060_PreciseAutomaticRifleGun_Mag_5rd" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="Position0070_UltimateAutomaticRifleGun_Mag_30rd" />
+        <Entry Class="EliteTools" BlueprintSubtypeId="ZoneChip" />
+  </BlueprintClassEntries>
+</Definitions>

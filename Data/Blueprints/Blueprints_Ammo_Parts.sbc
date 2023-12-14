@@ -1,0 +1,712 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint> <!-- ChargeX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ChargeX100</SubtypeId>
+      </Id>
+      <DisplayName>Charges x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Charge_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Ingot" SubtypeId="Sulfur" />
+        <Item Amount="2500" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="400" TypeId="Ingot" SubtypeId="Potassium" />
+        <Item Amount="5000" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="500" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Nitrogen" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Phosphorus" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="Charge" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>  
+    <Blueprint> <!-- ChargeX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ChargeX10</SubtypeId>
+      </Id>
+      <DisplayName>Charges x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Charge_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Sulfur" />
+        <Item Amount="250" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="40" TypeId="Ingot" SubtypeId="Potassium" />
+        <Item Amount="500" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="50" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Nitrogen" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Phosphorus" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="Charge" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Charge -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Charge</SubtypeId>
+      </Id>
+      <DisplayName>Charges x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Charge_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5.0" TypeId="Ingot" SubtypeId="Sulfur" />
+        <Item Amount="25.0" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="4.0" TypeId="Ingot" SubtypeId="Potassium" />
+        <Item Amount="50.0" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="5.0" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="10.0" TypeId="Ingot" SubtypeId="Nitrogen" />
+        <Item Amount="1.0" TypeId="Ingot" SubtypeId="Phosphorus" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Charge" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Survival Kit Charge -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SurvivalKitCharge</SubtypeId>
+      </Id>
+      <DisplayName>Charges x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Charge_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Sulfur" />
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="0.4" TypeId="Ingot" SubtypeId="Potassium" />
+        <Item Amount="5.0" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="0.5" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="1.0" TypeId="Ingot" SubtypeId="Nitrogen" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Phosphorus" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Charge" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- GunpowderX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GunpowderX100</SubtypeId>
+      </Id>
+      <DisplayName>Gunpowder x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Gunpowder_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="3600"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="2850"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="1500"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="1050"/>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="1000"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="10000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint> <!-- GunpowderX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GunpowderX10</SubtypeId>
+      </Id>
+      <DisplayName>Gunpowder x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Gunpowder_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="360"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="285"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="150"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="105"/>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="100"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="1000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint> <!-- Gunpowder -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Gunpowder</SubtypeId>
+      </Id>
+      <DisplayName>Gunpowder x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Gunpowder_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="Oxygen" Amount="36"/>
+        <Item TypeId="Ingot" SubtypeId="Potassium" Amount="28.5"/>
+        <Item TypeId="Ingot" SubtypeId="Carbon" Amount="15"/>
+        <Item TypeId="Ingot" SubtypeId="Nitrogen" Amount="10.5"/>
+        <Item TypeId="Ingot" SubtypeId="Sulfur" Amount="10"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Gunpowder" Amount="100"/>
+      </Results>
+    </Blueprint>
+  
+    <Blueprint> <!-- ExplosivesX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ExplosivesX100</SubtypeId>
+      </Id>
+      <DisplayName>Explosives x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="1000" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Igniter" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Explosives" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- ExplosivesX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ExplosivesX10</SubtypeId>
+      </Id>
+      <DisplayName>Explosives x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Igniter" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Explosives" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Explosives -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Explosives</SubtypeId>
+      </Id>
+      <DisplayName>Explosive</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1.0" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="10.0" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="1.0" TypeId="Component" SubtypeId="Igniter" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Explosives" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+    <Blueprint> <!-- UraniumWarheadX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>UraniumWarheadX100</SubtypeId>
+      </Id>
+      <DisplayName>Uranium Warhead x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Beryllium" />
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Rhodium" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Cesium" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Mercury" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Explosives" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="UraniumWarhead" />
+      <BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- UraniumWarheadX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>UraniumWarheadX10</SubtypeId>
+      </Id>
+      <DisplayName>Uranium Warhead x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Beryllium" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Rhodium" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Cesium" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Mercury" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Explosives" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="UraniumWarhead" />
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- UraniumWarhead -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>UraniumWarhead</SubtypeId>
+      </Id>
+      <DisplayName>Uranium Warhead</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Beryllium" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Rhodium" />
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Cesium" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Mercury" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Explosives" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="UraniumWarhead" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+    <Blueprint> <!-- PlutoniumWarheadX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PlutoniumWarheadX100</SubtypeId>
+      </Id>
+      <DisplayName>Plutonium Warhead x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Beryllium" />
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Plutonium" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Ruthenium" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Hafnium" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Vanadium" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Explosives" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="PlutoniumWarhead" />
+      <BaseProductionTimeInSeconds>175</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- PlutoniumWarheadX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PlutoniumWarheadX10</SubtypeId>
+      </Id>
+      <DisplayName>Plutonium Warhead x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Beryllium" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Plutonium" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Ruthenium" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Hafnium" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Vanadium" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Explosives" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="PlutoniumWarhead" />
+      <BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- PlutoniumWarhead -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PlutoniumWarhead</SubtypeId>
+      </Id>
+      <DisplayName>Plutonium Warhead</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Beryllium" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Plutonium" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Ruthenium" />
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Hafnium" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Vanadium" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Explosives" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="PlutoniumWarhead" />
+      <BaseProductionTimeInSeconds>7</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+    <Blueprint> <!-- FusionWarheadX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FusionWarheadX100</SubtypeId>
+      </Id>
+      <DisplayName>Fusion Warhead x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Beryllium" />
+        <Item Amount="100000" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Radium" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Polonium" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Thallium" />
+        <Item Amount="100" TypeId="Component" SubtypeId="PlutoniumWarhead" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="FusionWarhead" />
+      <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- FusionWarheadX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FusionWarheadX10</SubtypeId>
+      </Id>
+      <DisplayName>Fusion Warhead x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Beryllium" />
+        <Item Amount="10000" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Radium" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Polonium" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Thallium" />
+        <Item Amount="10" TypeId="Component" SubtypeId="PlutoniumWarhead" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="FusionWarhead" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- FusionWarhead -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FusionWarhead</SubtypeId>
+      </Id>
+      <DisplayName>Fusion Warhead</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Beryllium" />
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Radium" />
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Polonium" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Thallium" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PlutoniumWarhead" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="FusionWarhead" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+    <Blueprint> <!-- PrimerX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PrimerX100</SubtypeId>
+      </Id>
+      <DisplayName>Primers x5000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Primer_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Brass" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Iodine" />
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Nitrogen" />
+      </Prerequisites>
+      <Result Amount="5000" TypeId="Component" SubtypeId="Primer" />
+      <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- PrimerX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PrimerX10</SubtypeId>
+      </Id>
+      <DisplayName>Primers x500</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Primer_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Brass" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Iodine" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Nitrogen" />
+      </Prerequisites>
+      <Result Amount="500" TypeId="Component" SubtypeId="Primer" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Primer -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Primer</SubtypeId>
+      </Id>
+      <DisplayName>Primers x50</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Primer_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10.0" TypeId="Ingot" SubtypeId="Brass" />
+        <Item Amount="1.0" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="1.0" TypeId="Ingot" SubtypeId="Iodine" />
+        <Item Amount="10.0" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="3.0" TypeId="Ingot" SubtypeId="Nitrogen" />
+      </Prerequisites>
+      <Result Amount="50" TypeId="Component" SubtypeId="Primer" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Survival Kit Primer -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SurvivalKitPrimer</SubtypeId>
+      </Id>
+      <DisplayName>Primers x5</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Primer_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1.0" TypeId="Ingot" SubtypeId="Brass" />
+        <Item Amount="0.1" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Iodine" />
+        <Item Amount="1.0" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="0.3" TypeId="Ingot" SubtypeId="Nitrogen" />
+      </Prerequisites>
+      <Result Amount="5" TypeId="Component" SubtypeId="Primer" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+    <Blueprint> <!-- CartridgeX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CartridgeX100</SubtypeId>
+      </Id>
+      <DisplayName>Cartridges x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Cartridge_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5000" TypeId="Ingot" SubtypeId="Brass" />
+      </Prerequisites>
+      <Result Amount="10000" TypeId="Component" SubtypeId="Cartridge" />
+      <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- CartridgeX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CartridgeX10</SubtypeId>
+      </Id>
+      <DisplayName>Cartridges x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Cartridge_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Ingot" SubtypeId="Brass" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="Cartridge" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Cartridge -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Cartridge</SubtypeId>
+      </Id>
+      <DisplayName>Cartridges x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Cartridge_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50.0" TypeId="Ingot" SubtypeId="Brass" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="Cartridge" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Survival Kit Cartridge -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SurvivalKitCartridge</SubtypeId>
+      </Id>
+      <DisplayName>Cartridges x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Cartridge_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5.0" TypeId="Ingot" SubtypeId="Brass" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Cartridge" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- BulletX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BulletX100</SubtypeId>
+      </Id>
+      <DisplayName>Bullets x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="4320"/>
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="45"/>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="135"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>125</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Bullet" Amount="10000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint> <!-- BulletX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BulletX10</SubtypeId>
+      </Id>
+      <DisplayName>Bullets x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="432"/>
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="4.5"/>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="13.5"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Bullet" Amount="1000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint> <!-- Bullet -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bullet</SubtypeId>
+      </Id>
+      <DisplayName>Bullets x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="43.2"/>
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="0.45"/>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="1.35"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="Bullet" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint> <!-- Survival Kit Bullet -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SurvivalKitBullet</SubtypeId>
+      </Id>
+      <DisplayName>Bullets x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="4.32" TypeId="Ingot" SubtypeId="Lead" />
+        <Item Amount="0.45" TypeId="Ingot" SubtypeId="Antimony" />
+        <Item Amount="0.135" TypeId="Ingot" SubtypeId="Tin" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="Bullet" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- FMJ_BulletX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FMJ_BulletX100</SubtypeId>
+      </Id>
+      <DisplayName>FMJ Bullets x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="246"/>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="3690"/>
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="41"/>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="123"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>187.5</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="FMJ_Bullet" Amount="10000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint> <!-- FMJ_BulletX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FMJ_BulletX10</SubtypeId>
+      </Id>
+      <DisplayName>FMJ Bullets x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="24.6"/>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="369"/>
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="4.1"/>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="12.3"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>37.5</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="FMJ_Bullet" Amount="1000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint> <!-- FMJ_Bullet -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FMJ_Bullet</SubtypeId>
+      </Id>
+      <DisplayName>FMJ Bullets x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="2.46"/>
+        <Item TypeId="Ingot" SubtypeId="Lead" Amount="36.9"/>
+        <Item TypeId="Ingot" SubtypeId="Antimony" Amount="0.41"/>
+        <Item TypeId="Ingot" SubtypeId="Tin" Amount="1.23"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>7.5</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="FMJ_Bullet" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint> <!-- AP_BulletX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AP_BulletX100</SubtypeId>
+      </Id>
+      <DisplayName>AP Bullets x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="402"/>
+        <Item TypeId="Ingot" SubtypeId="DepletedUranium" Amount="6030"/>
+        <Item TypeId="Ingot" SubtypeId="945Steel" Amount="67"/>
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="201"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>187.5</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="AP_Bullet" Amount="10000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint> <!-- AP_BulletX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AP_BulletX10</SubtypeId>
+      </Id>
+      <DisplayName>AP Bullets x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="40.2"/>
+        <Item TypeId="Ingot" SubtypeId="DepletedUranium" Amount="603"/>
+        <Item TypeId="Ingot" SubtypeId="945Steel" Amount="6.7"/>
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="20.1"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>37.5</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="AP_Bullet" Amount="1000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint> <!-- AP_Bullet -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AP_Bullet</SubtypeId>
+      </Id>
+      <DisplayName>AP Bullets x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="4.02"/>
+        <Item TypeId="Ingot" SubtypeId="DepletedUranium" Amount="60.3"/>
+        <Item TypeId="Ingot" SubtypeId="945Steel" Amount="0.67"/>
+        <Item TypeId="Ingot" SubtypeId="TungstenCarbide" Amount="2.01"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>7.5</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="AP_Bullet" Amount="100"/>
+      </Results>
+    </Blueprint>
+    <Blueprint> <!-- HEIAP_BulletX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HEIAP_BulletX100</SubtypeId>
+      </Id>
+      <DisplayName>HEIAP Bullets x10000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="366"/>
+        <Item TypeId="Ingot" SubtypeId="DepletedUranium" Amount="4880"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="610"/>
+        <Item TypeId="Ingot" SubtypeId="945Steel" Amount="61"/>
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="183"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="HEIAP_Bullet" Amount="10000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint> <!-- HEIAP_BulletX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HEIAP_BulletX10</SubtypeId>
+      </Id>
+      <DisplayName>HEIAP Bullets x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="36.6"/>
+        <Item TypeId="Ingot" SubtypeId="DepletedUranium" Amount="488"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="61"/>
+        <Item TypeId="Ingot" SubtypeId="945Steel" Amount="6.1"/>
+        <Item TypeId="Ingot" SubtypeId="Tungsten" Amount="18.3"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="HEIAP_Bullet" Amount="1000"/>
+      </Results>
+    </Blueprint>
+    <Blueprint> <!-- HEIAP_Bullet -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HEIAP_Bullet</SubtypeId>
+      </Id>
+      <DisplayName>HEIAP Bullets x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Weapon\Bullet_Icon.dds</Icon>
+      <Prerequisites>
+        <Item TypeId="Ingot" SubtypeId="Cupronickel" Amount="3.66"/>
+        <Item TypeId="Ingot" SubtypeId="DepletedUranium" Amount="48.8"/>
+        <Item TypeId="Component" SubtypeId="Charge" Amount="6.1"/>
+        <Item TypeId="Ingot" SubtypeId="945Steel" Amount="0.61"/>
+        <Item TypeId="Ingot" SubtypeId="TungstenCarbide" Amount="1.83"/>
+      </Prerequisites>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <Results>
+        <Item TypeId="Component" SubtypeId="HEIAP_Bullet" Amount="100"/>
+      </Results>
+    </Blueprint>
+  
+  </Blueprints>
+</Definitions>

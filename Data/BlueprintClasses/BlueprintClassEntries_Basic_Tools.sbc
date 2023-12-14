@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+        <Entry Class="BasicTools" BlueprintSubtypeId="Position0090_Welder" />
+        <Entry Class="BasicTools" BlueprintSubtypeId="Position0010_AngleGrinder" />
+        <Entry Class="BasicTools" BlueprintSubtypeId="Position0050_HandDrill" />
+        <Entry Class="BasicTools" BlueprintSubtypeId="Position0005_FlareGun" />
+        <Entry Class="BasicTools" BlueprintSubtypeId="Position0005_FlareGunMagazine" />
+		<Entry Class="BasicTools" BlueprintSubtypeId="Position0010_SemiAutoPistol" />
+		<Entry Class="BasicTools" BlueprintSubtypeId="Position0010_SemiAutoPistolMagazine" />
+		<Entry Class="BasicTools" BlueprintSubtypeId="Position0040_Datapad" />
+		<Entry Class="BasicTools" BlueprintSubtypeId="Medkit" />
+		<Entry Class="BasicTools" BlueprintSubtypeId="Powerkit" />
+		<Entry Class="BasicTools" BlueprintSubtypeId="SurvivalKit" />
+        <Entry Class="BasicTools" BlueprintSubtypeId="Position0010_OxygenBottle" />
+        <Entry Class="BasicTools" BlueprintSubtypeId="Position0020_HydrogenBottle" />
+  </BlueprintClassEntries>
+</Definitions>

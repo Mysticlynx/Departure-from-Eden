@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+    <AmmoMagazine> <!-- Cruise_Missile -->
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Cruise_Missile</SubtypeId>
+      </Id>
+      <DisplayName>Cruise Missile</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>5200</Mass>
+      <Volume>4723</Volume>
+      <Model>Models\Weapons\Projectile_Missile.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>12</Capacity>
+      <AmmoDefinitionId Subtype="FAKE" />
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+
+    <AmmoMagazine> <!-- Torpedo -->
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Torpedo</SubtypeId>
+      </Id>
+      <DisplayName>Torpedo</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>2356</Mass>
+      <Volume>1570</Volume>
+      <Model>Models\Weapons\Projectile_Missile.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="FAKE" />
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </AmmoMagazine>
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>SemiAutoPistolMagazine</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SemiAutoPistolMagazine</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\Pistol_Warfare_Ammo.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.05</Y>
+                <Z>0.02</Z>
+            </Size>
+            <Mass>0.15</Mass>
+            <Volume>0.1</Volume>
+            <Model>Models\Weapons\Pistol_Magazine_Warfare.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>8</Capacity>
+            <AmmoDefinitionId Subtype="PistolCaliber" />
+
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>50</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>FullAutoPistolMagazine</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_FullAutoPistolMagazine</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\Pistol_FullAuto_Warfare_Ammo.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.05</Y>
+                <Z>0.02</Z>
+            </Size>
+            <Mass>0.3</Mass>
+            <Volume>0.15</Volume>
+            <Model>Models\Weapons\Pistol_FullAuto_Magazine_Warfare.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>20</Capacity>
+            <AmmoDefinitionId Subtype="PistolCaliber" />
+
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>50</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>ElitePistolMagazine</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_ElitePistolMagazine</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\Pistol_Elite_Warfare_Ammo.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.05</Y>
+                <Z>0.02</Z>
+            </Size>
+            <Mass>0.15</Mass>
+            <Volume>0.1</Volume>
+            <Model>Models\Weapons\Pistol_Elite_Magazine_Warfare.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>12</Capacity>
+            <AmmoDefinitionId Subtype="PistolCaliber" />
+
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>50</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+	
+  </AmmoMagazines>
+</Definitions>
