@@ -79,6 +79,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -173,6 +174,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -267,6 +269,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -361,6 +364,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -455,6 +459,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -542,6 +547,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -628,6 +634,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -714,6 +721,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -800,6 +808,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -886,6 +895,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -975,6 +985,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <OxygenCapacity>60</OxygenCapacity>
@@ -1061,6 +1072,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <OxygenCapacity>105</OxygenCapacity>
@@ -1147,6 +1159,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <OxygenCapacity>184</OxygenCapacity>
@@ -1233,6 +1246,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <OxygenCapacity>322</OxygenCapacity>
@@ -1319,6 +1333,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <OxygenCapacity>563</OxygenCapacity>
@@ -1393,6 +1408,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PrimarySound>BlockCockpitSm</PrimarySound>
@@ -1461,6 +1477,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PrimarySound>BlockCockpitSm</PrimarySound>
@@ -1529,6 +1546,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PrimarySound>BlockCockpitSm</PrimarySound>
@@ -1597,6 +1615,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PrimarySound>BlockCockpitSm</PrimarySound>
@@ -1665,6 +1684,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PrimarySound>BlockCockpitSm</PrimarySound>
@@ -1747,6 +1767,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PrimarySound>BlockCockpitLrg</PrimarySound>
@@ -1826,6 +1847,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PrimarySound>BlockCockpitLrg</PrimarySound>
@@ -1905,6 +1927,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PrimarySound>BlockCockpitLrg</PrimarySound>
@@ -1984,6 +2007,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PrimarySound>BlockCockpitLrg</PrimarySound>
@@ -2063,6 +2087,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PrimarySound>BlockCockpitLrg</PrimarySound>
@@ -2136,6 +2161,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <IsPressurized>false</IsPressurized>
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
@@ -2211,6 +2237,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <IsPressurized>false</IsPressurized>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -2341,266 +2368,6 @@
       <DestroySound>PoofExplosionCat2</DestroySound>
       <PCU>15</PCU>
       <IsAirTight>false</IsAirTight>      
-    </Definition>
-	
-    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
-      <Id>
-        <TypeId>Cockpit</TypeId>
-        <SubtypeId>LargeBlockDesk</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_Desk</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Desk.dds</Icon>
-      <Description>Description_Desk</Description>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <Model>Models\Cubes\Large\Desk.mwm</Model>
-      <CharacterAnimation>Table_Sitting_Pose</CharacterAnimation>
-      <ModelOffset x="0" y="0" z="0" />
-      <Components>
-        <Component Subtype="AluminumPlate" Count="35" />
-        <Component Subtype="InteriorPlate" Count="15" />
-        <Component Subtype="Construction" Count="275" />
-      </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.1" Default="true" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="0.32" />
-        <MountPoint Side="Left" StartX="0" StartY="0.32" EndX="0.3" EndY="0.37" />
-        <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="0.32" />
-        <MountPoint Side="Right" StartX="0.7" StartY="0.32" EndX="1" EndY="0.37" />
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.37" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DeskConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DeskConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeskConstruction_3.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-          <StaticMode>
-              <PlacementMode>OutsideVoxel</PlacementMode>
-              <MaxAllowed>0.2</MaxAllowed>
-              <MinAllowed>0</MinAllowed>
-          </StaticMode>
-          <DynamicMode>
-              <PlacementMode>OutsideVoxel</PlacementMode>
-              <MaxAllowed>0.2</MaxAllowed>
-              <MinAllowed>0</MinAllowed>
-          </DynamicMode>
-      </VoxelPlacement>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>Cockpit</TypeId>
-          <SubtypeId>LargeBlockDeskCorner</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
-      <BlockPairName>Desk</BlockPairName>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      <EdgeType>Light</EdgeType>
-      <EnableFirstPerson>true</EnableFirstPerson>
-      <EnableShipControl>false</EnableShipControl>
-      <EnableBuilderCockpit>false</EnableBuilderCockpit>
-      <IsPressurized>false</IsPressurized>
-      <HasInventory>false</HasInventory>
-      <BuildTimeSeconds>14</BuildTimeSeconds>
-      <PCU>15</PCU>
-      <IsAirTight>false</IsAirTight>
-    </Definition>
-
-    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
-      <Id>
-        <TypeId>Cockpit</TypeId>
-        <SubtypeId>LargeBlockCouch</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_Couch</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Couch.dds</Icon>
-      <Description>Description_Couch</Description>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <Model>Models\Cubes\Large\Couch.mwm</Model>
-      <CharacterAnimation>passengerseat_small</CharacterAnimation>
-      <ModelOffset x="0" y="0" z="0" />
-      <Components>
-        <Component Subtype="AluminumPlate" Count="5" />
-        <Component Subtype="Girder" Count="24" />
-        <Component Subtype="InteriorPlate" Count="10" />
-        <Component Subtype="SteelSpring" Count="24" />
-        <Component Subtype="AluminumRod" Count="24" />
-        <Component Subtype="Insulation" Count="35" />
-        <Component Subtype="Construction" Count="245" />
-      </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0" StartY="0.65" EndX="1" EndY="1" Default="true" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.35" />
-        <MountPoint Side="Left" StartX="0.65" StartY="0" EndX="1" EndY="0.2" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.35" EndY="0.2" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CouchConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CouchConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CouchConstruction_3.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-          <StaticMode>
-              <PlacementMode>OutsideVoxel</PlacementMode>
-              <MaxAllowed>0.2</MaxAllowed>
-              <MinAllowed>0</MinAllowed>
-          </StaticMode>
-          <DynamicMode>
-              <PlacementMode>OutsideVoxel</PlacementMode>
-              <MaxAllowed>0.2</MaxAllowed>
-              <MinAllowed>0</MinAllowed>
-          </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>Couch</BlockPairName>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      <EdgeType>Light</EdgeType>
-      <EnableFirstPerson>true</EnableFirstPerson>
-      <EnableShipControl>false</EnableShipControl>
-      <EnableBuilderCockpit>false</EnableBuilderCockpit>
-      <IsPressurized>false</IsPressurized>
-      <HasInventory>false</HasInventory>
-      <BuildTimeSeconds>14</BuildTimeSeconds>
-      <PCU>15</PCU>
-      <IsAirTight>false</IsAirTight>
-    </Definition>
-
-    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
-      <Id>
-        <TypeId>Cockpit</TypeId>
-        <SubtypeId>LargeBlockBathroomOpen</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_BathroomOpen</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\BathroomOpen.dds</Icon>
-      <Description>Description_BathroomOpen</Description>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <Model>Models\Cubes\Large\BathroomOpen.mwm</Model>
-      <CharacterAnimation>passengerseat_small</CharacterAnimation>
-      <ModelOffset x="0" y="0" z="0" />
-      <Components>
-        <Component Subtype="AluminumPlate" Count="10" />
-        <Component Subtype="InteriorPlate" Count="15" />
-        <Component Subtype="Insulation" Count="25" />
-        <Component Subtype="RubberHose" Count="16" />
-        <Component Subtype="SmallTube" Count="4" />
-        <Component Subtype="LED" Count="4" />
-        <Component Subtype="Solenoid" Count="1" />
-        <Component Subtype="InsulatedCopperWire" Count="2" />
-        <Component Subtype="Construction" Count="300" />
-      </Components>
-      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="0.9" />
-        <MountPoint Side="Left" StartX="0.9" StartY="0" EndX="1" EndY="0.9" />
-        <MountPoint Side="Left" StartX="0" StartY="0.9" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BathroomOpenConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BathroomOpenConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BathroomOpenConstruction_3.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-          <StaticMode>
-              <PlacementMode>OutsideVoxel</PlacementMode>
-              <MaxAllowed>0.2</MaxAllowed>
-              <MinAllowed>0</MinAllowed>
-          </StaticMode>
-          <DynamicMode>
-              <PlacementMode>OutsideVoxel</PlacementMode>
-              <MaxAllowed>0.2</MaxAllowed>
-              <MinAllowed>0</MinAllowed>
-          </DynamicMode>
-      </VoxelPlacement>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>Cockpit</TypeId>
-          <SubtypeId>LargeBlockToilet</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
-      <BlockPairName>BathroomOpen</BlockPairName>
-      <MirroringX>Y</MirroringX>
-      <MirroringY>X</MirroringY>
-      <EdgeType>Light</EdgeType>
-      <EnableFirstPerson>true</EnableFirstPerson>
-      <EnableShipControl>false</EnableShipControl>
-      <EnableBuilderCockpit>false</EnableBuilderCockpit>
-      <IsPressurized>false</IsPressurized>
-      <HasInventory>false</HasInventory>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-      <DamagedSound>ParticleElectrical</DamagedSound>>
-      <BuildTimeSeconds>14</BuildTimeSeconds>
-      <PCU>15</PCU>
-    </Definition>
-
-    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
-      <Id>
-        <TypeId>Cockpit</TypeId>
-        <SubtypeId>LargeBlockToilet</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_Toilet</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Toilet.dds</Icon>
-      <Description>Description_ToiletSeat</Description>
-      <CubeSize>Large</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <Model>Models\Cubes\Large\Toilet.mwm</Model>
-      <CharacterAnimation>passengerseat_small</CharacterAnimation>
-      <ModelOffset x="0" y="0" z="0" />
-      <Components>
-        <Component Subtype="AluminumPlate" Count="5" />
-        <Component Subtype="InteriorPlate" Count="10" />
-        <Component Subtype="RubberHose" Count="16" />
-        <Component Subtype="SmallTube" Count="4" />
-        <Component Subtype="Solenoid" Count="1" />
-        <Component Subtype="InsulatedCopperWire" Count="1" />
-        <Component Subtype="Construction" Count="85" />
-      </Components>
-      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.55" StartY="0.2" EndX="1" EndY="0.8" Default="true" />
-        <MountPoint Side="Right" StartX="0.31" StartY="0" EndX="0.69" EndY="0.31" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ToiletConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ToiletConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ToiletConstruction_3.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-          <StaticMode>
-              <PlacementMode>OutsideVoxel</PlacementMode>
-              <MaxAllowed>0.2</MaxAllowed>
-              <MinAllowed>0</MinAllowed>
-          </StaticMode>
-          <DynamicMode>
-              <PlacementMode>OutsideVoxel</PlacementMode>
-              <MaxAllowed>0.2</MaxAllowed>
-              <MinAllowed>0</MinAllowed>
-          </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>Toilet</BlockPairName>
-      <MirroringX>Y</MirroringX>
-      <MirroringY>X</MirroringY>
-      <EdgeType>Light</EdgeType>
-      <EnableFirstPerson>true</EnableFirstPerson>
-      <EnableShipControl>false</EnableShipControl>
-      <EnableBuilderCockpit>false</EnableBuilderCockpit>
-      <IsPressurized>false</IsPressurized>
-      <HasInventory>false</HasInventory>
-      <BuildTimeSeconds>14</BuildTimeSeconds>
-      <PCU>15</PCU>
-      <IsAirTight>false</IsAirTight>
     </Definition>
 
   </CubeBlocks>

@@ -2106,12 +2106,12 @@
         <Item Amount="116" TypeId="Ingot" SubtypeId="Sulfur" />
         <Item Amount="101" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="0.834" TypeId="Ingot" SubtypeId="Neodymium" />
-        <Item Amount="0.799" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="0.8" TypeId="Ingot" SubtypeId="Copper" />
         <Item Amount="0.735" TypeId="Ingot" SubtypeId="Vanadium" />
         <Item Amount="0.706" TypeId="Ingot" SubtypeId="Arsenic" />
         <Item Amount="0.642" TypeId="Ingot" SubtypeId="Silver" />
         <Item Amount="0.63" TypeId="Ingot" SubtypeId="Nickel" />
-        <Item Amount="0.601" TypeId="Ingot" SubtypeId="Zinc" />
+        <Item Amount="0.6" TypeId="Ingot" SubtypeId="Zinc" />
         <Item Amount="0.537" TypeId="Ingot" SubtypeId="Yttrium" />
         <Item Amount="0.472" TypeId="Ingot" SubtypeId="Gold" />
         <Item Amount="0.408" TypeId="Ingot" SubtypeId="Thallium" />

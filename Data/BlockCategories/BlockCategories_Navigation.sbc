@@ -9,7 +9,7 @@
       <DisplayName>Navigation</DisplayName>
       <Name>Navigation</Name>
 	  <StrictSearch>true</StrictSearch>
-      <ItemIds>	  
+      <ItemIds>
         <string>Cockpit/DBSmallBlockFighterCockpit</string>
         <string>Cockpit/LargeBlockCockpitSeat</string>
         <string>Cockpit/LargeBlockCockpitIndustrial</string>

@@ -9,7 +9,7 @@
   <Sounds>
     <Sound>
       <Id>
-        <TypeId>AudioDefinition</TypeId>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>SmallLaserTurretFire</SubtypeId>
       </Id>
       <Category>WEP_TURR</Category>

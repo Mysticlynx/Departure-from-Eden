@@ -57,7 +57,7 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>LaserTurret</SubtypeId>
       </Id>
-      <ProjectileAmmoData RateOfFire="1" ShootSoundName="SmallLaserTurretFire"/> <!-- 3600 -->
+      <ProjectileAmmoData RateOfFire="3600" ShootSoundName="SmallLaserTurretFire"/> <!-- 3600 -->
       <ReleaseTimeAfterFire>0.5</ReleaseTimeAfterFire>
       <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
       <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
