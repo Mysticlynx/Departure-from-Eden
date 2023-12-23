@@ -22,18 +22,6 @@
     	<string>SmallMissileLauncher/LargeMissileLauncher</string>
     	<string>SmallMissileLauncher/null</string>
     	<string>SmallMissileLauncherReload/SmallRocketLauncherReload</string>
-	
-    	<string>LargeMissileTurret/LargeBlockCruiseMissileTurret</string>
-    	<string>LargeMissileTurret/SmallBlockCruiseMissileTurret</string>
-    	<string>SmallMissileLauncher/SmallBlockCruiseMissileLauncher</string>
-    	<string>SmallMissileLauncher/LargeBlockCruiseMissileLauncher</string>
-	
-    	<string>LargeMissileTurret/LargeBlockTorpedoTurret</string>
-    	<string>LargeMissileTurret/SmallBlockTorpedoTurret</string>
-    	<string>SmallMissileLauncher/SmallBlockTorpedoLauncher</string>
-    	<string>SmallMissileLauncher/LargeBlockTorpedoLauncher</string>
-					
-      <string>InteriorTurret/LargeBlockPulseTurret</string>
 
 		</ItemIds>
 	</Category>

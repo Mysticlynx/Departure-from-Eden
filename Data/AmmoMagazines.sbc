@@ -1,55 +1,6 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <AmmoMagazines>
-    <AmmoMagazine> <!-- Cruise_Missile -->
-      <Id>
-        <TypeId>AmmoMagazine</TypeId>
-        <SubtypeId>Cruise_Missile</SubtypeId>
-      </Id>
-      <DisplayName>Cruise Missile</DisplayName>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>5200</Mass>
-      <Volume>4723</Volume>
-      <Model>Models\Weapons\Projectile_Missile.mwm</Model>
-      <PhysicalMaterial>Ammo</PhysicalMaterial>
-      <Capacity>12</Capacity>
-      <AmmoDefinitionId Subtype="FAKE" />
-      <MinimumOfferAmount>50</MinimumOfferAmount>
-      <MaximumOfferAmount>500</MaximumOfferAmount>
-      <MinimumOrderAmount>100</MinimumOrderAmount>
-      <MaximumOrderAmount>1000</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </AmmoMagazine>
-
-    <AmmoMagazine> <!-- Torpedo -->
-      <Id>
-        <TypeId>AmmoMagazine</TypeId>
-        <SubtypeId>Torpedo</SubtypeId>
-      </Id>
-      <DisplayName>Torpedo</DisplayName>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>2356</Mass>
-      <Volume>1570</Volume>
-      <Model>Models\Weapons\Projectile_Missile.mwm</Model>
-      <PhysicalMaterial>Ammo</PhysicalMaterial>
-      <Capacity>1</Capacity>
-      <AmmoDefinitionId Subtype="FAKE" />
-      <MinimumOfferAmount>50</MinimumOfferAmount>
-      <MaximumOfferAmount>500</MaximumOfferAmount>
-      <MinimumOrderAmount>100</MinimumOrderAmount>
-      <MaximumOrderAmount>1000</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </AmmoMagazine>
         <AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>

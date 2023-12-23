@@ -12,8 +12,6 @@
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="NATO_5p56x45mmX100" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="NATO_25x184mmX100" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Missile200mmX100" />
-    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Cruise_MissileX100" />
-    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="TorpedoX100" />
 	
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="CartridgeX10" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="ExplosivesX10" />
@@ -25,8 +23,6 @@
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="NATO_5p56x45mmX10" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="NATO_25x184mmX10" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Missile200mmX10" />	
-    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Cruise_MissileX10" />
-    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="TorpedoX10" />
 	
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Cartridge" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Explosives" />
@@ -49,9 +45,7 @@
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Position0080_NATO_25x184mmMagazine" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Position0100_Missile200mm" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Position0005_FlareGunMagazine" />
-    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Position0010_SemiAutoPistolMagazine" />	
-    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Cruise_Missile" />
-    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Torpedo" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Position0010_SemiAutoPistolMagazine" />
 	<Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HailstormMissile" />
 	
     <Entry Class="Ammo" BlueprintSubtypeId="Cartridge" />
@@ -72,8 +66,6 @@
     <Entry Class="Ammo" BlueprintSubtypeId="Position0100_Missile200mm" />
     <Entry Class="Ammo" BlueprintSubtypeId="Position0005_FlareGunMagazine" />
     <Entry Class="Ammo" BlueprintSubtypeId="Position0010_SemiAutoPistolMagazine" />
-    <Entry Class="Ammo" BlueprintSubtypeId="Cruise_Missile" />
-    <Entry Class="Ammo" BlueprintSubtypeId="Torpedo" />
 	<Entry Class="Ammo" BlueprintSubtypeId="HailstormMissile" />
 	
   </BlueprintClassEntries>
