@@ -1299,6 +1299,7 @@
       <AirShockActivationDelay>60</AirShockActivationDelay>
       <DestroyEffect>BlockDestroyedExplosion_Large3X</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <IsAirTight>false</IsAirTight>
       <PCU>50</PCU>
       <TargetingGroups>
         <string>Propulsion</string>
@@ -1627,6 +1628,7 @@
       <AirShockActivationDelay>60</AirShockActivationDelay>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <IsAirTight>false</IsAirTight>
       <PCU>50</PCU>
       <TargetingGroups>
         <string>Propulsion</string>
@@ -1956,6 +1958,7 @@
       <AirShockActivationDelay>60</AirShockActivationDelay>
       <DestroyEffect>BlockDestroyedExplosion_Large3X</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <IsAirTight>false</IsAirTight>
       <PCU>50</PCU>
       <TargetingGroups>
         <string>Propulsion</string>
@@ -2287,6 +2290,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
+      <IsAirTight>false</IsAirTight>
       <TargetingGroups>
         <string>Propulsion</string>
       </TargetingGroups>
