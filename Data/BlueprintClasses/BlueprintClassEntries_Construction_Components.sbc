@@ -37,6 +37,7 @@
     <Entry Class="BscMassProdConst" BlueprintSubtypeId="BrassRodX100" />
     <Entry Class="BscMassProdConst" BlueprintSubtypeId="NitinolRodX100" />
     <Entry Class="BscMassProdConst" BlueprintSubtypeId="RubberHoseX100" />
+    <Entry Class="BscMassProdConst" BlueprintSubtypeId="RubberTubeX100" />
     <Entry Class="BscMassProdConst" BlueprintSubtypeId="PolyCarbonatePlateX100" />
     <Entry Class="BscMassProdConst" BlueprintSubtypeId="InsulationX100" />
     <Entry Class="BscMassProdConst" BlueprintSubtypeId="RebarX100" />
@@ -78,6 +79,7 @@
     <Entry Class="BscMassProdConst" BlueprintSubtypeId="BrassRodX10" />
     <Entry Class="BscMassProdConst" BlueprintSubtypeId="NitinolRodX10" />
     <Entry Class="BscMassProdConst" BlueprintSubtypeId="RubberHoseX10" />
+    <Entry Class="BscMassProdConst" BlueprintSubtypeId="RubberTubeX10" />
     <Entry Class="BscMassProdConst" BlueprintSubtypeId="PolyCarbonatePlateX10" />
     <Entry Class="BscMassProdConst" BlueprintSubtypeId="InsulationX10" />
     <Entry Class="BscMassProdConst" BlueprintSubtypeId="RebarX10" />
@@ -119,6 +121,7 @@
     <Entry Class="BscMassProdConst" BlueprintSubtypeId="BrassRod" />
     <Entry Class="BscMassProdConst" BlueprintSubtypeId="NitinolRod" />
     <Entry Class="BscMassProdConst" BlueprintSubtypeId="RubberHose" />
+    <Entry Class="BscMassProdConst" BlueprintSubtypeId="RubberTube" />
     <Entry Class="BscMassProdConst" BlueprintSubtypeId="PolyCarbonatePlate" />
     <Entry Class="BscMassProdConst" BlueprintSubtypeId="Insulation" />
     <Entry Class="BscMassProdConst" BlueprintSubtypeId="Rebar" />
@@ -160,6 +163,7 @@
     <Entry Class="Construction" BlueprintSubtypeId="BrassRod" />
     <Entry Class="Construction" BlueprintSubtypeId="NitinolRod" />
     <Entry Class="Construction" BlueprintSubtypeId="RubberHose" />
+    <Entry Class="Construction" BlueprintSubtypeId="RubberTube" />
     <Entry Class="Construction" BlueprintSubtypeId="PolyCarbonatePlate" />
     <Entry Class="Construction" BlueprintSubtypeId="Insulation" />
     <Entry Class="Construction" BlueprintSubtypeId="Rebar" />

@@ -992,6 +992,35 @@
       <MaxIntegrity>1</MaxIntegrity>
       <DropProbability>0.45</DropProbability>
       <Health>5</Health>
+	  <IconSymbol>Hose</IconSymbol>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+    <Component> <!-- RubberTube-->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>RubberTube</SubtypeId>
+      </Id>
+      <DisplayName>Rubber Tube</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\RubberHose_Icon.dds</Icon>
+      <Size>
+        <X>1</X>
+        <Y>0.04</Y>
+        <Z>0.04</Z>
+      </Size>
+      <Mass>0.43</Mass>
+      <Volume>0.6</Volume>
+      <Model>Models\Components\small_tube_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.45</DropProbability>
+      <Health>5</Health>
+	  <IconSymbol>Tube</IconSymbol>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>

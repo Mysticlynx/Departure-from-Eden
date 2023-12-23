@@ -1844,6 +1844,60 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
+    <Blueprint> <!-- RubberTubeX100 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RubberTubeX100</SubtypeId>
+      </Id>
+      <DisplayName>Rubber Tubes x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\RubberHose_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="4000" TypeId="Ingot" SubtypeId="Rubber" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="RubberTube" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- RubberTubeX10 -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RubberTubeX10</SubtypeId>
+      </Id>
+      <DisplayName>Rubber Tubes x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\RubberHose_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="400" TypeId="Ingot" SubtypeId="Rubber" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="RubberTube" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- RubberTube -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RubberTube</SubtypeId>
+      </Id>
+      <DisplayName>Rubber Tube x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\RubberHose_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Ingot" SubtypeId="Rubber" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="RubberTube" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- RubberTubeDisassembly -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RubberTubeDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Rubber Tube</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\RubberHose_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Rubber" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="RubberTube" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
     <Blueprint> <!-- PolyCarbonatePlateX100 -->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>

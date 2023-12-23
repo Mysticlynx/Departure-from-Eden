@@ -968,7 +968,7 @@
       <Icon>Textures\GUI\Icons\component\Mechanical\Bladder_Icon.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ingot" SubtypeId="Rubber" />
-        <Item Amount="200" TypeId="Component" SubtypeId="RubberHose" />
+        <Item Amount="200" TypeId="Component" SubtypeId="RubberTube" />
       </Prerequisites>
       <Result Amount="100" TypeId="Component" SubtypeId="Bladder" />
       <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
@@ -982,7 +982,7 @@
       <Icon>Textures\GUI\Icons\component\Mechanical\Bladder_Icon.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ingot" SubtypeId="Rubber" />
-        <Item Amount="20" TypeId="Component" SubtypeId="RubberHose" />
+        <Item Amount="20" TypeId="Component" SubtypeId="RubberTube" />
       </Prerequisites>
       <Result Amount="10" TypeId="Component" SubtypeId="Bladder" />
       <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
@@ -996,7 +996,7 @@
       <Icon>Textures\GUI\Icons\component\Mechanical\Bladder_Icon.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Rubber" />
-        <Item Amount="2" TypeId="Component" SubtypeId="RubberHose" />
+        <Item Amount="2" TypeId="Component" SubtypeId="RubberTube" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Bladder" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>

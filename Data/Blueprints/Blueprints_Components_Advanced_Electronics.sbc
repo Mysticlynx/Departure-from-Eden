@@ -1302,7 +1302,7 @@
       <DisplayName>Magnetic Coupler x100</DisplayName>
       <Icon>Textures\GUI\Icons\component\Electronic\MagneticCoupler_Icon.dds</Icon>
       <Prerequisites>
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Magnet" />
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Magnet" />
         <Item Amount="100" TypeId="Component" SubtypeId="InsulatedCopperWire" />
         <Item Amount="300" TypeId="Component" SubtypeId="Coil" />
         <Item Amount="400" TypeId="Component" SubtypeId="Computer" />
@@ -1318,7 +1318,7 @@
       <DisplayName>Magnetic Coupler x10</DisplayName>
       <Icon>Textures\GUI\Icons\component\Electronic\MagneticCoupler_Icon.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Magnet" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Magnet" />
         <Item Amount="10" TypeId="Component" SubtypeId="InsulatedCopperWire" />
         <Item Amount="30" TypeId="Component" SubtypeId="Coil" />
         <Item Amount="40" TypeId="Component" SubtypeId="Computer" />
@@ -1334,7 +1334,7 @@
       <DisplayName>Magnetic Coupler</DisplayName>
       <Icon>Textures\GUI\Icons\component\Electronic\MagneticCoupler_Icon.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Ingot" SubtypeId="Magnet" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Magnet" />
         <Item Amount="1" TypeId="Component" SubtypeId="InsulatedCopperWire" />
         <Item Amount="3" TypeId="Component" SubtypeId="Coil" />
         <Item Amount="4" TypeId="Component" SubtypeId="Computer" />
