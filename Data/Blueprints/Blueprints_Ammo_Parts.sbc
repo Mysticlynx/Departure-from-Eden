@@ -355,10 +355,10 @@
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
   
-    <Blueprint> <!-- PrimerX100 -->
+    <Blueprint> <!-- PrecussionPrimerX100 -->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>PrimerX100</SubtypeId>
+        <SubtypeId>PrecussionPrimerX100</SubtypeId>
       </Id>
       <DisplayName>Primers x5000</DisplayName>
       <Icon>Textures\GUI\Icons\component\Weapon\Primer_Icon.dds</Icon>
@@ -369,13 +369,13 @@
         <Item Amount="1000" TypeId="Ore" SubtypeId="Oxygen" />
         <Item Amount="300" TypeId="Ingot" SubtypeId="Nitrogen" />
       </Prerequisites>
-      <Result Amount="5000" TypeId="Component" SubtypeId="Primer" />
+      <Result Amount="5000" TypeId="Component" SubtypeId="PrecussionPrimer" />
       <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint> <!-- PrimerX10 -->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>PrimerX10</SubtypeId>
+        <SubtypeId>PrecussionPrimerX10</SubtypeId>
       </Id>
       <DisplayName>Primers x500</DisplayName>
       <Icon>Textures\GUI\Icons\component\Weapon\Primer_Icon.dds</Icon>
@@ -386,13 +386,13 @@
         <Item Amount="100" TypeId="Ore" SubtypeId="Oxygen" />
         <Item Amount="30" TypeId="Ingot" SubtypeId="Nitrogen" />
       </Prerequisites>
-      <Result Amount="500" TypeId="Component" SubtypeId="Primer" />
+      <Result Amount="500" TypeId="Component" SubtypeId="PrecussionPrimer" />
       <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint> <!-- Primer -->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Primer</SubtypeId>
+        <SubtypeId>PrecussionPrimer</SubtypeId>
       </Id>
       <DisplayName>Primers x50</DisplayName>
       <Icon>Textures\GUI\Icons\component\Weapon\Primer_Icon.dds</Icon>
@@ -403,13 +403,13 @@
         <Item Amount="10.0" TypeId="Ore" SubtypeId="Oxygen" />
         <Item Amount="3.0" TypeId="Ingot" SubtypeId="Nitrogen" />
       </Prerequisites>
-      <Result Amount="50" TypeId="Component" SubtypeId="Primer" />
+      <Result Amount="50" TypeId="Component" SubtypeId="PrecussionPrimer" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint> <!-- Survival Kit Primer -->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SurvivalKitPrimer</SubtypeId>
+        <SubtypeId>SurvivalKitPrecussionPrimer</SubtypeId>
       </Id>
       <DisplayName>Primers x5</DisplayName>
       <Icon>Textures\GUI\Icons\component\Weapon\Primer_Icon.dds</Icon>
@@ -420,7 +420,7 @@
         <Item Amount="1.0" TypeId="Ore" SubtypeId="Oxygen" />
         <Item Amount="0.3" TypeId="Ingot" SubtypeId="Nitrogen" />
       </Prerequisites>
-      <Result Amount="5" TypeId="Component" SubtypeId="Primer" />
+      <Result Amount="5" TypeId="Component" SubtypeId="PrecussionPrimer" />
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
   

@@ -5,8 +5,8 @@
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="CartridgeX100" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="ExplosivesX100" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="BulletX100" />
-    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="PrimerX100" />
-    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="ChargeX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="PrecussionPrimerX100" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="NitrocellulosePowderX100" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="GunpowderX100" />
 	
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="NATO_5p56x45mmX100" />
@@ -16,8 +16,8 @@
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="CartridgeX10" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="ExplosivesX10" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="BulletX10" />
-    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="PrimerX10" />
-    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="ChargeX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="PrecussionPrimerX10" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="NitrocellulosePowderX10" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="GunpowderX10" />
 	
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="NATO_5p56x45mmX10" />
@@ -27,8 +27,8 @@
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Cartridge" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Explosives" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Bullet" />
-    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Primer" />
-    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Charge" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="PrecussionPrimer" />
+    <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="NitrocellulosePowder" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Gunpowder" />
 	
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="FMJ_BulletX100" />
@@ -46,13 +46,12 @@
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Position0100_Missile200mm" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Position0005_FlareGunMagazine" />
     <Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="Position0010_SemiAutoPistolMagazine" />
-	<Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HailstormMissile" />
 	
     <Entry Class="Ammo" BlueprintSubtypeId="Cartridge" />
     <Entry Class="Ammo" BlueprintSubtypeId="Explosives" />
     <Entry Class="Ammo" BlueprintSubtypeId="Bullet" />
-    <Entry Class="Ammo" BlueprintSubtypeId="Primer" />
-    <Entry Class="Ammo" BlueprintSubtypeId="Charge" />
+    <Entry Class="Ammo" BlueprintSubtypeId="PrecussionPrimer" />
+    <Entry Class="Ammo" BlueprintSubtypeId="NitrocellulosePowder" />
     <Entry Class="Ammo" BlueprintSubtypeId="Gunpowder" />
     <Entry Class="Ammo" BlueprintSubtypeId="Position0007_FireworksBoxBlue" />
     <Entry Class="Ammo" BlueprintSubtypeId="Position00071_FireworksBoxGreen" />
@@ -66,7 +65,22 @@
     <Entry Class="Ammo" BlueprintSubtypeId="Position0100_Missile200mm" />
     <Entry Class="Ammo" BlueprintSubtypeId="Position0005_FlareGunMagazine" />
     <Entry Class="Ammo" BlueprintSubtypeId="Position0010_SemiAutoPistolMagazine" />
+	
+	<!-- Sponsored Plugins *TOO* write a check script that only enables relevant Plugin information when corresponding Plugin is present -->
+	
+	<!-- [DFE] Hailstorm Rocket Turret Plugin -->
+	<!-- https://steamcommunity.com/sharedfiles/filedetails/?id=3118201072 -->
+		<!-- Can't impliment X10 and X100 until I can fix the ghost icons when not in use -->
+	
 	<Entry Class="Ammo" BlueprintSubtypeId="HailstormMissile" />
+	<!--<Entry Class="Ammo" BlueprintSubtypeId="HailstormMissileX10" />
+	<Entry Class="Ammo" BlueprintSubtypeId="HailstormMissileX100" />-->
+	
+	<Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HailstormMissile" />
+	<!--<Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HailstormMissileX10" />
+	<Entry Class="AdvMassProdAmmo" BlueprintSubtypeId="HailstormMissileX100" />-->
+	
+	
 	
   </BlueprintClassEntries>
 </Definitions>

@@ -2,18 +2,22 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <BlueprintClassEntries>
 	
-	<Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="FiringPin" />
     <Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="Trigger" />
-    <Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="Barrel" />
     <Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="Magazine" />
+    <Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="PistolGrip" />
     <Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="PistolReceiver" />
-    <Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="Buffer" />
+	<Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="PistolBreechingMechanism" />
     <Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="IronSight" />
+    <Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="RedDotSight" />
+    <Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="RifleBarrel" />
+    <Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="RifleReceiver" />
+	<Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="RifleBreechingMechanism" />
+    <Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="RifleStock" />
 	
     <Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="SurvivalKitCartridge" />
     <Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="SurvivalKitBullet" />
-    <Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="SurvivalKitPrimer" />
-    <Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="SurvivalKitCharge" />
+    <Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="SurvivalKitPrecussionPrimer" />
+    <Entry Class="SurvivalWeaponComponents" BlueprintSubtypeId="SurvivalKitNitrocellulosePowder" />
 	
   </BlueprintClassEntries>
 </Definitions>

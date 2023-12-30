@@ -136,7 +136,7 @@
       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
     </Component>
-    <Component> <!-- BrasingRod-->
+    <Component> <!-- BrazingRod-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>BrazingRod</SubtypeId>

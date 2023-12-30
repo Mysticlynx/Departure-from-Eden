@@ -16,7 +16,7 @@
         <Item Amount="100" TypeId="Component" SubtypeId="PressureRegulator" />
         <Item Amount="100" TypeId="Component" SubtypeId="Igniter" />
         <Item Amount="100" TypeId="Component" SubtypeId="SmallCopperTube" />
-        <Item Amount="500" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="500" TypeId="Component" SubtypeId="Gunpowder" />
         <Item Amount="100" TypeId="Component" SubtypeId="BrazingRod" />
       </Prerequisites>
       <Result Amount="100" TypeId="AmmoMagazine" SubtypeId="Missile200mm" />
@@ -36,7 +36,7 @@
         <Item Amount="10" TypeId="Component" SubtypeId="PressureRegulator" />
         <Item Amount="10" TypeId="Component" SubtypeId="Igniter" />
         <Item Amount="10" TypeId="Component" SubtypeId="SmallCopperTube" />
-        <Item Amount="50" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Gunpowder" />
         <Item Amount="10" TypeId="Component" SubtypeId="BrazingRod" />
       </Prerequisites>
       <Result Amount="10" TypeId="AmmoMagazine" SubtypeId="Missile200mm" />
@@ -56,7 +56,7 @@
         <Item Amount="1" TypeId="Component" SubtypeId="PressureRegulator" />
         <Item Amount="1" TypeId="Component" SubtypeId="Igniter" />
         <Item Amount="1" TypeId="Component" SubtypeId="SmallCopperTube" />
-        <Item Amount="5" TypeId="Component" SubtypeId="Charge" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Gunpowder" />
         <Item Amount="1" TypeId="Component" SubtypeId="BrazingRod" />
       </Prerequisites>
       <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Missile200mm" />
@@ -72,7 +72,7 @@
             <Icon>Textures\GUI\Icons\ammo\FlareGun_Ammo.dds</Icon>
             <Prerequisites>
                 <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
-                <Item Amount="2" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="2" TypeId="Component" SubtypeId="NitrocellulosePowder" />
                 <Item Amount="1.2" TypeId="Ore" SubtypeId="Oxygen" />
                 <Item Amount="0.8" TypeId="Ingot" SubtypeId="Strontium" />
                 <Item Amount="0.1" TypeId="Ingot" SubtypeId="Aluminum" />
@@ -91,8 +91,8 @@
             <Prerequisites>
                 <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
                 <Item Amount="0.8" TypeId="Component" SubtypeId="Cartridge" />
-                <Item Amount="0.4" TypeId="Component" SubtypeId="Charge" />
-                <Item Amount="0.8" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="0.4" TypeId="Component" SubtypeId="NitrocellulosePowder" />
+                <Item Amount="0.8" TypeId="Component" SubtypeId="PrecussionPrimer" />
                 <Item Amount="0.8" TypeId="Component" SubtypeId="Bullet" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="SemiAutoPistolMagazine" />
@@ -109,8 +109,8 @@
             <Prerequisites>
                 <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
                 <Item Amount="2" TypeId="Component" SubtypeId="Cartridge" />
-                <Item Amount="1" TypeId="Component" SubtypeId="Charge" />
-                <Item Amount="2" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="1" TypeId="Component" SubtypeId="Gunpowder" />
+                <Item Amount="2" TypeId="Component" SubtypeId="PrecussionPrimer" />
                 <Item Amount="2" TypeId="Component" SubtypeId="Bullet" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="FullAutoPistolMagazine" />
@@ -127,8 +127,8 @@
             <Prerequisites>
                 <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
                 <Item Amount="1.2" TypeId="Component" SubtypeId="Cartridge" />
-                <Item Amount="0.6" TypeId="Component" SubtypeId="Charge" />
-                <Item Amount="1.2" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="0.6" TypeId="Component" SubtypeId="Gunpowder" />
+                <Item Amount="1.2" TypeId="Component" SubtypeId="PrecussionPrimer" />
                 <Item Amount="1.2" TypeId="Component" SubtypeId="Bullet" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="ElitePistolMagazine" />
@@ -145,8 +145,8 @@
             <Prerequisites>
                 <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
                 <Item Amount="4" TypeId="Component" SubtypeId="Cartridge" />
-                <Item Amount="2" TypeId="Component" SubtypeId="Charge" />
-                <Item Amount="4" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="2" TypeId="Component" SubtypeId="NitrocellulosePowder" />
+                <Item Amount="4" TypeId="Component" SubtypeId="PrecussionPrimer" />
                 <Item Amount="4" TypeId="Component" SubtypeId="Bullet" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="AutomaticRifleGun_Mag_20rd" />
@@ -163,8 +163,8 @@
             <Prerequisites>
                 <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
                 <Item Amount="10" TypeId="Component" SubtypeId="Cartridge" />
-                <Item Amount="5" TypeId="Component" SubtypeId="Charge" />
-                <Item Amount="10" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="5" TypeId="Component" SubtypeId="Gunpowder" />
+                <Item Amount="10" TypeId="Component" SubtypeId="PrecussionPrimer" />
                 <Item Amount="10" TypeId="Component" SubtypeId="Bullet" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="RapidFireAutomaticRifleGun_Mag_50rd" />
@@ -181,8 +181,8 @@
             <Prerequisites>
                 <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
                 <Item Amount="6" TypeId="Component" SubtypeId="Cartridge" />
-                <Item Amount="3" TypeId="Component" SubtypeId="Charge" />
-                <Item Amount="6" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="3" TypeId="Component" SubtypeId="Gunpowder" />
+                <Item Amount="6" TypeId="Component" SubtypeId="PrecussionPrimer" />
                 <Item Amount="6" TypeId="Component" SubtypeId="Bullet" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="PreciseAutomaticRifleGun_Mag_5rd" />
@@ -199,8 +199,8 @@
             <Prerequisites>
                 <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
                 <Item Amount="6" TypeId="Component" SubtypeId="Cartridge" />
-                <Item Amount="3" TypeId="Component" SubtypeId="Charge" />
-                <Item Amount="6" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="3" TypeId="Component" SubtypeId="Gunpowder" />
+                <Item Amount="6" TypeId="Component" SubtypeId="PrecussionPrimer" />
                 <Item Amount="6" TypeId="Component" SubtypeId="Bullet" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="UltimateAutomaticRifleGun_Mag_30rd" />
@@ -266,8 +266,8 @@
       <Prerequisites>
         <Item Amount="500" TypeId="Component" SubtypeId="Magazine" />
         <Item Amount="500" TypeId="Component" SubtypeId="Cartridge" />
-        <Item Amount="500" TypeId="Component" SubtypeId="Charge" />
-        <Item Amount="500" TypeId="Component" SubtypeId="Primer" />
+        <Item Amount="500" TypeId="Component" SubtypeId="Gunpowder" />
+        <Item Amount="500" TypeId="Component" SubtypeId="PrecussionPrimer" />
         <Item Amount="500" TypeId="Component" SubtypeId="Bullet" />
       </Prerequisites>
       <Result Amount="500" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
@@ -283,8 +283,8 @@
       <Prerequisites>
         <Item Amount="50" TypeId="Component" SubtypeId="Magazine" />
         <Item Amount="50" TypeId="Component" SubtypeId="Cartridge" />
-        <Item Amount="50" TypeId="Component" SubtypeId="Charge" />
-        <Item Amount="50" TypeId="Component" SubtypeId="Primer" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Gunpowder" />
+        <Item Amount="50" TypeId="Component" SubtypeId="PrecussionPrimer" />
         <Item Amount="50" TypeId="Component" SubtypeId="Bullet" />
       </Prerequisites>
       <Result Amount="50" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
@@ -300,8 +300,8 @@
       <Prerequisites>
         <Item Amount="5" TypeId="Component" SubtypeId="Magazine" />
         <Item Amount="5" TypeId="Component" SubtypeId="Cartridge" />
-        <Item Amount="5" TypeId="Component" SubtypeId="Charge" />
-        <Item Amount="5" TypeId="Component" SubtypeId="Primer" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Gunpowder" />
+        <Item Amount="5" TypeId="Component" SubtypeId="PrecussionPrimer" />
         <Item Amount="5" TypeId="Component" SubtypeId="Bullet" />
       </Prerequisites>
       <Result Amount="5" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
@@ -317,8 +317,8 @@
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
         <Item Amount="1" TypeId="Component" SubtypeId="Cartridge" />
-        <Item Amount="1" TypeId="Component" SubtypeId="Charge" />
-        <Item Amount="1" TypeId="Component" SubtypeId="Primer" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Gunpowder" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PrecussionPrimer" />
         <Item Amount="1" TypeId="Component" SubtypeId="Bullet" />
       </Prerequisites>
       <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
@@ -335,8 +335,8 @@
             <Prerequisites>
                 <Item Amount="12" TypeId="Component" SubtypeId="Magazine" />
                 <Item Amount="12" TypeId="Component" SubtypeId="Cartridge" />
-                <Item Amount="12" TypeId="Component" SubtypeId="Charge" />
-                <Item Amount="12" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="12" TypeId="Component" SubtypeId="Gunpowder" />
+                <Item Amount="12" TypeId="Component" SubtypeId="PrecussionPrimer" />
                 <Item Amount="12" TypeId="Component" SubtypeId="Bullet" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="AutocannonClip" />
@@ -352,8 +352,8 @@
             <Icon>Textures\GUI\Icons\ammo\MediumCalibreShell.dds</Icon>
             <Prerequisites>
                 <Item Amount="24" TypeId="Component" SubtypeId="Cartridge" />
-                <Item Amount="24" TypeId="Component" SubtypeId="Charge" />
-                <Item Amount="24" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="24" TypeId="Component" SubtypeId="Gunpowder" />
+                <Item Amount="24" TypeId="Component" SubtypeId="PrecussionPrimer" />
                 <Item Amount="24" TypeId="Component" SubtypeId="Bullet" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="MediumCalibreAmmo" />
@@ -369,8 +369,8 @@
             <Icon>Textures\GUI\Icons\ammo\LargeCalibreShell.dds</Icon>
             <Prerequisites>
                 <Item Amount="48" TypeId="Component" SubtypeId="Cartridge" />
-                <Item Amount="48" TypeId="Component" SubtypeId="Charge" />
-                <Item Amount="48" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="48" TypeId="Component" SubtypeId="Gunpowder" />
+                <Item Amount="48" TypeId="Component" SubtypeId="PrecussionPrimer" />
                 <Item Amount="48" TypeId="Component" SubtypeId="Bullet" />
                 <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
             </Prerequisites>
@@ -388,7 +388,7 @@
             <Prerequisites>
                 <Item Amount="96" TypeId="Component" SubtypeId="Cartridge" />
                 <Item Amount="96" TypeId="Component" SubtypeId="Charge" />
-                <Item Amount="96" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="96" TypeId="Component" SubtypeId="PrecussionPrimer" />
                 <Item Amount="96" TypeId="Component" SubtypeId="Bullet" />
                 <Item Amount="4" TypeId="Ingot" SubtypeId="Uranium" />
             </Prerequisites>
@@ -406,12 +406,59 @@
             <Prerequisites>
                 <Item Amount="192" TypeId="Component" SubtypeId="Cartridge" />
                 <Item Amount="192" TypeId="Component" SubtypeId="Charge" />
-                <Item Amount="192" TypeId="Component" SubtypeId="Primer" />
+                <Item Amount="192" TypeId="Component" SubtypeId="PrecussionPrimer" />
                 <Item Amount="192" TypeId="Component" SubtypeId="Bullet" />
                 <Item Amount="8" TypeId="Ingot" SubtypeId="Uranium" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="LargeRailgunAmmo" />
             <BaseProductionTimeInSeconds>14</BaseProductionTimeInSeconds>
-        </Blueprint>
+        </Blueprint> 
+
+		<!-- [DFE] Hailstorm Rocket Turret Plugin -->
+		<!-- https://steamcommunity.com/sharedfiles/filedetails/?id=3118201072 -->
+		<!-- Can't impliment until I can fix the ghost icons when not in use -->
+		
+		<!--<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HailstormMissileX10</SubtypeId>
+      </Id>
+      <DisplayName>Hailstorm Rocket</DisplayName>
+      <Icon>Textures\GUI\Icons\HailstormMissile.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="AluminumPlate" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="20" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="10" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="10" TypeId="Component" SubtypeId="LargeCopperTube" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Explosives" />
+        <Item Amount="10" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="AmmoMagazine" SubtypeId="HailstormMissile" />
+      <BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
+		</Blueprint>  
+		<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HailstormMissileX100</SubtypeId>
+      </Id>
+      <DisplayName>Hailstorm Rocket</DisplayName>
+      <Icon>Textures\GUI\Icons\HailstormMissile.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Component" SubtypeId="AluminumPlate" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Bladder" />
+        <Item Amount="200" TypeId="Ore" SubtypeId="LiquidJetFuel" />
+        <Item Amount="100" TypeId="Component" SubtypeId="PressureRegulator" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Igniter" />
+        <Item Amount="100" TypeId="Component" SubtypeId="LargeCopperTube" />
+        <Item Amount="100" TypeId="Component" SubtypeId="Explosives" />
+        <Item Amount="100" TypeId="Component" SubtypeId="BrazingRod" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="AmmoMagazine" SubtypeId="HailstormMissile" />
+      <BaseProductionTimeInSeconds>175</BaseProductionTimeInSeconds>
+		</Blueprint>-->
+		
+		
   </Blueprints>
 </Definitions>

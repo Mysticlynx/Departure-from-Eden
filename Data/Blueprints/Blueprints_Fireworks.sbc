@@ -9,12 +9,14 @@
             <DisplayName>DisplayName_Item_FireworksBoxBlue</DisplayName>
             <Icon>Textures\GUI\Icons\ammo\FireworksBox.dds</Icon>
             <Prerequisites>
-                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
-                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Magnesium" />
-                <Item Amount="0.5" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="3" TypeId="Component" SubtypeId="SmallTube" />
+                <Item Amount="3" TypeId="Ore" SubtypeId="Oxygen" />
+                <Item Amount="0.6" TypeId="Component" SubtypeId="NitrocellulosePowder" />
+                <Item Amount="0.6" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="0.2" TypeId="Ingot" SubtypeId="Arsenic" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="FireworksBoxBlue" />
-            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
         </Blueprint>
 
         <Blueprint>
@@ -25,12 +27,14 @@
             <DisplayName>DisplayName_Item_FireworksBoxGreen</DisplayName>
             <Icon>Textures\GUI\Icons\ammo\FireworksBox.dds</Icon>
             <Prerequisites>
-                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
-                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Magnesium" />
-                <Item Amount="0.5" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="3" TypeId="Component" SubtypeId="SmallTube" />
+                <Item Amount="3" TypeId="Ore" SubtypeId="Oxygen" />
+                <Item Amount="0.6" TypeId="Ingot" SubtypeId="Boron" />
+                <Item Amount="0.6" TypeId="Component" SubtypeId="NitrocellulosePowder" />
+                <Item Amount="0.6" TypeId="Ingot" SubtypeId="Chlorine" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="FireworksBoxGreen" />
-            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
         </Blueprint>
 
         <Blueprint>
@@ -41,12 +45,14 @@
             <DisplayName>DisplayName_Item_FireworksBoxRed</DisplayName>
             <Icon>Textures\GUI\Icons\ammo\FireworksBox.dds</Icon>
             <Prerequisites>
-                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
-                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Magnesium" />
-                <Item Amount="0.5" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="3" TypeId="Component" SubtypeId="SmallTube" />
+                <Item Amount="3" TypeId="Ore" SubtypeId="Oxygen" />
+                <Item Amount="0.6" TypeId="Ingot" SubtypeId="Lithium" />
+                <Item Amount="0.6" TypeId="Component" SubtypeId="NitrocellulosePowder" />
+                <Item Amount="0.3" TypeId="Ingot" SubtypeId="Carbon" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="FireworksBoxRed" />
-            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
         </Blueprint>
 
         <Blueprint>
@@ -57,12 +63,14 @@
             <DisplayName>DisplayName_Item_FireworksBoxYellow</DisplayName>
             <Icon>Textures\GUI\Icons\ammo\FireworksBox.dds</Icon>
             <Prerequisites>
-                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
-                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Magnesium" />
-                <Item Amount="0.5" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="3" TypeId="Component" SubtypeId="SmallTube" />
+                <Item Amount="3" TypeId="Ore" SubtypeId="Oxygen" />
+                <Item Amount="0.6" TypeId="Component" SubtypeId="NitrocellulosePowder" />
+                <Item Amount="0.6" TypeId="Ingot" SubtypeId="Nitrogen" />
+                <Item Amount="0.6" TypeId="Ingot" SubtypeId="Sodium" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="FireworksBoxYellow" />
-            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
         </Blueprint>
 
         <Blueprint>
@@ -73,12 +81,14 @@
             <DisplayName>DisplayName_Item_FireworksBoxPink</DisplayName>
             <Icon>Textures\GUI\Icons\ammo\FireworksBox.dds</Icon>
             <Prerequisites>
-                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
-                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Magnesium" />
-                <Item Amount="0.5" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="3" TypeId="Component" SubtypeId="SmallTube" />
+                <Item Amount="3" TypeId="Ore" SubtypeId="Oxygen" />
+                <Item Amount="0.6" TypeId="Ingot" SubtypeId="Carbon" />
+                <Item Amount="0.6" TypeId="Component" SubtypeId="NitrocellulosePowder" />
+                <Item Amount="0.6" TypeId="Ingot" SubtypeId="Strontium" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="FireworksBoxPink" />
-            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
         </Blueprint>
 
         <Blueprint>
@@ -89,12 +99,18 @@
             <DisplayName>DisplayName_Item_FireworksBoxRainbow</DisplayName>
             <Icon>Textures\GUI\Icons\ammo\FireworksBox.dds</Icon>
             <Prerequisites>
-                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
-                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Magnesium" />
-                <Item Amount="0.5" TypeId="Component" SubtypeId="Charge" />
+                <Item Amount="3" TypeId="Component" SubtypeId="SmallTube" />
+                <Item Amount="3" TypeId="Ore" SubtypeId="Oxygen" />
+                <Item Amount="0.6" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="0.6" TypeId="Ingot" SubtypeId="Boron" />
+                <Item Amount="0.6" TypeId="Ingot" SubtypeId="Strontium" />
+                <Item Amount="0.6" TypeId="Ingot" SubtypeId="Sodium" />
+                <Item Amount="0.6" TypeId="Ingot" SubtypeId="Lithium" />
+                <Item Amount="0.6" TypeId="Ingot" SubtypeId="Magnesium" />
+                <Item Amount="0.6" TypeId="Component" SubtypeId="NitrocellulosePowder" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="FireworksBoxRainbow" />
-            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
         </Blueprint>
   </Blueprints>
 </Definitions>
