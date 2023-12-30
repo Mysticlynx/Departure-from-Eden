@@ -361,7 +361,7 @@
                 <Item Amount="1" TypeId="Component" SubtypeId="Magazine" />
             </Prerequisites>
             <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="SemiAutoPistolItem" />
-            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
         </Blueprint>
 
         <Blueprint>
@@ -379,7 +379,7 @@
                 <Item Amount="1" TypeId="Component" SubtypeId="Computer" />
             </Prerequisites>
             <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="FullAutoPistolItem" />
-            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
         </Blueprint>
 
         <Blueprint>
@@ -398,7 +398,7 @@
                 <Item Amount="1" TypeId="Component" SubtypeId="Detector" />
             </Prerequisites>
             <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="ElitePistolItem" />
-            <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
         </Blueprint>
 
         <Blueprint>
