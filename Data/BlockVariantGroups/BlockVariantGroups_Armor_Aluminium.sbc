@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <BlockVariantGroups>
+		
+		
+		<!-- Aluminum Light Armor Groups -->
+
+
         <BlockVariantGroup> <!-- AluminumArmorLightCubeGroup -->
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AluminumArmorLightCubeGroup" />
             <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
@@ -77,6 +82,94 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorRoundCornerInv" />
             </Blocks>
         </BlockVariantGroup>
+        <BlockVariantGroup> <!-- AluminumArmorLightSlopedCorners -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AluminumArmorLightSlopedCorners" />
+            <Icon>Textures\GUI\Icons\Cubes\SlopedCornerTip.dds</Icon>
+            <DisplayName>Aluminum Light Armor Sloped Corners</DisplayName>
+            <Description>Aluminum Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorHalfSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorHalfSlopedCornerBase" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- AluminumArmorLightTransitionBlocks -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AluminumArmorLightTransitionBlocks" />
+            <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBase.dds</Icon>
+            <DisplayName>Aluminum Light Armor Transition Blocks</DisplayName>
+            <Description>Aluminum Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopeTransitionBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopeTransition" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopeTransitionTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopeTransitionBaseMirrored" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopeTransitionMirrored" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopeTransitionTipMirrored" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopeTransitionBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopeTransition" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopeTransitionTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopeTransitionBaseMirrored" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopeTransitionMirrored" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopeTransitionTipMirrored" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup> <!-- AluminumLightArmorPanelsGroup -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AluminumLightArmorPanelsGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\LightArmorPanel.dds</Icon>
+            <DisplayName>Aluminum Light Armor Panel</DisplayName>
+            <Description>Aluminum Light Armor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorSlopedPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorSlopedSidePanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedPanelTipLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideBasePanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideTipPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideBasePanelLightInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideTipPanelLightInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfSlopedPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedPanelLightRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedTipPanelLightRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedPanelLightLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedTipPanelLightLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeRoundArmorPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeRoundArmorPanelCornerLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfCenterPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorQuarterPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorCenterPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedSidePanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelTipLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelLightInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelLightInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfSlopedPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelLightRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelLightRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelLightLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelLightLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallRoundArmorPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallRoundArmorPanelCornerLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfCenterPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorQuarterPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorCenterPanelLight" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+		
+		<!-- Aluminum Heavy Armor Groups -->
+
 
         <BlockVariantGroup> <!-- AluminumArmorHeavyCubeGroup -->
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AluminumArmorHeavyCubeGroup" />
@@ -153,28 +246,12 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorRoundCorner" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorRoundCornerInv" />
             </Blocks>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AluminumArmorLightSlopedCorners" />
-            <Icon>Textures\GUI\Icons\Cubes\SlopedCornerTip.dds</Icon>
-            <DisplayName>DisplayName_BlockGroup_LightArmorSlopedCorners</DisplayName>
-            <Description>Description_LightArmor</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopedCornerTip" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopedCornerBase" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopedCorner" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorHalfSlopedCornerBase" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopedCornerTip" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopedCornerBase" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopedCorner" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorHalfSlopedCornerBase" />
-            </Blocks>
-        </BlockVariantGroup>        
-        <BlockVariantGroup>
+        </BlockVariantGroup>     
+        <BlockVariantGroup> <!-- AluminumArmorHeavySlopedCorners -->
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AluminumArmorHeavySlopedCorners" />
             <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerTip.dds</Icon>
-            <DisplayName>DisplayName_BlockGroup_HeavyArmorSlopedCorners</DisplayName>
-            <Description>Description_HeavyArmor</Description>
+            <DisplayName>Aluminum Heavy Armor Sloped Corners</DisplayName>
+            <Description>Aluminum Heavy Armor</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorSlopedCornerTip" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorSlopedCornerBase" />
@@ -186,35 +263,11 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorHalfSlopedCornerBase" />
             </Blocks>
         </BlockVariantGroup>
-
-        <!---->
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AluminumArmorLightTransitionBlocks" />
-            <Icon>Textures\GUI\Icons\Cubes\LightArmorSlopeTransitionBase.dds</Icon>
-            <DisplayName>DisplayName_BlockGroup_LightArmorTransitionBlocks</DisplayName>
-            <Description>Description_LightArmor</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopeTransitionBase" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopeTransition" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopeTransitionTip" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopeTransitionBaseMirrored" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopeTransitionMirrored" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopeTransitionTipMirrored" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopeTransitionBase" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopeTransition" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopeTransitionTip" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopeTransitionBaseMirrored" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopeTransitionMirrored" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopeTransitionTipMirrored" />
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
+        <BlockVariantGroup> <!-- AluminumArmorHeavyTransitionBlocks -->
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AluminumArmorHeavyTransitionBlocks" />
             <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBase.dds</Icon>
-            <DisplayName>DisplayName_BlockGroup_HeavyArmorTransitionBlocks</DisplayName>
-            <Description>Description_LightArmor</Description>
+            <DisplayName>Aluminum Heavy Armor Transition Blocks</DisplayName>
+            <Description>Aluminum Heavy Armor</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorSlopeTransitionBase" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorSlopeTransition" />
@@ -230,61 +283,11 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorSlopeTransitionTipMirrored" />
             </Blocks>
         </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AluminumLightArmorPanelsGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\LightArmorPanel.dds</Icon>
-            <DisplayName>DisplayName_Block_LightArmorPanel</DisplayName>
-            <Description>Description_ArmorPanel</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorSlopedPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorSlopedSidePanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedPanelTipLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideBasePanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideTipPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideBasePanelLightInv" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideTipPanelLightInv" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfSlopedPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedPanelLightRight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedTipPanelLightRight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedPanelLightLeft" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedTipPanelLightLeft" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeRoundArmorPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeRoundArmorPanelCornerLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfCenterPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorQuarterPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorCenterPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedSidePanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelTipLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelLightInv" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelLightInv" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfSlopedPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelLightRight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelLightRight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelLightLeft" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelLightLeft" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallRoundArmorPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallRoundArmorPanelCornerLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfCenterPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorQuarterPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorCenterPanelLight" />
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
+        <BlockVariantGroup> <!-- AluminumHeavyArmorPanelsGroup -->
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AluminumHeavyArmorPanelsGroup" />
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanel.dds</Icon>
-            <DisplayName>DisplayName_Block_heavyArmorPanel</DisplayName>
-            <Description>Description_ArmorPanel</Description>
+            <DisplayName>Aluminum Heavy Armor Panel</DisplayName>
+            <Description>Aluminum Heavy Armor</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorPanelHeavy" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorSlopedPanelHeavy" />
