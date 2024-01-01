@@ -530,7 +530,7 @@
       <Volume>3</Volume>
       <Model>Models\Components\steel_plate_component.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>200</MaxIntegrity>
+      <MaxIntegrity>225</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
       <Health>90</Health>
       <MinimumOfferAmount>50</MinimumOfferAmount>
@@ -557,7 +557,7 @@
       <Volume>3</Volume>
       <Model>Models\Components\steel_plate_component.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>125</MaxIntegrity>
+      <MaxIntegrity>100</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
       <Health>70</Health>
       <MinimumOfferAmount>50</MinimumOfferAmount>
@@ -1072,8 +1072,8 @@
       <Volume>16</Volume>
       <Model>Models\Ingots\stone_ingot.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>200</MaxIntegrity>
-      <DropProbability>0.5</DropProbability>
+      <MaxIntegrity>250</MaxIntegrity>
+      <DropProbability>0.4</DropProbability>
       <Health>20</Health>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>

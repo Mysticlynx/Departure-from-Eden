@@ -59,9 +59,9 @@
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Oxygen</SubtypeId>
         </Id>
-        <MaxOutputPerSecond>0.03</MaxOutputPerSecond>
+        <MaxOutputPerSecond>0.065</MaxOutputPerSecond>
       </ProducedGas>
-      <OperationalPowerConsumption>0.02</OperationalPowerConsumption>
+      <OperationalPowerConsumption>0.012</OperationalPowerConsumption>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -127,9 +127,9 @@
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Oxygen</SubtypeId>
         </Id>
-        <MaxOutputPerSecond>0.059</MaxOutputPerSecond>
+        <MaxOutputPerSecond>0.195</MaxOutputPerSecond>
       </ProducedGas>
-      <OperationalPowerConsumption>0.0425</OperationalPowerConsumption>
+      <OperationalPowerConsumption>0.036</OperationalPowerConsumption>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -195,9 +195,9 @@
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Oxygen</SubtypeId>
         </Id>
-        <MaxOutputPerSecond>0.114</MaxOutputPerSecond>
+        <MaxOutputPerSecond>0.585</MaxOutputPerSecond>
       </ProducedGas>
-      <OperationalPowerConsumption>0.0903125</OperationalPowerConsumption>
+      <OperationalPowerConsumption>0.108</OperationalPowerConsumption>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -264,9 +264,9 @@
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </Id>
-        <MaxOutputPerSecond>0.03</MaxOutputPerSecond>
+        <MaxOutputPerSecond>1.21</MaxOutputPerSecond>
       </ProducedGas>
-      <OperationalPowerConsumption>0.3825</OperationalPowerConsumption>
+      <OperationalPowerConsumption>0.004</OperationalPowerConsumption>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -332,9 +332,9 @@
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </Id>
-        <MaxOutputPerSecond>0.059</MaxOutputPerSecond>
+        <MaxOutputPerSecond>3.63</MaxOutputPerSecond>
       </ProducedGas>
-      <OperationalPowerConsumption>0.8128125</OperationalPowerConsumption>
+      <OperationalPowerConsumption>0.012</OperationalPowerConsumption>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -400,9 +400,9 @@
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </Id>
-        <MaxOutputPerSecond>0.114</MaxOutputPerSecond>
+        <MaxOutputPerSecond>10.89</MaxOutputPerSecond>
       </ProducedGas>
-      <OperationalPowerConsumption>1.727227</OperationalPowerConsumption>
+      <OperationalPowerConsumption>0.036</OperationalPowerConsumption>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>

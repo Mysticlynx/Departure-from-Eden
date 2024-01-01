@@ -15,6 +15,10 @@
         <string>CubeBlock/LargeHeavyBlockConcreteArmorCorner2Base</string>
         <string>CubeBlock/LargeHeavyBlockConcreteArmorRoundSlope</string>
         <string>CubeBlock/LargeBlockHeavyConcreteArmorSlopedCornerTip</string>
+		
+		<!-- Needs to be added - Not Properly Named Yet
+        <string>CubeBlock/LargeBlockArmorSlopeTransitionBase</string>-->
+		
       </ItemIds>
     </Category>
   </CategoryClasses>

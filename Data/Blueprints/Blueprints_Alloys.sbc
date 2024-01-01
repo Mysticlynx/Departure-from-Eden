@@ -932,12 +932,13 @@
         <SubtypeId>TungstenCarbideDisassembly</SubtypeId>
       </Id>
       <Icon>Textures\GUI\Icons\ingot\Alloys\Magnet_Icon.dds</Icon>
-      <DisplayName>TungstenCarbide</DisplayName>
+      <DisplayName>1X Tungsten Carbide Recycling
+					Returns: 0.5 Ingot Tungsten
+					LOST: 0.5 Ingot Carbon</DisplayName>
       <Prerequisites>
-        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Tungsten" />
-        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="TungstenCarbide" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="TungstenCarbide" />
+      <Result Amount="0.5" TypeId="Ingot" SubtypeId="Tungsten" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint> <!-- Survival Kit TungstenCarbide -->
@@ -963,8 +964,8 @@
       <DisplayName>Cement x10000</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\Alloys\Cement_Icon.dds</Icon>
       <Prerequisites>
+        <Item Amount="7160" TypeId="Ore" SubtypeId="Oxygen" />
         <Item Amount="4700" TypeId="Ingot" SubtypeId="Calcium" />
-        <Item Amount="3580" TypeId="Ore" SubtypeId="Oxygen" />
         <Item Amount="1024" TypeId="Ingot" SubtypeId="Silicon" />
         <Item Amount="365" TypeId="Ingot" SubtypeId="Aluminum" />
         <Item Amount="210" TypeId="Ingot" SubtypeId="Iron" />
@@ -982,8 +983,8 @@
       <DisplayName>Cement x1000</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\Alloys\Cement_Icon.dds</Icon>
       <Prerequisites>
+        <Item Amount="716" TypeId="Ore" SubtypeId="Oxygen" />
         <Item Amount="470" TypeId="Ingot" SubtypeId="Calcium" />
-        <Item Amount="358" TypeId="Ore" SubtypeId="Oxygen" />
         <Item Amount="102.4" TypeId="Ingot" SubtypeId="Silicon" />
         <Item Amount="36.5" TypeId="Ingot" SubtypeId="Aluminum" />
         <Item Amount="21" TypeId="Ingot" SubtypeId="Iron" />
@@ -1001,8 +1002,8 @@
       <DisplayName>Cement x100</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\Alloys\Cement_Icon.dds</Icon>
       <Prerequisites>
+        <Item Amount="71.6" TypeId="Ore" SubtypeId="Oxygen" />
         <Item Amount="47" TypeId="Ingot" SubtypeId="Calcium" />
-        <Item Amount="35.8" TypeId="Ore" SubtypeId="Oxygen" />
         <Item Amount="10.24" TypeId="Ingot" SubtypeId="Silicon" />
         <Item Amount="3.65" TypeId="Ingot" SubtypeId="Aluminum" />
         <Item Amount="2.1" TypeId="Ingot" SubtypeId="Iron" />
@@ -1020,8 +1021,8 @@
       <DisplayName>Cement</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\Alloys\Cement_Icon.dds</Icon>
       <Prerequisites>
+        <Item Amount="0.716" TypeId="Ore" SubtypeId="Oxygen" />
         <Item Amount="0.47" TypeId="Ingot" SubtypeId="Calcium" />
-        <Item Amount="0.358" TypeId="Ore" SubtypeId="Oxygen" />
         <Item Amount="0.1024" TypeId="Ingot" SubtypeId="Silicon" />
         <Item Amount="0.365" TypeId="Ingot" SubtypeId="Aluminum" />
         <Item Amount="0.021" TypeId="Ingot" SubtypeId="Iron" />
@@ -1040,8 +1041,8 @@
       <Icon>Textures\GUI\Icons\ingot\Alloys\Cement_Icon.dds</Icon>
       <DisplayName>Cement</DisplayName>
       <Prerequisites>
+        <Item Amount="0.716" TypeId="Ore" SubtypeId="Oxygen" />
         <Item Amount="0.47" TypeId="Ingot" SubtypeId="Calcium" />
-        <Item Amount="0.358" TypeId="Ore" SubtypeId="Oxygen" />
         <Item Amount="0.1024" TypeId="Ingot" SubtypeId="Silicon" />
         <Item Amount="0.365" TypeId="Ingot" SubtypeId="Aluminum" />
         <Item Amount="0.021" TypeId="Ingot" SubtypeId="Iron" />

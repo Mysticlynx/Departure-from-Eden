@@ -499,11 +499,14 @@
                 <string>CubeBlock/LargeGridBeamBlockEnd</string>
                 <string>CubeBlock/LargeGridBeamBlockJunction</string>
                 <string>CubeBlock/LargeGridBeamBlockTJunction</string>
-
+				<!-- Large Aluminum Light Armor Panels -->
+				<!-- These replace the default Vanilla Steel -->
                 <string>CubeBlock/LargeArmorPanelLight</string>
+                <string>CubeBlock/LargeArmorCenterPanelLight</string>
                 <string>CubeBlock/LargeArmorSlopedSidePanelLight</string>
                 <string>CubeBlock/LargeArmorSlopedPanelLight</string>
                 <string>CubeBlock/LargeArmorHalfPanelLight</string>
+                <string>CubeBlock/LargeArmorHalfCenterPanelLight</string>
                 <string>CubeBlock/LargeArmorQuarterPanelLight</string>
                 <string>CubeBlock/LargeArmor2x1SlopedPanelLight</string>
                 <string>CubeBlock/LargeArmor2x1SlopedPanelTipLight</string>
@@ -516,7 +519,10 @@
                 <string>CubeBlock/LargeArmor2x1HalfSlopedTipPanelLightRight</string>
                 <string>CubeBlock/LargeArmor2x1HalfSlopedPanelLightLeft</string>
                 <string>CubeBlock/LargeArmor2x1HalfSlopedTipPanelLightLeft</string>
-
+                <string>CubeBlock/LargeRoundArmorPanelLight</string>
+                <string>CubeBlock/LargeRoundArmorPanelCornerLight</string>
+				<!-- Large Aluminum Heavy Armor Panels -->
+				<!-- These replace the default Vanilla Steel -->		
                 <string>CubeBlock/LargeArmorPanelHeavy</string>
                 <string>CubeBlock/LargeArmorSlopedSidePanelHeavy</string>
                 <string>CubeBlock/LargeArmorSlopedPanelHeavy</string>
@@ -533,6 +539,46 @@
                 <string>CubeBlock/LargeArmor2x1HalfSlopedTipPanelHeavyRight</string>
                 <string>CubeBlock/LargeArmor2x1HalfSlopedPanelHeavyLeft</string>
                 <string>CubeBlock/LargeArmor2x1HalfSlopedTipPanelHeavyLeft</string>
+				<!-- Small Aluminum Light Armor Panels -->
+				<!-- These replace the default Vanilla Steel -->
+                <string>CubeBlock/SmallArmorPanelLight</string>
+                <string>CubeBlock/SmallArmorCenterPanelLight</string>
+                <string>CubeBlock/SmallArmorSlopedSidePanelLight</string>
+                <string>CubeBlock/SmallArmorSlopedPanelLight</string>
+                <string>CubeBlock/SmallArmorHalfPanelLight</string>
+                <string>CubeBlock/SmallArmorHalfCenterPanelLight</string>
+                <string>CubeBlock/SmallArmorQuarterPanelLight</string>
+                <string>CubeBlock/SmallArmor2x1SlopedPanelLight</string>
+                <string>CubeBlock/SmallArmor2x1SlopedPanelTipLight</string>
+                <string>CubeBlock/SmallArmor2x1SlopedSideBasePanelLight</string>
+                <string>CubeBlock/SmallArmor2x1SlopedSideTipPanelLight</string>
+                <string>CubeBlock/SmallArmor2x1SlopedSideBasePanelLightInv</string>
+                <string>CubeBlock/SmallArmor2x1SlopedSideTipPanelLightInv</string>
+                <string>CubeBlock/SmallArmorHalfSlopedPanelLight</string>
+                <string>CubeBlock/SmallArmor2x1HalfSlopedPanelLightRight</string>
+                <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightRight</string>
+                <string>CubeBlock/SmallArmor2x1HalfSlopedPanelLightLeft</string>
+                <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightLeft</string>
+                <string>CubeBlock/SmallRoundArmorPanelLight</string>
+                <string>CubeBlock/SmallRoundArmorPanelCornerLight</string>
+				<!-- Small Aluminum Heavy Armor Panels -->
+				<!-- These replace the default Vanilla Steel -->
+                <string>CubeBlock/SmallArmorPanelHeavy</string>
+                <string>CubeBlock/SmallArmorSlopedSidePanelHeavy</string>
+                <string>CubeBlock/SmallArmorSlopedPanelHeavy</string>
+                <string>CubeBlock/SmallArmorHalfPanelHeavy</string>
+                <string>CubeBlock/SmallArmorQuarterPanelHeavy</string>
+                <string>CubeBlock/SmallArmor2x1SlopedPanelHeavy</string>
+                <string>CubeBlock/SmallArmor2x1SlopedPanelTipHeavy</string>
+                <string>CubeBlock/SmallArmor2x1SlopedSideBasePanelHeavy</string>
+                <string>CubeBlock/SmallArmor2x1SlopedSideTipPanelHeavy</string>
+                <string>CubeBlock/SmallArmor2x1SlopedSideBasePanelHeavyInv</string>
+                <string>CubeBlock/SmallArmor2x1SlopedSideTipPanelHeavyInv</string>
+                <string>CubeBlock/SmallArmorHalfSlopedPanelHeavy</string>
+                <string>CubeBlock/SmallArmor2x1HalfSlopedPanelHeavyRight</string>
+                <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelHeavyRight</string>
+                <string>CubeBlock/SmallArmor2x1HalfSlopedPanelHeavyLeft</string>
+                <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelHeavyLeft</string>
             </ItemIds>
         </Category>
         <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -891,11 +937,14 @@
                 <string>CubeBlock/SmallGridBeamBlockEnd</string>
                 <string>CubeBlock/SmallGridBeamBlockJunction</string>
                 <string>CubeBlock/SmallGridBeamBlockTJunction</string>
-
+				<!-- Small Aluminum Light Armor Panels -->
+				<!-- These replace the default Vanilla Steel -->
                 <string>CubeBlock/SmallArmorPanelLight</string>
+                <string>CubeBlock/SmallArmorCenterPanelLight</string>
                 <string>CubeBlock/SmallArmorSlopedSidePanelLight</string>
                 <string>CubeBlock/SmallArmorSlopedPanelLight</string>
                 <string>CubeBlock/SmallArmorHalfPanelLight</string>
+                <string>CubeBlock/SmallArmorHalfCenterPanelLight</string>
                 <string>CubeBlock/SmallArmorQuarterPanelLight</string>
                 <string>CubeBlock/SmallArmor2x1SlopedPanelLight</string>
                 <string>CubeBlock/SmallArmor2x1SlopedPanelTipLight</string>
@@ -908,6 +957,8 @@
                 <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightRight</string>
                 <string>CubeBlock/SmallArmor2x1HalfSlopedPanelLightLeft</string>
                 <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightLeft</string>
+                <string>CubeBlock/SmallRoundArmorPanelLight</string>
+                <string>CubeBlock/SmallRoundArmorPanelCornerLight</string>
 
                 <string>CubeBlock/SmallArmorPanelHeavy</string>
                 <string>CubeBlock/SmallArmorSlopedSidePanelHeavy</string>
@@ -937,202 +988,6 @@
                 <string>EmissiveBlock/SmallNeonTubesU</string>
                 <string>EmissiveBlock/SmallNeonTubesT</string>
                 <string>EmissiveBlock/SmallNeonTubesCircle</string>
-            </ItemIds>
-        </Category>
-        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
-            <Id>
-                <TypeId>GuiBlockCategoryDefinition</TypeId>
-                <SubtypeId/>
-            </Id>
-            <DisplayName>DisplayName_Category_ArmorBlocks</DisplayName>
-            <Name>Armorblocks</Name>
-            <ItemIds>
-                <string>LargeBlockArmorBlock</string>
-                <string>LargeBlockArmorSlope</string>
-                <string>LargeBlockArmorCorner</string>
-                <string>LargeBlockArmorCornerInv</string>
-                <string>LargeHeavyBlockArmorBlock</string>
-                <string>LargeHeavyBlockArmorSlope</string>
-                <string>LargeHeavyBlockArmorCorner</string>
-                <string>LargeHeavyBlockArmorCornerInv</string>
-                <string>LargeBlockArmorRoundedSlope</string>
-                <string>LargeBlockArmorRoundedCorner</string>
-                <string>LargeBlockArmorAngledSlope</string>
-                <string>LargeBlockArmorAngledCorner</string>
-                <string>LargeHeavyBlockArmorRoundedSlope</string>
-                <string>LargeHeavyBlockArmorRoundedCorner</string>
-                <string>LargeHeavyBlockArmorAngledSlope</string>
-                <string>LargeHeavyBlockArmorAngledCorner</string>
-                <string>LargeBlockArmorRoundSlope</string>
-                <string>LargeBlockArmorRoundCorner</string>
-                <string>LargeBlockArmorRoundCornerInv</string>
-                <string>LargeHeavyBlockArmorRoundSlope</string>
-                <string>LargeHeavyBlockArmorRoundCorner</string>
-                <string>LargeHeavyBlockArmorRoundCornerInv</string>
-                <string>LargeBlockArmorSlope2BaseSmooth</string>
-                <string>LargeHeavyBlockArmorRoundSlope</string>
-                <string>LargeHeavyBlockArmorRoundCorner</string>
-                <string>LargeHeavyBlockArmorRoundCornerInv</string>
-                <string>LargeBlockArmorRoundSlope</string>
-                <string>LargeBlockArmorSlope2BaseSmooth</string>
-                <string>LargeBlockArmorSlope2TipSmooth</string>
-                <string>LargeBlockArmorCorner2BaseSmooth</string>
-                <string>LargeBlockArmorCorner2TipSmooth</string>
-                <string>LargeBlockArmorInvCorner2BaseSmooth</string>
-                <string>LargeBlockArmorInvCorner2TipSmooth</string>
-                <string>LargeHeavyBlockArmorSlope2BaseSmooth</string>
-                <string>LargeHeavyBlockArmorSlope2TipSmooth</string>
-                <string>LargeHeavyBlockArmorCorner2BaseSmooth</string>
-                <string>LargeHeavyBlockArmorCorner2TipSmooth</string>
-                <string>LargeHeavyBlockArmorInvCorner2BaseSmooth</string>
-                <string>LargeHeavyBlockArmorInvCorner2TipSmooth</string>
-                <string>LargeBlockArmorSlope2Base</string>
-                <string>LargeBlockArmorSlope2Tip</string>
-                <string>LargeBlockArmorCorner2Base</string>
-                <string>LargeBlockArmorCorner2Tip</string>
-                <string>LargeBlockArmorInvCorner2Base</string>
-                <string>LargeBlockArmorInvCorner2Tip</string>
-                <string>LargeHeavyBlockArmorSlope2Base</string>
-                <string>LargeHeavyBlockArmorSlope2Tip</string>
-                <string>LargeHeavyBlockArmorCorner2Base</string>
-                <string>LargeHeavyBlockArmorCorner2Tip</string>
-                <string>LargeHeavyBlockArmorInvCorner2Base</string>
-                <string>LargeHeavyBlockArmorInvCorner2Tip</string>
-                <string>LargeHalfArmorBlock</string>
-                <string>LargeHalfSlopeArmorBlock</string>
-                <string>LargeHeavyHalfArmorBlock</string>
-                <string>LargeHeavyHalfSlopeArmorBlock</string>
-
-                <string>CubeBlock/LargeBlockArmorHalfSlopeInverted</string>
-                <string>CubeBlock/LargeBlockHeavyArmorHalfSlopeInverted</string>
-                <string>CubeBlock/LargeBlockArmorHalfSlopeCorner</string>
-                <string>CubeBlock/LargeBlockHeavyArmorHalfSlopeCorner</string>
-                <string>CubeBlock/LargeBlockArmorHalfSlopeCornerInverted</string>
-                <string>CubeBlock/LargeBlockHeavyArmorHalfSlopeCornerInverted</string>
-                <string>CubeBlock/LargeBlockArmorSlopedCornerTip</string>
-                <string>CubeBlock/LargeBlockHeavyArmorSlopedCornerTip</string>
-                <string>CubeBlock/LargeBlockArmorSlopedCornerBase</string>
-                <string>CubeBlock/LargeBlockHeavyArmorSlopedCornerBase</string>
-                <string>CubeBlock/LargeBlockArmorSlopedCorner</string>
-                <string>CubeBlock/LargeBlockHeavyArmorSlopedCorner</string>
-                <string>CubeBlock/LargeBlockArmorHalfSlopedCornerBase</string>
-                <string>CubeBlock/LargeBlockHeavyArmorHalfSlopedCornerBase</string>
-                <string>CubeBlock/LargeBlockArmorHalfCorner</string>
-                <string>CubeBlock/LargeBlockHeavyArmorHalfCorner</string>
-                <string>CubeBlock/LargeBlockArmorCornerSquare</string>
-                <string>CubeBlock/LargeBlockHeavyArmorCornerSquare</string>
-                <string>CubeBlock/LargeBlockArmorCornerSquareInverted</string>
-                <string>CubeBlock/LargeBlockHeavyArmorCornerSquareInverted</string>
-                <string>CubeBlock/LargeBlockArmorHalfSlopedCorner</string>
-                <string>CubeBlock/LargeBlockHeavyArmorHalfSlopedCorner</string>
-
-                <string>CubeBlock/LargeBlockArmorRaisedSlopedCorner</string>
-                <string>CubeBlock/LargeBlockHeavyArmorRaisedSlopedCorner</string>
-                <string>CubeBlock/LargeBlockArmorSlopeTransition</string>
-                <string>CubeBlock/LargeBlockHeavyArmorSlopeTransition</string>
-                <string>CubeBlock/LargeBlockArmorSlopeTransitionBase</string>
-                <string>CubeBlock/LargeBlockHeavyArmorSlopeTransitionBase</string>
-                <string>CubeBlock/LargeBlockArmorSlopeTransitionBaseMirrored</string>
-                <string>CubeBlock/LargeBlockHeavyArmorSlopeTransitionBaseMirrored</string>
-                <string>CubeBlock/LargeBlockArmorSlopeTransitionMirrored</string>
-                <string>CubeBlock/LargeBlockHeavyArmorSlopeTransitionMirrored</string>
-                <string>CubeBlock/LargeBlockArmorSlopeTransitionTip</string>
-                <string>CubeBlock/LargeBlockHeavyArmorSlopeTransitionTip</string>
-                <string>CubeBlock/LargeBlockArmorSlopeTransitionTipMirrored</string>
-                <string>CubeBlock/LargeBlockHeavyArmorSlopeTransitionTipMirrored</string>
-                <string>CubeBlock/LargeBlockArmorSquareSlopedCornerBase</string>
-                <string>CubeBlock/LargeBlockHeavyArmorSquareSlopedCornerBase</string>
-                <string>CubeBlock/LargeBlockArmorSquareSlopedCornerTip</string>
-                <string>CubeBlock/LargeBlockHeavyArmorSquareSlopedCornerTip</string>
-                <string>CubeBlock/LargeBlockArmorSquareSlopedCornerTipInv</string>
-                <string>CubeBlock/LargeBlockHeavyArmorSquareSlopedCornerTipInv</string>
-
-                <string>CubeBlock/SmallBlockArmorRaisedSlopedCorner</string>
-                <string>CubeBlock/SmallBlockHeavyArmorRaisedSlopedCorner</string>
-                <string>CubeBlock/SmallBlockArmorSlopeTransition</string>
-                <string>CubeBlock/SmallBlockHeavyArmorSlopeTransition</string>
-                <string>CubeBlock/SmallBlockArmorSlopeTransitionBase</string>
-                <string>CubeBlock/SmallBlockHeavyArmorSlopeTransitionBase</string>
-                <string>CubeBlock/SmallBlockArmorSlopeTransitionBaseMirrored</string>
-                <string>CubeBlock/SmallBlockHeavyArmorSlopeTransitionBaseMirrored</string>
-                <string>CubeBlock/SmallBlockArmorSlopeTransitionMirrored</string>
-                <string>CubeBlock/SmallBlockHeavyArmorSlopeTransitionMirrored</string>
-                <string>CubeBlock/SmallBlockArmorSlopeTransitionTip</string>
-                <string>CubeBlock/SmallBlockHeavyArmorSlopeTransitionTip</string>
-                <string>CubeBlock/SmallBlockArmorSlopeTransitionTipMirrored</string>
-                <string>CubeBlock/SmallBlockHeavyArmorSlopeTransitionTipMirrored</string>
-                <string>CubeBlock/SmallBlockArmorSquareSlopedCornerBase</string>
-                <string>CubeBlock/SmallBlockHeavyArmorSquareSlopedCornerBase</string>
-                <string>CubeBlock/SmallBlockArmorSquareSlopedCornerTip</string>
-                <string>CubeBlock/SmallBlockHeavyArmorSquareSlopedCornerTip</string>
-                <string>CubeBlock/SmallBlockArmorSquareSlopedCornerTipInv</string>
-                <string>CubeBlock/SmallBlockHeavyArmorSquareSlopedCornerTipInv</string>
-
-                <string>CubeBlock/LargeArmorPanelLight</string>
-                <string>CubeBlock/LargeArmorSlopedSidePanelLight</string>
-                <string>CubeBlock/LargeArmorSlopedPanelLight</string>
-                <string>CubeBlock/LargeArmorHalfPanelLight</string>
-                <string>CubeBlock/LargeArmorQuarterPanelLight</string>
-                <string>CubeBlock/LargeArmor2x1SlopedPanelLight</string>
-                <string>CubeBlock/LargeArmor2x1SlopedPanelTipLight</string>
-                <string>CubeBlock/LargeArmor2x1SlopedSideBasePanelLight</string>
-                <string>CubeBlock/LargeArmor2x1SlopedSideTipPanelLight</string>
-                <string>CubeBlock/LargeArmor2x1SlopedSideBasePanelLightInv</string>
-                <string>CubeBlock/LargeArmor2x1SlopedSideTipPanelLightInv</string>
-                <string>CubeBlock/LargeArmorHalfSlopedPanelLight</string>
-                <string>CubeBlock/LargeArmor2x1HalfSlopedPanelLightRight</string>
-                <string>CubeBlock/LargeArmor2x1HalfSlopedTipPanelLightRight</string>
-                <string>CubeBlock/LargeArmor2x1HalfSlopedPanelLightLeft</string>
-                <string>CubeBlock/LargeArmor2x1HalfSlopedTipPanelLightLeft</string>
-                <string>CubeBlock/LargeArmorPanelHeavy</string>
-                <string>CubeBlock/LargeArmorSlopedSidePanelHeavy</string>
-                <string>CubeBlock/LargeArmorSlopedPanelHeavy</string>
-                <string>CubeBlock/LargeArmorHalfPanelHeavy</string>
-                <string>CubeBlock/LargeArmorQuarterPanelHeavy</string>
-                <string>CubeBlock/LargeArmor2x1SlopedPanelHeavy</string>
-                <string>CubeBlock/LargeArmor2x1SlopedPanelTipHeavy</string>
-                <string>CubeBlock/LargeArmor2x1SlopedSideBasePanelHeavy</string>
-                <string>CubeBlock/LargeArmor2x1SlopedSideTipPanelHeavy</string>
-                <string>CubeBlock/LargeArmor2x1SlopedSideBasePanelHeavyInv</string>
-                <string>CubeBlock/LargeArmor2x1SlopedSideTipPanelHeavyInv</string>
-                <string>CubeBlock/LargeArmorHalfSlopedPanelHeavy</string>
-                <string>CubeBlock/LargeArmor2x1HalfSlopedPanelHeavyRight</string>
-                <string>CubeBlock/LargeArmor2x1HalfSlopedTipPanelHeavyRight</string>
-                <string>CubeBlock/LargeArmor2x1HalfSlopedPanelHeavyLeft</string>
-                <string>CubeBlock/LargeArmor2x1HalfSlopedTipPanelHeavyLeft</string>
-
-                <string>CubeBlock/SmallArmorPanelLight</string>
-                <string>CubeBlock/SmallArmorSlopedSidePanelLight</string>
-                <string>CubeBlock/SmallArmorSlopedPanelLight</string>
-                <string>CubeBlock/SmallArmorHalfPanelLight</string>
-                <string>CubeBlock/SmallArmorQuarterPanelLight</string>
-                <string>CubeBlock/SmallArmor2x1SlopedPanelLight</string>
-                <string>CubeBlock/SmallArmor2x1SlopedPanelTipLight</string>
-                <string>CubeBlock/SmallArmor2x1SlopedSideBasePanelLight</string>
-                <string>CubeBlock/SmallArmor2x1SlopedSideTipPanelLight</string>
-                <string>CubeBlock/SmallArmor2x1SlopedSideBasePanelLightInv</string>
-                <string>CubeBlock/SmallArmor2x1SlopedSideTipPanelLightInv</string>
-                <string>CubeBlock/SmallArmorHalfSlopedPanelLight</string>
-                <string>CubeBlock/SmallArmor2x1HalfSlopedPanelLightRight</string>
-                <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightRight</string>
-                <string>CubeBlock/SmallArmor2x1HalfSlopedPanelLightLeft</string>
-                <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightLeft</string>
-                <string>CubeBlock/SmallArmorPanelHeavy</string>
-                <string>CubeBlock/SmallArmorSlopedSidePanelHeavy</string>
-                <string>CubeBlock/SmallArmorSlopedPanelHeavy</string>
-                <string>CubeBlock/SmallArmorHalfPanelHeavy</string>
-                <string>CubeBlock/SmallArmorQuarterPanelHeavy</string>
-                <string>CubeBlock/SmallArmor2x1SlopedPanelHeavy</string>
-                <string>CubeBlock/SmallArmor2x1SlopedPanelTipHeavy</string>
-                <string>CubeBlock/SmallArmor2x1SlopedSideBasePanelHeavy</string>
-                <string>CubeBlock/SmallArmor2x1SlopedSideTipPanelHeavy</string>
-                <string>CubeBlock/SmallArmor2x1SlopedSideBasePanelHeavyInv</string>
-                <string>CubeBlock/SmallArmor2x1SlopedSideTipPanelHeavyInv</string>
-                <string>CubeBlock/SmallArmorHalfSlopedPanelHeavy</string>
-                <string>CubeBlock/SmallArmor2x1HalfSlopedPanelHeavyRight</string>
-                <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelHeavyRight</string>
-                <string>CubeBlock/SmallArmor2x1HalfSlopedPanelHeavyLeft</string>
-                <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelHeavyLeft</string>
             </ItemIds>
         </Category>
         <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -1413,7 +1268,7 @@
             <SearchBlocks>false</SearchBlocks>
             <IsToolCategory>true</IsToolCategory>
             <ItemIds>
-                <string>CrudePistolItem</string>
+                <string>FlareGunItem</string>
                 <string>SemiAutoPistolItem</string>
                 <string>FullAutoPistolItem</string>
                 <string>ElitePistolItem</string>

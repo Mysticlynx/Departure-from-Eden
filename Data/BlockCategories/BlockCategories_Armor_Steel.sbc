@@ -15,11 +15,17 @@
         <string>CubeBlock/LargeBlockSteelArmorCorner2Base</string>
         <string>CubeBlock/LargeBlockSteelArmorRoundSlope</string>
         <string>CubeBlock/LargeBlockSteelArmorSlopedCornerTip</string>
+		<!-- Needs to be added - Not Properly Named Yet
+        <string>CubeBlock/LargeBlockArmorSlopeTransitionBase</string>
+        <string>CubeBlock/LargeArmorPanelLight</string>-->
         <string>CubeBlock/LargeHeavyBlockSteelArmorBlock</string>
         <string>CubeBlock/LargeHeavyBlockSteelArmorSlope2Base</string>
         <string>CubeBlock/LargeHeavyBlockSteelArmorCorner2Base</string>
         <string>CubeBlock/LargeHeavyBlockSteelArmorRoundSlope</string>
         <string>CubeBlock/LargeBlockHeavySteelArmorSlopedCornerTip</string>
+		<!-- Needs to be added - Not Properly Named Yet
+        <string>CubeBlock/LargeBlockArmorSlopeTransitionBase</string>
+        <string>CubeBlock/LargeArmorPanelLight</string>-->
       </ItemIds>
     </Category>
   </CategoryClasses>

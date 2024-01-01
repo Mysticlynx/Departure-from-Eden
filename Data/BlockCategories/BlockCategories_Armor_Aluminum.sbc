@@ -10,20 +10,21 @@
       <Name>ArmorblocksAluminum</Name>
 	  <StrictSearch>true</StrictSearch>
       <ItemIds>
+		<!-- Light -->
         <string>CubeBlock/LargeBlockArmorBlock</string>
         <string>CubeBlock/LargeBlockArmorSlope2Base</string>
         <string>CubeBlock/LargeBlockArmorCorner2Base</string>
         <string>CubeBlock/LargeBlockArmorRoundSlope</string>
         <string>CubeBlock/LargeBlockArmorSlopedCornerTip</string>
+        <string>CubeBlock/LargeBlockArmorSlopeTransitionBase</string>
+        <string>CubeBlock/LargeArmorPanelLight</string>
+		<!-- Heavy -->		
         <string>CubeBlock/LargeHeavyBlockArmorBlock</string>
         <string>CubeBlock/LargeHeavyBlockArmorSlope2Base</string>
         <string>CubeBlock/LargeHeavyBlockArmorCorner2Base</string>
         <string>CubeBlock/LargeHeavyBlockArmorRoundSlope</string>
         <string>CubeBlock/LargeBlockHeavyArmorSlopedCornerTip</string>
-        <string>CubeBlock/LargeBlockArmorSlopeTransitionBase</string>
-        <string>CubeBlock/LargeBlockArmorSlopeTransitionBase</string>
         <string>CubeBlock/LargeBlockHeavyArmorSlopeTransitionBase</string>
-        <string>CubeBlock/LargeArmorPanelLight</string>
         <string>CubeBlock/LargeArmorPanelHeavy</string>
       </ItemIds>
     </Category>

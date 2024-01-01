@@ -10,16 +10,26 @@
       <Name>ArmorblocksGraphene</Name>
 	  <StrictSearch>true</StrictSearch>
       <ItemIds>
+		<!-- Light -->
         <string>CubeBlock/LargeBlockGrapheneArmorBlock</string>
         <string>CubeBlock/LargeBlockGrapheneArmorSlope2Base</string>
         <string>CubeBlock/LargeBlockGrapheneArmorCorner2Base</string>
         <string>CubeBlock/LargeBlockGrapheneArmorRoundSlope</string>
         <string>CubeBlock/LargeBlockGrapheneArmorSlopedCornerTip</string>
+		<!-- Needs to be added - Not Properly Named Yet
+        <string>CubeBlock/LargeBlockArmorSlopeTransitionBase</string>
+        <string>CubeBlock/LargeArmorPanelLight</string>-->
+		
+		<!-- Heavy -->
         <string>CubeBlock/LargeHeavyBlockGrapheneArmorBlock</string>
         <string>CubeBlock/LargeHeavyBlockGrapheneArmorSlope2Base</string>
         <string>CubeBlock/LargeHeavyBlockGrapheneArmorCorner2Base</string>
         <string>CubeBlock/LargeHeavyBlockGrapheneArmorRoundSlope</string>
         <string>CubeBlock/LargeBlockHeavyGrapheneArmorSlopedCornerTip</string>
+		<!-- Needs to be added - Not Properly Named Yet
+        <string>CubeBlock/LargeBlockArmorSlopeTransitionBase</string>
+        <string>CubeBlock/LargeArmorPanelLight</string>-->
+		
       </ItemIds>
     </Category>
   </CategoryClasses>
