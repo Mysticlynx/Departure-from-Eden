@@ -89,10 +89,18 @@
             <Description>Aluminum Light Armor</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorRaisedSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSquareSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSquareSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSquareSlopedCornerTipInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopedCornerBase" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopedCorner" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorHalfSlopedCornerBase" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorRaisedSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSquareSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSquareSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSquareSlopedCornerTipInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopedCornerBase" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopedCorner" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorHalfSlopedCornerBase" />
@@ -254,10 +262,18 @@
             <Description>Aluminum Heavy Armor</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorRaisedSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorSquareSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorSquareSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorSquareSlopedCornerTipInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorSlopedCornerBase" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorSlopedCorner" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorHalfSlopedCornerBase" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorRaisedSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorSquareSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorSquareSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorSquareSlopedCornerTipInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorSlopedCornerBase" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorSlopedCorner" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorHalfSlopedCornerBase" />

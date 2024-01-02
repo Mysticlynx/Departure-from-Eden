@@ -151,7 +151,7 @@
         
         -Each row will be rendered in numerical order according to (Y - Top to Bottom) sarting at "0" and (X - Left to Right) using values 0-9
 
-        ~Mysticlynx
+        -Mysticlynx
 
         -->
 
@@ -1333,7 +1333,7 @@
         <BlockPosition>
             <Name>AluminumArmorPanelHeavy</Name>
             <Position>
-                <X>7</X>
+                <X>6</X>
                 <Y>95</Y>
             </Position>
         </BlockPosition>
@@ -1341,35 +1341,35 @@
         <!-- End Region Row 20 -->
         <!-- Region Row 21 -->
         <BlockPosition>
-            <Name>HeavyConcreteArmorBlock</Name>
+            <Name>LightGrapheneArmorBlock</Name>
             <Position>
                 <X>0</X>
                 <Y>100</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LargeHeavyBlockConcreteArmorSlope2Base</Name>
+            <Name>LargeBlockGrapheneArmorSlope2Base</Name>
             <Position>
                 <X>1</X>
                 <Y>100</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LargeHeavyBlockConcreteArmorCorner2Base</Name>
+            <Name>LargeBlockGrapheneArmorCorner2Base</Name>
             <Position>
                 <X>2</X>
                 <Y>100</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>HeavyConcreteArmorRoundSlope</Name>
+            <Name>GrapheneArmorRoundSlope</Name>
             <Position>
                 <X>3</X>
                 <Y>100</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>ConcreteHeavyArmorSlopedCornerTip</Name>
+            <Name>GrapheneLightArmorSlopedCornerTip</Name>
             <Position>
                 <X>4</X>
                 <Y>100</Y>
@@ -1379,35 +1379,35 @@
         <!-- End Region Row 21 -->
         <!-- Region Row 22 -->
         <BlockPosition>
-            <Name>LightGrapheneArmorBlock</Name>
+            <Name>HeavyGrapheneArmorBlock</Name>
             <Position>
                 <X>0</X>
                 <Y>105</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LargeBlockGrapheneArmorSlope2Base</Name>
+            <Name>LargeHeavyBlockGrapheneArmorSlope2Base</Name>
             <Position>
                 <X>1</X>
                 <Y>105</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LargeBlockGrapheneArmorCorner2Base</Name>
+            <Name>LargeHeavyBlockGrapheneArmorCorner2Base</Name>
             <Position>
                 <X>2</X>
                 <Y>105</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>GrapheneArmorRoundSlope</Name>
+            <Name>HeavyGrapheneArmorRoundSlope</Name>
             <Position>
                 <X>3</X>
                 <Y>105</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>GrapheneLightArmorSlopedCornerTip</Name>
+            <Name>GrapheneHeavyArmorSlopedCornerTip</Name>
             <Position>
                 <X>4</X>
                 <Y>105</Y>
@@ -1417,35 +1417,35 @@
         <!-- End Region Row 22 -->
         <!-- Region Row 23 -->
         <BlockPosition>
-            <Name>HeavyGrapheneArmorBlock</Name>
+            <Name>LightSteelArmorBlock</Name>
             <Position>
                 <X>0</X>
                 <Y>110</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LargeHeavyBlockGrapheneArmorSlope2Base</Name>
+            <Name>LargeBlockSteelArmorSlope2Base</Name>
             <Position>
                 <X>1</X>
                 <Y>110</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LargeHeavyBlockGrapheneArmorCorner2Base</Name>
+            <Name>LargeBlockSteelArmorCorner2Base</Name>
             <Position>
                 <X>2</X>
                 <Y>110</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>HeavyGrapheneArmorRoundSlope</Name>
+            <Name>SteelArmorRoundSlope</Name>
             <Position>
                 <X>3</X>
                 <Y>110</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>GrapheneHeavyArmorSlopedCornerTip</Name>
+            <Name>SteelLightArmorSlopedCornerTip</Name>
             <Position>
                 <X>4</X>
                 <Y>110</Y>
@@ -1455,35 +1455,35 @@
         <!-- End Region Row 23 -->
         <!-- Region Row 24 -->
         <BlockPosition>
-            <Name>LightNitinolArmorBlock</Name>
+            <Name>HeavySteelArmorBlock</Name>
             <Position>
                 <X>0</X>
                 <Y>115</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LargeBlockNitinolArmorSlope2Base</Name>
+            <Name>LargeHeavyBlockSteelArmorSlope2Base</Name>
             <Position>
                 <X>1</X>
                 <Y>115</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LargeBlockNitinolArmorCorner2Base</Name>
+            <Name>LargeHeavyBlockSteelArmorCorner2Base</Name>
             <Position>
                 <X>2</X>
                 <Y>115</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>NitinolArmorRoundSlope</Name>
+            <Name>HeavySteelArmorRoundSlope</Name>
             <Position>
                 <X>3</X>
                 <Y>115</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>NitinolLightArmorSlopedCornerTip</Name>
+            <Name>SteelHeavyArmorSlopedCornerTip</Name>
             <Position>
                 <X>4</X>
                 <Y>115</Y>
@@ -1493,35 +1493,35 @@
         <!-- End Region Row 24 -->
         <!-- Region Row 25 -->
         <BlockPosition>
-            <Name>HeavyNitinolArmorBlock</Name>
+            <Name>LightTitaniumArmorBlock</Name>
             <Position>
                 <X>0</X>
                 <Y>120</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LargeHeavyBlockNitinolArmorSlope2Base</Name>
+            <Name>LargeBlockTitaniumArmorSlope2Base</Name>
             <Position>
                 <X>1</X>
                 <Y>120</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LargeHeavyBlockNitinolArmorCorner2Base</Name>
+            <Name>LargeBlockTitaniumArmorCorner2Base</Name>
             <Position>
                 <X>2</X>
                 <Y>120</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>HeavyNitinolArmorRoundSlope</Name>
+            <Name>TitaniumArmorRoundSlope</Name>
             <Position>
                 <X>3</X>
                 <Y>120</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>NitinolHeavyArmorSlopedCornerTip</Name>
+            <Name>TitaniumLightArmorSlopedCornerTip</Name>
             <Position>
                 <X>4</X>
                 <Y>120</Y>
@@ -1531,73 +1531,72 @@
         <!-- End Region Row 25 -->
         <!-- Region Row 26 -->
         <BlockPosition>
-            <Name>LightSteelArmorBlock</Name>
+            <Name>HeavyTitaniumArmorBlock</Name>
             <Position>
                 <X>0</X>
                 <Y>125</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LargeBlockSteelArmorSlope2Base</Name>
+            <Name>LargeHeavyBlockTitaniumArmorSlope2Base</Name>
             <Position>
                 <X>1</X>
                 <Y>125</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LargeBlockSteelArmorCorner2Base</Name>
+            <Name>LargeHeavyBlockTitaniumArmorCorner2Base</Name>
             <Position>
                 <X>2</X>
                 <Y>125</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>SteelArmorRoundSlope</Name>
+            <Name>HeavyTitaniumArmorRoundSlope</Name>
             <Position>
                 <X>3</X>
                 <Y>125</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>SteelLightArmorSlopedCornerTip</Name>
+            <Name>TitaniumHeavyArmorSlopedCornerTip</Name>
             <Position>
                 <X>4</X>
                 <Y>125</Y>
             </Position>
         </BlockPosition>
-
         <!-- End Region Row 26 -->
         <!-- Region Row 27 -->
         <BlockPosition>
-            <Name>HeavySteelArmorBlock</Name>
+            <Name>LightNitinolArmorBlock</Name>
             <Position>
                 <X>0</X>
                 <Y>130</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LargeHeavyBlockSteelArmorSlope2Base</Name>
+            <Name>LargeBlockNitinolArmorSlope2Base</Name>
             <Position>
                 <X>1</X>
                 <Y>130</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LargeHeavyBlockSteelArmorCorner2Base</Name>
+            <Name>LargeBlockNitinolArmorCorner2Base</Name>
             <Position>
                 <X>2</X>
                 <Y>130</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>HeavySteelArmorRoundSlope</Name>
+            <Name>NitinolArmorRoundSlope</Name>
             <Position>
                 <X>3</X>
                 <Y>130</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>SteelHeavyArmorSlopedCornerTip</Name>
+            <Name>NitinolLightArmorSlopedCornerTip</Name>
             <Position>
                 <X>4</X>
                 <Y>130</Y>
@@ -1607,35 +1606,35 @@
         <!-- End Region Row 27 -->
         <!-- Region Row 28 -->
         <BlockPosition>
-            <Name>LightTitaniumArmorBlock</Name>
+            <Name>HeavyNitinolArmorBlock</Name>
             <Position>
                 <X>0</X>
                 <Y>135</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LargeBlockTitaniumArmorSlope2Base</Name>
+            <Name>LargeHeavyBlockNitinolArmorSlope2Base</Name>
             <Position>
                 <X>1</X>
                 <Y>135</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LargeBlockTitaniumArmorCorner2Base</Name>
+            <Name>LargeHeavyBlockNitinolArmorCorner2Base</Name>
             <Position>
                 <X>2</X>
                 <Y>135</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>TitaniumArmorRoundSlope</Name>
+            <Name>HeavyNitinolArmorRoundSlope</Name>
             <Position>
                 <X>3</X>
                 <Y>135</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>TitaniumLightArmorSlopedCornerTip</Name>
+            <Name>NitinolHeavyArmorSlopedCornerTip</Name>
             <Position>
                 <X>4</X>
                 <Y>135</Y>
@@ -1645,41 +1644,40 @@
         <!-- End Region Row 28 -->
         <!-- Region Row 29 -->
         <BlockPosition>
-            <Name>HeavyTitaniumArmorBlock</Name>
+            <Name>HeavyConcreteArmorBlock</Name>
             <Position>
                 <X>0</X>
                 <Y>140</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LargeHeavyBlockTitaniumArmorSlope2Base</Name>
+            <Name>LargeHeavyBlockConcreteArmorSlope2Base</Name>
             <Position>
                 <X>1</X>
                 <Y>140</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LargeHeavyBlockTitaniumArmorCorner2Base</Name>
+            <Name>LargeHeavyBlockConcreteArmorCorner2Base</Name>
             <Position>
                 <X>2</X>
                 <Y>140</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>HeavyTitaniumArmorRoundSlope</Name>
+            <Name>HeavyConcreteArmorRoundSlope</Name>
             <Position>
                 <X>3</X>
                 <Y>140</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>TitaniumHeavyArmorSlopedCornerTip</Name>
+            <Name>ConcreteHeavyArmorSlopedCornerTip</Name>
             <Position>
                 <X>4</X>
                 <Y>140</Y>
             </Position>
         </BlockPosition>
-
         <!-- End Region Row 29 -->        
     </BlockPositions>
 </Definitions>
