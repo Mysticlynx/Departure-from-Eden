@@ -329,7 +329,7 @@
       <Icon>Textures\GUI\Icons\component\Electronic\Display_Icon.dds</Icon>
       <Prerequisites>
         <Item Amount="250" TypeId="Ingot" SubtypeId="Arsenic" />
-        <Item Amount="6400" TypeId="Component" SubtypeId="LED" />
+        <Item Amount="3200" TypeId="Component" SubtypeId="LED" />
         <Item Amount="100" TypeId="Ingot" SubtypeId="Glass" />
         <Item Amount="400" TypeId="Component" SubtypeId="InsulatedCopperWire" />
         <Item Amount="2000" TypeId="Component" SubtypeId="Computer" />
@@ -346,7 +346,7 @@
       <Icon>Textures\GUI\Icons\component\Electronic\Display_Icon.dds</Icon>
       <Prerequisites>
         <Item Amount="25" TypeId="Ingot" SubtypeId="Arsenic" />
-        <Item Amount="640" TypeId="Component" SubtypeId="LED" />
+        <Item Amount="320" TypeId="Component" SubtypeId="LED" />
         <Item Amount="10" TypeId="Ingot" SubtypeId="Glass" />
         <Item Amount="40" TypeId="Component" SubtypeId="InsulatedCopperWire" />
         <Item Amount="200" TypeId="Component" SubtypeId="Computer" />
@@ -363,13 +363,30 @@
       <Icon>Textures\GUI\Icons\component\Electronic\Display_Icon.dds</Icon>
       <Prerequisites>
         <Item Amount="2.5" TypeId="Ingot" SubtypeId="Arsenic" />
-        <Item Amount="64" TypeId="Component" SubtypeId="LED" />
+        <Item Amount="32" TypeId="Component" SubtypeId="LED" />
         <Item Amount="1" TypeId="Ingot" SubtypeId="Glass" />
         <Item Amount="4" TypeId="Component" SubtypeId="InsulatedCopperWire" />
         <Item Amount="20" TypeId="Component" SubtypeId="Computer" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Display" />
       <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> <!-- Survival Kit Display -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SurvivalKitDisplay</SubtypeId>
+      </Id>
+      <DisplayName>Display</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Electronic\Display_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="Arsenic" />
+        <Item Amount="32" TypeId="Component" SubtypeId="LED" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Glass" />
+        <Item Amount="4" TypeId="Component" SubtypeId="InsulatedCopperWire" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Computer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Display" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
     </Blueprint>
 	
     <Blueprint> <!-- HardDriveX100 -->
@@ -724,7 +741,8 @@
         <Item Amount="100" TypeId="Component" SubtypeId="EnergyCoupler" />
         <Item Amount="300" TypeId="Component" SubtypeId="Detector" />
         <Item Amount="100" TypeId="Component" SubtypeId="PowerSupply" />
-        <Item Amount="3200" TypeId="Component" SubtypeId="TitaniumPlate" />
+        <Item Amount="800" TypeId="Component" SubtypeId="Computer" />
+        <Item Amount="3200" TypeId="Component" SubtypeId="NitinolPlate" />
       </Prerequisites>
       <Result Amount="100" TypeId="Component" SubtypeId="AIMainframe" />
       <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
@@ -742,7 +760,8 @@
         <Item Amount="10" TypeId="Component" SubtypeId="EnergyCoupler" />
         <Item Amount="30" TypeId="Component" SubtypeId="Detector" />
         <Item Amount="10" TypeId="Component" SubtypeId="PowerSupply" />
-        <Item Amount="320" TypeId="Component" SubtypeId="TitaniumPlate" />
+        <Item Amount="80" TypeId="Component" SubtypeId="Computer" />
+        <Item Amount="320" TypeId="Component" SubtypeId="NitinolPlate" />
       </Prerequisites>
       <Result Amount="10" TypeId="Component" SubtypeId="AIMainframe" />
       <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
@@ -760,7 +779,8 @@
         <Item Amount="1" TypeId="Component" SubtypeId="EnergyCoupler" />
         <Item Amount="3" TypeId="Component" SubtypeId="Detector" />
         <Item Amount="1" TypeId="Component" SubtypeId="PowerSupply" />
-        <Item Amount="32" TypeId="Component" SubtypeId="TitaniumPlate" />
+        <Item Amount="8" TypeId="Component" SubtypeId="Computer" />
+        <Item Amount="32" TypeId="Component" SubtypeId="NitinolPlate" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="AIMainframe" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
@@ -774,12 +794,13 @@
       <DisplayName>Networking Mainframe x100</DisplayName>
       <Icon>Textures\GUI\Icons\component\Electronic\NetworkingMainframe_Icon.dds</Icon>
       <Prerequisites>
-        <Item Amount="100" TypeId="Component" SubtypeId="QuantumProcessor" />
+        <Item Amount="800" TypeId="Component" SubtypeId="Processor" />
         <Item Amount="400" TypeId="Component" SubtypeId="QuantumDrive" />
         <Item Amount="100" TypeId="Component" SubtypeId="EnergyCoupler" />
         <Item Amount="600" TypeId="Component" SubtypeId="RadioCommunication" />
         <Item Amount="100" TypeId="Component" SubtypeId="PowerSupply" />
-        <Item Amount="3200" TypeId="Component" SubtypeId="NitinolPlate" />
+        <Item Amount="800" TypeId="Component" SubtypeId="Computer" />
+        <Item Amount="3200" TypeId="Component" SubtypeId="TitaniumPlate" />
       </Prerequisites>
       <Result Amount="100" TypeId="Component" SubtypeId="NetworkingMainframe" />
       <BaseProductionTimeInSeconds>375</BaseProductionTimeInSeconds>
@@ -792,12 +813,13 @@
       <DisplayName>Networking Mainframe x10</DisplayName>
       <Icon>Textures\GUI\Icons\component\Electronic\NetworkingMainframe_Icon.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Component" SubtypeId="QuantumProcessor" />
+        <Item Amount="80" TypeId="Component" SubtypeId="Processor" />
         <Item Amount="40" TypeId="Component" SubtypeId="QuantumDrive" />
         <Item Amount="10" TypeId="Component" SubtypeId="EnergyCoupler" />
         <Item Amount="60" TypeId="Component" SubtypeId="RadioCommunication" />
         <Item Amount="10" TypeId="Component" SubtypeId="PowerSupply" />
-        <Item Amount="320" TypeId="Component" SubtypeId="NitinolPlate" />
+        <Item Amount="80" TypeId="Component" SubtypeId="Computer" />
+        <Item Amount="320" TypeId="Component" SubtypeId="TitaniumPlate" />
       </Prerequisites>
       <Result Amount="10" TypeId="Component" SubtypeId="NetworkingMainframe" />
       <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
@@ -810,12 +832,13 @@
       <DisplayName>Networking Mainframe</DisplayName>
       <Icon>Textures\GUI\Icons\component\Electronic\NetworkingMainframe_Icon.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="QuantumProcessor" />
+        <Item Amount="8" TypeId="Component" SubtypeId="Processor" />
         <Item Amount="4" TypeId="Component" SubtypeId="QuantumDrive" />
         <Item Amount="1" TypeId="Component" SubtypeId="EnergyCoupler" />
         <Item Amount="6" TypeId="Component" SubtypeId="RadioCommunication" />
         <Item Amount="1" TypeId="Component" SubtypeId="PowerSupply" />
-        <Item Amount="32" TypeId="Component" SubtypeId="NitinolPlate" />
+        <Item Amount="8" TypeId="Component" SubtypeId="Computer" />
+        <Item Amount="32" TypeId="Component" SubtypeId="TitaniumPlate" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="NetworkingMainframe" />
       <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
@@ -829,11 +852,12 @@
       <DisplayName>Targeting Mainframe x100</DisplayName>
       <Icon>Textures\GUI\Icons\component\Electronic\NetworkingMainframe_Icon.dds</Icon>
       <Prerequisites>
-        <Item Amount="400" TypeId="Component" SubtypeId="QuantumProcessor" />
-        <Item Amount="100" TypeId="Component" SubtypeId="QuantumDrive" />
+        <Item Amount="1600" TypeId="Component" SubtypeId="Processor" />
+        <Item Amount="100" TypeId="Component" SubtypeId="HardDrive" />
         <Item Amount="100" TypeId="Component" SubtypeId="EnergyCoupler" />
         <Item Amount="600" TypeId="Component" SubtypeId="Detector" />
         <Item Amount="100" TypeId="Component" SubtypeId="PowerSupply" />
+        <Item Amount="800" TypeId="Component" SubtypeId="Computer" />
         <Item Amount="3200" TypeId="Component" SubtypeId="GraphenePlate" />
       </Prerequisites>
       <Result Amount="100" TypeId="Component" SubtypeId="TargetingMainframe" />
@@ -847,11 +871,12 @@
       <DisplayName>Targeting Mainframe x10</DisplayName>
       <Icon>Textures\GUI\Icons\component\Electronic\NetworkingMainframe_Icon.dds</Icon>
       <Prerequisites>
-        <Item Amount="40" TypeId="Component" SubtypeId="QuantumProcessor" />
-        <Item Amount="10" TypeId="Component" SubtypeId="QuantumDrive" />
+        <Item Amount="160" TypeId="Component" SubtypeId="Processor" />
+        <Item Amount="10" TypeId="Component" SubtypeId="HardDrive" />
         <Item Amount="10" TypeId="Component" SubtypeId="EnergyCoupler" />
         <Item Amount="60" TypeId="Component" SubtypeId="Detector" />
         <Item Amount="10" TypeId="Component" SubtypeId="PowerSupply" />
+        <Item Amount="80" TypeId="Component" SubtypeId="Computer" />
         <Item Amount="320" TypeId="Component" SubtypeId="GraphenePlate" />
       </Prerequisites>
       <Result Amount="10" TypeId="Component" SubtypeId="TargetingMainframe" />
@@ -865,11 +890,12 @@
       <DisplayName>Targeting Mainframe</DisplayName>
       <Icon>Textures\GUI\Icons\component\Electronic\NetworkingMainframe_Icon.dds</Icon>
       <Prerequisites>
-        <Item Amount="4" TypeId="Component" SubtypeId="QuantumProcessor" />
-        <Item Amount="1" TypeId="Component" SubtypeId="QuantumDrive" />
+        <Item Amount="16" TypeId="Component" SubtypeId="Processor" />
+        <Item Amount="1" TypeId="Component" SubtypeId="HardDrive" />
         <Item Amount="1" TypeId="Component" SubtypeId="EnergyCoupler" />
         <Item Amount="6" TypeId="Component" SubtypeId="Detector" />
         <Item Amount="1" TypeId="Component" SubtypeId="PowerSupply" />
+        <Item Amount="8" TypeId="Component" SubtypeId="Computer" />
         <Item Amount="32" TypeId="Component" SubtypeId="GraphenePlate" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="TargetingMainframe" />

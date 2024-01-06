@@ -325,6 +325,19 @@
       <FocusIcon>Textures\GUI\Icons\buttons\weapon_focus.dds</FocusIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
     </Class>
+    
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>SurvivalAdvComponents</SubtypeId>
+      </Id>
+      <DisplayName>Survival Advanced Components</DisplayName>
+      <Description>The Survival Kit can make these but it will be brutally slow.</Description>
+      <Icon>Textures\GUI\Icons\buttons\basic_mechanical.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\basic_mechanical.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\basic_mechanical_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
 
         <Class>
             <Id>

@@ -195,6 +195,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>10</PCU>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
+			<Public>false</Public>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_VendingMachineDefinition">
@@ -312,6 +313,7 @@
             <PCU>10</PCU>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
             <IsAirTight>false</IsAirTight>
+			<Public>false</Public>
         </Definition>
     
     </CubeBlocks>

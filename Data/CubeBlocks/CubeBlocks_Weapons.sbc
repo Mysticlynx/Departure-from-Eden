@@ -289,6 +289,7 @@
         <TypeId>LargeGatlingTurret</TypeId>
         <SubtypeId/>
       </Id>
+	  <AiEnabled>false</AiEnabled>
       <DisplayName>Gatling Turret</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\gatling_turret.dds</Icon>
       <Description>Description_GatlingTurret</Description>
@@ -365,6 +366,7 @@
         <TypeId>LargeGatlingTurret</TypeId>
         <SubtypeId>SmallGatlingTurret</SubtypeId>
       </Id>
+	  <AiEnabled>false</AiEnabled>
       <DisplayName>Gatling Turret</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\gatling_turret.dds</Icon>
       <Description>Description_GatlingTurret</Description>
@@ -496,6 +498,7 @@
         <TypeId>LargeMissileTurret</TypeId>
         <SubtypeId />
       </Id>
+	  <AiEnabled>false</AiEnabled>
       <DisplayName>Rocket Turret</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\missile_turret.dds</Icon>
       <Description>Rocket Turret</Description>
@@ -579,6 +582,7 @@
         <TypeId>LargeMissileTurret</TypeId>
         <SubtypeId>SmallMissileTurret</SubtypeId>
       </Id>
+	  <AiEnabled>false</AiEnabled>
       <DisplayName>Rocket Turret</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\missile_turret.dds</Icon>
       <Description>Rocket Turret</Description>
@@ -767,6 +771,7 @@
         <TypeId>SmallMissileLauncherReload</TypeId>
         <SubtypeId>SmallRocketLauncherReload</SubtypeId>
       </Id>
+	  <AiEnabled>false</AiEnabled>
       <DisplayName>Small Rocket Launcher</DisplayName>
       <BlockPairName>SmallRocketLauncherReload</BlockPairName>
       <Icon>Textures\GUI\Icons\Cubes\RocketLauncherReload.dds</Icon>

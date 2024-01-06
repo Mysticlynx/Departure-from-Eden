@@ -110,7 +110,6 @@
       </BuildProgressModels>
       <BlockPairName>BasicComponentAssembler</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BlockVariants />
       <BuildTimeSeconds>160</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -180,7 +179,6 @@
       </BuildProgressModels>
       <BlockPairName>AdvancedComponentAssembler</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BlockVariants />
       <BuildTimeSeconds>240</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>10</InventoryMaxVolume>
@@ -253,7 +251,6 @@
       </BuildProgressModels>
       <BlockPairName>WeaponAssembler</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BlockVariants />
       <BuildTimeSeconds>240</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>10</InventoryMaxVolume>
@@ -323,10 +320,9 @@
       <MirroringZ>Y</MirroringZ>
       <BlockPairName>ChemicalReactor</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BlockVariants />
       <BuildTimeSeconds>240</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>10</InventoryMaxVolume>
+      <InventoryMaxVolume>20</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
@@ -394,10 +390,9 @@
       </BuildProgressModels>
       <BlockPairName>BasicMassAssembler</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BlockVariants />
       <BuildTimeSeconds>240</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>15</InventoryMaxVolume>
+      <InventoryMaxVolume>20</InventoryMaxVolume>
       <InventorySize>
         <X>2</X>
         <Y>4</Y>
@@ -465,7 +460,6 @@
       </BuildProgressModels>
       <BlockPairName>AdvancedMassAssembler</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BlockVariants />
       <BuildTimeSeconds>240</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>25</InventoryMaxVolume>
@@ -557,10 +551,9 @@
       <MirroringZ>Y</MirroringZ>
       <BlockPairName>MassChemicalReactor</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BlockVariants />
       <BuildTimeSeconds>240</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>20</InventoryMaxVolume>
+      <InventoryMaxVolume>30</InventoryMaxVolume>
       <InventorySize>
         <X>2</X>
         <Y>4</Y>
@@ -608,7 +601,7 @@
         <Component Subtype="Superconductor" Count="30" />
         <Component Subtype="BrazingRod" Count="650" />
       </Components>
-      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <CriticalComponent Subtype="Superconductor" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -626,7 +619,6 @@
       </BuildProgressModels>
       <BlockPairName>NeutronCollider</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BlockVariants />
       <BuildTimeSeconds>120</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -692,7 +684,6 @@
       </BuildProgressModels>
       <BlockPairName>MassNeutronCollider</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BlockVariants />
       <BuildTimeSeconds>240</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>15</InventoryMaxVolume>

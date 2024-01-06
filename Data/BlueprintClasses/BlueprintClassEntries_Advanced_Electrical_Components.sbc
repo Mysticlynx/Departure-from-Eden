@@ -163,5 +163,7 @@
     <Entry Class="AdvElectComp" BlueprintSubtypeId="LeadPowerCell" />
     <Entry Class="AdvElectComp" BlueprintSubtypeId="FluoridePowerCell" />
 	
+    <Entry Class="SurvivalAdvComponents" BlueprintSubtypeId="SurvivalKitDisplay" />
+	
   </BlueprintClassEntries>
 </Definitions>

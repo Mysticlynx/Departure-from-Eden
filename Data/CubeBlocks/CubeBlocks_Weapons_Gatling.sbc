@@ -7,6 +7,7 @@
         <TypeId>LargeGatlingTurret</TypeId>
         <SubtypeId/>
       </Id>
+	  <AiEnabled>false</AiEnabled>
       <DisplayName>Gatling Turret</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\gatling_turret.dds</Icon>
       <Description>Description_GatlingTurret</Description>
@@ -90,6 +91,7 @@
         <TypeId>LargeGatlingTurret</TypeId>
         <SubtypeId>SmallGatlingTurret</SubtypeId>
       </Id>
+	  <AiEnabled>false</AiEnabled>
       <DisplayName>Gatling Turret</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\gatling_turret.dds</Icon>
       <Description>Description_GatlingTurret</Description>
@@ -229,6 +231,7 @@
         <TypeId>InteriorTurret</TypeId>
         <SubtypeId>LargeInteriorTurret</SubtypeId>
       </Id>
+	  <AiEnabled>false</AiEnabled>
       <DisplayName>DisplayName_Block_InteriorTurret</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\interior_turret.dds</Icon>
       <Description>Description_InteriorTurret</Description>

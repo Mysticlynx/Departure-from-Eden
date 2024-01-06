@@ -58,6 +58,7 @@
         <Class>SurvivalAlloys</Class>
         <Class>SurvivalFluids</Class>
         <Class>SurvivalWeaponComponents</Class>
+        <Class>SurvivalAdvComponents</Class>
       </BlueprintClasses>
       <AssemblySpeed>0.3</AssemblySpeed>
 
@@ -147,6 +148,7 @@
         <Class>SurvivalAlloys</Class>
         <Class>SurvivalFluids</Class>
         <Class>SurvivalWeaponComponents</Class>
+        <Class>SurvivalAdvComponents</Class>
       </BlueprintClasses>
       <AssemblySpeed>0.3</AssemblySpeed>
       <ScreenAreas>

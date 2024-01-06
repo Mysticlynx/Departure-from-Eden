@@ -21,6 +21,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="1" />
         <Component Subtype="Solenoid" Count="1" />
         <Component Subtype="Processor" Count="1" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="2" />
         <Component Subtype="Construction" Count="16" />
@@ -43,7 +44,7 @@
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-	        <InventorySize>
+	  <InventorySize>
         <X>0.5</X>
         <Y>0.5</Y>
         <Z>0.5</Z>
@@ -74,6 +75,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="9" />
         <Component Subtype="Solenoid" Count="3" />
         <Component Subtype="Processor" Count="3" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="18" />
         <Component Subtype="Construction" Count="144" />
@@ -95,7 +97,7 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-	         <InventorySize>
+	  <InventorySize>
         <X>1.5</X>
         <Y>1.5</Y>
         <Z>1.5</Z>
@@ -127,6 +129,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="25" />
         <Component Subtype="Solenoid" Count="5" />
         <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="50" />
         <Component Subtype="Construction" Count="400" />
@@ -148,7 +151,7 @@
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
-	     <InventorySize>
+	  <InventorySize>
         <X>2.5</X>
         <Y>2.5</Y>
         <Z>2.5</Z>
@@ -159,7 +162,6 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>10</PCU>
-      <IsAirTight>true</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!-- LargeBlock Small Cargo-->
       <Id>
@@ -180,6 +182,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="25" />
         <Component Subtype="Solenoid" Count="5" />
         <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="50" />
         <Component Subtype="Construction" Count="400" />
@@ -202,7 +205,7 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-	     <InventorySize>
+	  <InventorySize>
         <X>2.5</X>
         <Y>2.5</Y>
         <Z>2.5</Z>
@@ -234,6 +237,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="75" />
         <Component Subtype="Solenoid" Count="15" />
         <Component Subtype="Processor" Count="15" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="150" />
         <Component Subtype="Construction" Count="1200" />
@@ -256,7 +260,7 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-	     <InventorySize>
+	  <InventorySize>
         <X>7.5</X>
         <Y>7.5</Y>
         <Z>7.5</Z>
@@ -290,6 +294,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="1" />
         <Component Subtype="Solenoid" Count="1" />
         <Component Subtype="Processor" Count="1" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="2" />
         <Component Subtype="Construction" Count="16" />
@@ -313,7 +318,7 @@
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-	     <InventorySize>
+	  <InventorySize>
         <X>0.5</X>
         <Y>0.5</Y>
         <Z>0.5</Z>
@@ -346,6 +351,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="9" />
         <Component Subtype="Solenoid" Count="3" />
         <Component Subtype="Processor" Count="3" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="18" />
         <Component Subtype="Construction" Count="144" />
@@ -368,7 +374,7 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-	     <InventorySize>
+	  <InventorySize>
         <X>1.5</X>
         <Y>1.5</Y>
         <Z>1.5</Z>
@@ -402,6 +408,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="25" />
         <Component Subtype="Solenoid" Count="5" />
         <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="50" />
         <Component Subtype="Construction" Count="400" />
@@ -424,7 +431,7 @@
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
-	     <InventorySize>
+	  <InventorySize>
         <X>2.5</X>
         <Y>2.5</Y>
         <Z>2.5</Z>
@@ -458,6 +465,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="25" />
         <Component Subtype="Solenoid" Count="5" />
         <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="50" />
         <Component Subtype="Construction" Count="400" />
@@ -481,7 +489,7 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-	     <InventorySize>
+	  <InventorySize>
         <X>2.5</X>
         <Y>2.5</Y>
         <Z>2.5</Z>
@@ -515,6 +523,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="75" />
         <Component Subtype="Solenoid" Count="15" />
         <Component Subtype="Processor" Count="15" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="150" />
         <Component Subtype="Construction" Count="1200" />
@@ -538,7 +547,7 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-	     <InventorySize>
+	  <InventorySize>
         <X>7.5</X>
         <Y>7.5</Y>
         <Z>7.5</Z>
@@ -572,6 +581,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="1" />
         <Component Subtype="Solenoid" Count="1" />
         <Component Subtype="Processor" Count="1" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="2" />
         <Component Subtype="Construction" Count="16" />
@@ -595,7 +605,7 @@
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-	     <InventorySize>
+	  <InventorySize>
         <X>0.5</X>
         <Y>0.5</Y>
         <Z>0.5</Z>
@@ -628,6 +638,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="9" />
         <Component Subtype="Solenoid" Count="3" />
         <Component Subtype="Processor" Count="3" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="18" />
         <Component Subtype="Construction" Count="144" />
@@ -650,7 +661,7 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-	     <InventorySize>
+	  <InventorySize>
         <X>1.5</X>
         <Y>1.5</Y>
         <Z>1.5</Z>
@@ -684,6 +695,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="25" />
         <Component Subtype="Solenoid" Count="5" />
         <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="50" />
         <Component Subtype="Construction" Count="400" />
@@ -706,7 +718,7 @@
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
-	     <InventorySize>
+	  <InventorySize>
         <X>2.5</X>
         <Y>2.5</Y>
         <Z>2.5</Z>
@@ -740,6 +752,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="25" />
         <Component Subtype="Solenoid" Count="5" />
         <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="50" />
         <Component Subtype="Construction" Count="400" />
@@ -797,6 +810,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="75" />
         <Component Subtype="Solenoid" Count="15" />
         <Component Subtype="Processor" Count="15" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="150" />
         <Component Subtype="Construction" Count="1200" />
@@ -854,6 +868,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="1" />
         <Component Subtype="Solenoid" Count="1" />
         <Component Subtype="Processor" Count="1" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="2" />
         <Component Subtype="Construction" Count="16" />
@@ -910,6 +925,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="9" />
         <Component Subtype="Solenoid" Count="3" />
         <Component Subtype="Processor" Count="3" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="18" />
         <Component Subtype="Construction" Count="144" />
@@ -966,6 +982,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="25" />
         <Component Subtype="Solenoid" Count="5" />
         <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="50" />
         <Component Subtype="Construction" Count="400" />
@@ -1022,6 +1039,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="25" />
         <Component Subtype="Solenoid" Count="5" />
         <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="50" />
         <Component Subtype="Construction" Count="400" />
@@ -1079,6 +1097,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="75" />
         <Component Subtype="Solenoid" Count="15" />
         <Component Subtype="Processor" Count="15" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="150" />
         <Component Subtype="Construction" Count="1200" />
@@ -1136,6 +1155,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="1" />
         <Component Subtype="Solenoid" Count="1" />
         <Component Subtype="Processor" Count="1" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="2" />
         <Component Subtype="Construction" Count="16" />
@@ -1192,6 +1212,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="9" />
         <Component Subtype="Solenoid" Count="3" />
         <Component Subtype="Processor" Count="3" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="18" />
         <Component Subtype="Construction" Count="144" />
@@ -1248,6 +1269,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="25" />
         <Component Subtype="Solenoid" Count="5" />
         <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="50" />
         <Component Subtype="Construction" Count="400" />
@@ -1304,6 +1326,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="25" />
         <Component Subtype="Solenoid" Count="5" />
         <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="50" />
         <Component Subtype="Construction" Count="400" />
@@ -1361,6 +1384,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="75" />
         <Component Subtype="Solenoid" Count="15" />
         <Component Subtype="Processor" Count="15" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="150" />
         <Component Subtype="Construction" Count="1200" />
@@ -1418,6 +1442,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="1" />
         <Component Subtype="Solenoid" Count="1" />
         <Component Subtype="Processor" Count="1" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="2" />
         <Component Subtype="Construction" Count="16" />
@@ -1474,6 +1499,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="9" />
         <Component Subtype="Solenoid" Count="3" />
         <Component Subtype="Processor" Count="3" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="18" />
         <Component Subtype="Construction" Count="144" />
@@ -1530,6 +1556,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="25" />
         <Component Subtype="Solenoid" Count="5" />
         <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="50" />
         <Component Subtype="Construction" Count="400" />
@@ -1586,6 +1613,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="25" />
         <Component Subtype="Solenoid" Count="5" />
         <Component Subtype="Processor" Count="5" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="50" />
         <Component Subtype="Construction" Count="400" />
@@ -1643,6 +1671,7 @@
         <Component Subtype="PolyCarbonatePlate" Count="75" />
         <Component Subtype="Solenoid" Count="15" />
         <Component Subtype="Processor" Count="15" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="50" />
         <Component Subtype="InsulatedCopperWire" Count="150" />
         <Component Subtype="Construction" Count="1200" />
