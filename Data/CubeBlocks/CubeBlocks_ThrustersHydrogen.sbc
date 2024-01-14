@@ -1188,7 +1188,9 @@
       <PCU>15</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <!-- Industrial Hydrogen Thrusters -->
+	
+    <!-- Industrial Hydrogen Thrusters  (HeavyIndustry DLC)-->
+	
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
@@ -1608,6 +1610,8 @@
       </TargetingGroups>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <!--Industrial Hydrogen Thrusters End-->
+	
+    <!-- Region Industrial Hydrogen Thrusters (HeavyIndustry DLC) End-->
+	
   </CubeBlocks>
 </Definitions>

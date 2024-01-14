@@ -8,7 +8,7 @@
       </Id>
       <DisplayName>DisplayName_Block_Projector</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Projector.dds</Icon>
-      <Description>Projector Needs 300MW of power regardless if its on.</Description>
+      <Description>Projector Needs 30MW of power regardless if its on.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -63,7 +63,7 @@
       </Id>
       <DisplayName>DisplayName_Block_Projector</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Projector.dds</Icon>
-      <Description>Projector Needs 75MW of power regardless if its on.</Description>
+      <Description>Projector Needs 7.5MW of power regardless if its on.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />

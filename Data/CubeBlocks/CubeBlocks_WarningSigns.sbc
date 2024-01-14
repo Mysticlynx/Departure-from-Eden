@@ -1,0 +1,1037 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+	
+		<!-- Warning Signs from Automatons DLC -->
+	
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeWarningSign1</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign1</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_TradeSign.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\WarningSign1.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="6" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.8" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WarningSign3Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign1</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.1</Z>
+            </DestroyEffectOffset>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeWarningSign2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Access.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\WarningSign2.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="6" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.8" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WarningSign3Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign2</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.1</Z>
+            </DestroyEffectOffset>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeWarningSign3</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Safety.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\WarningSign3.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="6" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.8" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WarningSign3Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign3</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.1</Z>
+            </DestroyEffectOffset>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeWarningSign4</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign4</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Storage.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\WarningSign4.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="2" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.3" StartY="0.45" EndX="0.7" EndY="0.65" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WarningSign4Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign4</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.1</Z>
+            </DestroyEffectOffset>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeWarningSign5</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign5</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Explosive.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\WarningSign5.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="6" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.3" StartY="0.4" EndX="0.7" EndY="0.7" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WarningSign6Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign5</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.1</Z>
+            </DestroyEffectOffset>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeWarningSign6</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign6</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Notice.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\WarningSign6.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="6" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.3" StartY="0.4" EndX="0.7" EndY="0.7" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WarningSign6Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign6</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.1</Z>
+            </DestroyEffectOffset>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeWarningSign7</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign7</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Medical.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\WarningSign7.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="2" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.4" StartY="0.4" EndX="0.6" EndY="0.7" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WarningSign7Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign7</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.1</Z>
+            </DestroyEffectOffset>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeWarningSign8</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign8</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Caution.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\WarningSign8.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="4" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.3" StartY="0.4" EndX="0.7" EndY="0.7" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WarningSign13Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign8</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.1</Z>
+            </DestroyEffectOffset>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeWarningSign9</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign9</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Atmosphere.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\WarningSign9.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="4" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.3" StartY="0.4" EndX="0.7" EndY="0.7" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WarningSign13Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign9</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.1</Z>
+            </DestroyEffectOffset>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeWarningSign10</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign10</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Construction.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\WarningSign10.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="4" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.3" StartY="0.4" EndX="0.7" EndY="0.7" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WarningSign13Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign10</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.1</Z>
+            </DestroyEffectOffset>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeWarningSign11</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign11</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Gravity.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\WarningSign11.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="4" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.3" StartY="0.4" EndX="0.7" EndY="0.7" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WarningSign13Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign11</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.1</Z>
+            </DestroyEffectOffset>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeWarningSign12</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign12</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Airlock.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\WarningSign12.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="4" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.3" StartY="0.4" EndX="0.7" EndY="0.7" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WarningSign13Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign12</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.1</Z>
+            </DestroyEffectOffset>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeWarningSign13</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign13</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Hazard.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\WarningSign13.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="4" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.3" StartY="0.4" EndX="0.7" EndY="0.7" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WarningSign13Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign13</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.1</Z>
+            </DestroyEffectOffset>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallWarningSign1</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign1</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_TradeSign.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="3" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\WarningSign1.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="6" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WarningSign1Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign1</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallWarningSign2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Access.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\WarningSign2.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="2" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="2" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WarningSign2Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign2</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallWarningSign3</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Safety.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="3" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\WarningSign3.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="6" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WarningSign1Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign3</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallWarningSign4</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign4</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Storage.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\WarningSign4.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="2" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="2" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WarningSign2Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign4</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallWarningSign5</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign5</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Explosive.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\WarningSign5.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="6" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WarningSign5Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign5</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallWarningSign6</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign6</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Notice.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\WarningSign6.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="2" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="2" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WarningSign2Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign6</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallWarningSign7</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign7</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Medical.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\WarningSign7.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="2" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WarningSign7Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign7</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallWarningSign8</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign8</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Caution.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\WarningSign8.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="InteriorPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WarningSign8Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign8</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallWarningSign9</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign9</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Atmosphere.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\WarningSign9.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="InteriorPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WarningSign8Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign9</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallWarningSign10</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign10</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Construction.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\WarningSign10.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="InteriorPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WarningSign8Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign10</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallWarningSign11</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign11</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Gravity.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\WarningSign11.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="InteriorPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WarningSign8Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign11</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallWarningSign12</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign12</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Airlock.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\WarningSign12.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="InteriorPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WarningSign8Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign12</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallWarningSign13</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WarningSign13</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Hazard.dds</Icon>
+            <Description>Description_SignBlocks</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\WarningSign13.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="InteriorPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WarningSign8Construction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WarningSign13</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+		<!-- END Warning Signs Region -->
+
+    </CubeBlocks>
+</Definitions>

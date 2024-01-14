@@ -1192,44 +1192,51 @@
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>AtmBlock</Name>
+            <Name>VendingMachine</Name>
             <Position>
                 <X>2</X>
                 <Y>85</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>TextPanel</Name>
+            <Name>AtmBlock</Name>
             <Position>
                 <X>3</X>
                 <Y>85</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LCDPanel5x5</Name>
+            <Name>TextPanel</Name>
             <Position>
                 <X>4</X>
                 <Y>85</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>CornerLCD</Name>
+            <Name>LCDPanel5x5</Name>
             <Position>
                 <X>5</X>
                 <Y>85</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>SoundBlock</Name>
+            <Name>CornerLCD</Name>
             <Position>
                 <X>6</X>
                 <Y>85</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>ButtonPanel</Name>
+            <Name>SoundBlock</Name>
             <Position>
                 <X>7</X>
+                <Y>85</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>ButtonPanel</Name>
+            <Position>
+                <X>8</X>
                 <Y>85</Y>
             </Position>
         </BlockPosition>

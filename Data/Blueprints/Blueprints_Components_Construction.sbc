@@ -2168,5 +2168,62 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 	
+	<!-- Component idea for Neon lighting blocks added by SparksofTheFuture DLC 
+
+    <Blueprint> GlassTubeX100
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GlassTubeX100</SubtypeId>
+      </Id>
+      <DisplayName>Glass Tubes x1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\CarbonTube_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3000" TypeId="Ingot" SubtypeId="Glass" />
+      </Prerequisites>
+      <Result Amount="1000" TypeId="Component" SubtypeId="GlassTube" />
+      <BaseProductionTimeInSeconds>75</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> GlassTubeX10
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GlassTubeX10</SubtypeId>
+      </Id>
+      <DisplayName>Glass Tubes x100</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\CarbonTube_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Glass" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="GlassTube" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> GlassTube
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GlassTube</SubtypeId>
+      </Id>
+      <DisplayName>Glass Tubes x10</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\CarbonTube_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Glass" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Component" SubtypeId="GlassTube" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint> GlassTubeDisassembly
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GlassTubeDisassembly</SubtypeId>
+      </Id>
+      <DisplayName>Glass Tube</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\CarbonTube_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Glass" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="GlassTube" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+	 -->
+	 
   </Blueprints>
 </Definitions>

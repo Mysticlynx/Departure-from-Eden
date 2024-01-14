@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+	
+        <!-- Access Panels from Automatons DLC -->
+		
+        <Definition>
+            <Id>
+                <TypeId>TerminalBlock</TypeId>
+                <SubtypeId>LargeBlockAccessPanel1</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AccessPanel1</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MaintenancePanel1_Large.dds</Icon>
+            <Description>Description_AccesPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\MaintenancePanel1.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Computer" Count="5" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="InteriorPlate" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\MaintenancePanel1Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MaintenancePanel1Construction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AccessPanel1</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EnableUseObjectSimpleTargeting>true</EnableUseObjectSimpleTargeting>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.2</Z>
+            </DestroyEffectOffset>
+            <PCU>5</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>  
+
+        <Definition>
+            <Id>
+                <TypeId>TerminalBlock</TypeId>
+                <SubtypeId>LargeBlockAccessPanel2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AccessPanel2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MaintenancePanel2_Large.dds</Icon>
+            <Description>Description_AccesPanel</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\MaintenancePanel2.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="SmallTube" Count="10" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="InteriorPlate" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\MaintenancePanel2Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MaintenancePanel2Construction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AccessPanel2</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EnableUseObjectSimpleTargeting>true</EnableUseObjectSimpleTargeting>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.2</Z>
+            </DestroyEffectOffset>
+            <PCU>5</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
+            <Id>
+                <TypeId>ButtonPanel</TypeId>
+                <SubtypeId>LargeBlockAccessPanel3</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AccessPanel3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MaintenancePanel3_Large.dds</Icon>
+            <Description>Description_AccesPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\MaintenancePanel3.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="Computer" Count="3" />
+                <Component Subtype="Construction" Count="3" />
+                <Component Subtype="InteriorPlate" Count="3" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.1" StartY="0.3" EndX="0.4" EndY="0.7" Default="true" />
+                <MountPoint Side="Front" StartX="0.55" StartY="0.3" EndX="0.8" EndY="0.7" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\MaintenancePanel3Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MaintenancePanel3Construction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AccessPanel3</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <ButtonCount>1</ButtonCount>
+            <UnassignedButtonColor>
+                <X>0.34</X>
+                <Y>0.34</Y>
+                <Z>0.34</Z>
+                <W>0</W>
+            </UnassignedButtonColor>
+            <ButtonColors>
+                <Vector4>
+                    <X>1</X>
+                    <Y>1</Y>
+                    <Z>0.3</Z>
+                    <W>1</W>
+                </Vector4>
+            </ButtonColors>
+            <ButtonSymbols>
+                <string>Textures\GUI\Icons\buttons\IconSquareHighlight.dds</string>
+            </ButtonSymbols>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EnableUseObjectSimpleTargeting>true</EnableUseObjectSimpleTargeting>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.2</Z>
+            </DestroyEffectOffset>
+            <PCU>5</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>TerminalBlock</TypeId>
+                <SubtypeId>LargeBlockAccessPanel4</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AccessPanel4</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MaintenancePanel4_Large.dds</Icon>
+            <Description>Description_AccesPanel</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\MaintenancePanel4.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\MaintenancePanel4Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MaintenancePanel4Construction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AccessPanel4</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <EnableUseObjectSimpleTargeting>true</EnableUseObjectSimpleTargeting>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.2</Z>
+            </DestroyEffectOffset>
+            <PCU>5</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>TerminalBlock</TypeId>
+                <SubtypeId>SmallBlockAccessPanel1</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AccessPanel1</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MaintenancePanel1_Small.dds</Icon>
+            <Description>Description_AccesPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="2" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\MaintenancePanel1.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="InteriorPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="2" EndY="2" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\MaintenancePanel1Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MaintenancePanel1Construction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AccessPanel1</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EnableUseObjectSimpleTargeting>true</EnableUseObjectSimpleTargeting>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>1.1</Z>
+            </DestroyEffectOffset>
+            <PCU>5</PCU>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>TerminalBlock</TypeId>
+                <SubtypeId>SmallBlockAccessPanel2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AccessPanel2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MaintenancePanel2_Small.dds</Icon>
+            <Description>Description_AccesPanel</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\MaintenancePanel2.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="SmallTube" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="InteriorPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\MaintenancePanel2Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MaintenancePanel2Construction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AccessPanel2</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>5</PCU>
+            <EnableUseObjectSimpleTargeting>true</EnableUseObjectSimpleTargeting>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>TerminalBlock</TypeId>
+                <SubtypeId>SmallBlockAccessPanel3</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AccessPanel3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MaintenancePanel3_Small.dds</Icon>
+            <Description>Description_AccesPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\MaintenancePanel3.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="SmallTube" Count="1" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\MaintenancePanel3Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MaintenancePanel3Construction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AccessPanel3</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <ButtonCount>1</ButtonCount>
+            <ButtonSymbols>
+                <string>Textures\GUI\Icons\buttons\OneButton.dds</string>
+            </ButtonSymbols>
+            <UnassignedButtonColor>
+                <X>0.34</X>
+                <Y>0.34</Y>
+                <Z>0.34</Z>
+                <W>0</W>
+            </UnassignedButtonColor>
+            <ButtonColors>
+                <Vector4>
+                    <X>1</X>
+                    <Y>1</Y>
+                    <Z>0.3</Z>
+                    <W>1</W>
+                </Vector4>
+                <Vector4>
+                    <X>1</X>
+                    <Y>1</Y>
+                    <Z>0.3</Z>
+                    <W>1</W>
+                </Vector4>
+                <Vector4>
+                    <X>1</X>
+                    <Y>1</Y>
+                    <Z>0.3</Z>
+                    <W>1</W>
+                </Vector4>
+            </ButtonColors>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>5</PCU>
+            <EnableUseObjectSimpleTargeting>true</EnableUseObjectSimpleTargeting>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>TerminalBlock</TypeId>
+                <SubtypeId>SmallBlockAccessPanel4</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AccessPanel4</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MaintenancePanel4_Small.dds</Icon>
+            <Description>Description_AccesPanel</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\MaintenancePanel4.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.1" StartY="0.1" EndX="2.9" EndY="2.9" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\MaintenancePanel4Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MaintenancePanel4Construction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AccessPanel4</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>5</PCU>
+            <EnableUseObjectSimpleTargeting>true</EnableUseObjectSimpleTargeting>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Automatons</DLC>
+        </Definition>
+		
+		<!-- END Access Panels Region -->
+
+    </CubeBlocks>
+</Definitions>

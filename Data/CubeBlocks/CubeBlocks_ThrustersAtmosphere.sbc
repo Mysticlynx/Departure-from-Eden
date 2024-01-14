@@ -1227,7 +1227,9 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
     </Definition>
-    <!-- SciFi Atmospheric Thrusters -->
+	
+    <!-- SciFi Atmospheric Thrusters (SparksOfTheFuture DLC) -->
+	
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
@@ -1650,6 +1652,8 @@
         <string>Propulsion</string>
       </TargetingGroups>
     </Definition>
-    <!-- End Region SciFi Atmospheric Thrust -->
+	
+    <!-- Region SciFi Atmospheric Thrust (SparksOfTheFuture DLC) End -->
+	
   </CubeBlocks>
 </Definitions>

@@ -1707,5 +1707,524 @@
       <PCU>115</PCU>   
     </Definition>
 	
+	<!-- Small Side Door from SparksofTheFuture DLC -->
+	
+        <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+            <Id>
+                <TypeId>Door</TypeId>
+                <SubtypeId>SmallSideDoor</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SideDoor</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SmallSideDoor.dds</Icon>
+            <Description>Description_Door</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="4" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SideDoor.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <OpenSound>BlockDoorSmallOpen</OpenSound>
+            <CloseSound>BlockDoorSmallClose</CloseSound>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="4" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="BulletproofGlass" Count="4" />
+                <Component Subtype="Motor" Count="2" />
+                <Component Subtype="Display" Count="1" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="InteriorPlate" Count="6" />
+                <Component Subtype="Construction" Count="16" />
+                <Component Subtype="SteelPlate" Count="8" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="4" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SideDoorConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SideDoorConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SideDoor</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <DisassembleRatio>1.2</DisassembleRatio>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <MaxOpen>1.76</MaxOpen>
+            <OpeningSpeed>4.8</OpeningSpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <DepressurizationEffectOffset x="0.5" y="0" z ="0" />
+            <DLC>SparksOfTheFuture</DLC>
+        </Definition>
+		
+		<!-- End Small Side Door Region -->
+		<!-- Large Block Gate and Offset Door from Frostbite DLC -->
+		
+        <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+            <Id>
+                <TypeId>Door</TypeId>
+                <SubtypeId>LargeBlockGate</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Gate</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Gate.dds</Icon>
+            <Description>Description_Gate</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\Gate.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <OpenSound>BlockDoorHangar</OpenSound>
+            <CloseSound>BlockDoorHangar</CloseSound>
+            <Components>
+                <Component Subtype="SteelPlate" Count="600" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="SmallTube" Count="100" />
+                <Component Subtype="Motor" Count="20" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="Construction" Count="60" />
+                <Component Subtype="SteelPlate" Count="200" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1.3" EndY="1" Default="true" />
+                <MountPoint Side="Bottom" StartX="3.7" StartY="0" EndX="5" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1.15" EndY="2" />
+                <MountPoint Side="Front" StartX="3.85" StartY="0" EndX="5" EndY="2" />
+                <MountPoint Side="Front" StartX="1.15" StartY="1.85" EndX="3.85" EndY="2" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1.15" EndY="2" />
+                <MountPoint Side="Back" StartX="3.85" StartY="0" EndX="5" EndY="2" />
+                <MountPoint Side="Back" StartX="1.15" StartY="1.85" EndX="3.85" EndY="2" />
+
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="2" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="2" Enabled="false" PressurizedWhenOpen="false"/>
+
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GateConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GateConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GateConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>Gate</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+            <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+            <MaxOpen>4.83</MaxOpen>
+            <OpeningSpeed>1.2</OpeningSpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <DLC>Frostbite</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+            <Id>
+                <TypeId>Door</TypeId>
+                <SubtypeId>LargeBlockOffsetDoor</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_OffsetDoor</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\OffsetDoor.dds</Icon>
+            <Description>Description_OffsetDoor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\OffsetDoor.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <OpenSound>BlockDoorSmallOpen</OpenSound>
+            <CloseSound>BlockDoorSmallClose</CloseSound>
+            <Components>
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="Construction" Count="15" />
+                <Component Subtype="SmallTube" Count="4" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Display" Count="1" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="BulletproofGlass" Count="6" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.5" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.5" Default="true" />
+                <MountPoint Side="Bottom" StartX="0.8" StartY="0" EndX="1" EndY="0.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OffsetDoorConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OffsetDoorConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OffsetDoorConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>OffsetDoor</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <DisassembleRatio>1.5</DisassembleRatio>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <MaxOpen>1.2</MaxOpen>
+            <OpeningSpeed>3</OpeningSpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <DLC>Frostbite</DLC>
+        </Definition>
+		
+		<!-- End Large Block Gate and Offset Door from Frostbite DLC -->
+		<!-- Warfare Hangar Doors from Warfare2 DLC -->
+		
+        <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+            <Id>
+                <TypeId>AirtightHangarDoor</TypeId>
+                <SubtypeId>AirtightHangarDoorWarfare2A</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AirtightHangarDoorWarfare2A</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HangarDoorWarfareA_Base.dds</Icon>
+            <Description>Description_HangarDoor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="3" z="1" />
+            <ModelOffset x="0" y="2.5" z="0" />
+            <Center x="0" y="2" z="0" />
+            <Model>Models\Cubes\Large\HangarDoorWarfareA_Base.mwm</Model>
+            <Sound>BlockDoorHangar</Sound>
+            <PlaceDecals>false</PlaceDecals>
+            <Components>
+        <Component Subtype="SteelPlate" Count="120" />
+        <Component Subtype="SteelRod" Count="140" />
+        <Component Subtype="InteriorPlate" Count="70" />
+        <Component Subtype="Girder" Count="170" />
+        <Component Subtype="BallBearing" Count="188" />
+        <Component Subtype="SteelGear" Count="188" />
+        <Component Subtype="Chain" Count="94" />
+        <Component Subtype="MagneticCoupler" Count="48" />
+        <Component Subtype="InsulatedCopperWire" Count="14" />
+        <Component Subtype="Computer" Count="420" />
+        <Component Subtype="BrazingRod" Count="850" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+                <MountPoint Side="Right" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+                <MountPoint Side="Left" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+                <MountPoint Side="Right" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+                <MountPoint Side="Top" StartX="0" StartY="0.04" EndX="1" EndY="0.96" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\HangarDoorWarfare_BaseConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\HangarDoorWarfare_BaseConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\HangarDoorWarfareA_BaseConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AirtightHangarDoorWarfare2A</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+            <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+            <OpeningSpeed>0.1</OpeningSpeed>
+            <SubpartMovementDistance>2.5</SubpartMovementDistance>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <DLC>Warfare2</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+            <Id>
+                <TypeId>AirtightHangarDoor</TypeId>
+                <SubtypeId>AirtightHangarDoorWarfare2B</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AirtightHangarDoorWarfare2B</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HangarDoorWarfareB_Base.dds</Icon>
+            <Description>Description_HangarDoor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="3" z="1" />
+            <ModelOffset x="0" y="2.5" z="0" />
+            <Center x="0" y="2" z="0" />
+            <Model>Models\Cubes\Large\HangarDoorWarfareB_Base.mwm</Model>
+            <Sound>BlockDoorHangar</Sound>
+            <PlaceDecals>false</PlaceDecals>
+            <Components>
+        <Component Subtype="SteelPlate" Count="120" />
+        <Component Subtype="SteelRod" Count="140" />
+        <Component Subtype="InteriorPlate" Count="70" />
+        <Component Subtype="Girder" Count="170" />
+        <Component Subtype="BallBearing" Count="188" />
+        <Component Subtype="SteelGear" Count="188" />
+        <Component Subtype="Chain" Count="94" />
+        <Component Subtype="MagneticCoupler" Count="48" />
+        <Component Subtype="InsulatedCopperWire" Count="14" />
+        <Component Subtype="Computer" Count="420" />
+        <Component Subtype="BrazingRod" Count="850" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+                <MountPoint Side="Right" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+                <MountPoint Side="Left" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+                <MountPoint Side="Right" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+                <MountPoint Side="Top" StartX="0" StartY="0.04" EndX="1" EndY="0.96" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\HangarDoorWarfare_BaseConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\HangarDoorWarfare_BaseConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\HangarDoorWarfareB_BaseConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AirtightHangarDoorWarfare2B</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+            <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+            <OpeningSpeed>0.1</OpeningSpeed>
+            <SubpartMovementDistance>2.5</SubpartMovementDistance>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <DLC>Warfare2</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+            <Id>
+                <TypeId>AirtightHangarDoor</TypeId>
+                <SubtypeId>AirtightHangarDoorWarfare2C</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AirtightHangarDoorWarfare2C</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HangarDoorWarfareC_Base.dds</Icon>
+            <Description>Description_HangarDoor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="3" z="1" />
+            <ModelOffset x="0" y="2.5" z="0" />
+            <Center x="0" y="2" z="0" />
+            <Model>Models\Cubes\Large\HangarDoorWarfareC_Base.mwm</Model>
+            <Sound>BlockDoorHangar</Sound>
+            <PlaceDecals>false</PlaceDecals>
+            <Components>
+        <Component Subtype="SteelPlate" Count="120" />
+        <Component Subtype="SteelRod" Count="140" />
+        <Component Subtype="InteriorPlate" Count="70" />
+        <Component Subtype="Girder" Count="170" />
+        <Component Subtype="BallBearing" Count="188" />
+        <Component Subtype="SteelGear" Count="188" />
+        <Component Subtype="Chain" Count="94" />
+        <Component Subtype="MagneticCoupler" Count="48" />
+        <Component Subtype="InsulatedCopperWire" Count="14" />
+        <Component Subtype="Computer" Count="420" />
+        <Component Subtype="BrazingRod" Count="850" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+                <MountPoint Side="Right" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+                <MountPoint Side="Left" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+                <MountPoint Side="Right" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+                <MountPoint Side="Top" StartX="0" StartY="0.04" EndX="1" EndY="0.96" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\HangarDoorWarfare_BaseConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\HangarDoorWarfare_BaseConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\HangarDoorWarfareC_BaseConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AirtightHangarDoorWarfare2C</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+            <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+            <OpeningSpeed>0.1</OpeningSpeed>
+            <SubpartMovementDistance>2.5</SubpartMovementDistance>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <DLC>Warfare2</DLC>
+        </Definition>
+		
+		<!-- End Warfare Hangar Doors Region -->
+		<!-- Sliding Hatch Doors from Warfar2 DLC -->
+		
+        <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+            <Id>
+                <TypeId>Door</TypeId>
+                <SubtypeId>SlidingHatchDoor</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SlidingHatchDoor</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HatchDoor.dds</Icon>
+            <Description>Description_Door</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\HatchDoor.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <OpenSound>BlockDoorHangar</OpenSound>
+            <CloseSound>BlockDoorHangar</CloseSound>
+            <Components>
+                <Component Subtype="SteelPlate" Count="15" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="10" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Display" Count="2" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="30" />
+                <Component Subtype="BulletproofGlass" Count="10" />
+                <Component Subtype="SteelPlate" Count="25" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1.1" EndY="1" />
+                <MountPoint Side="Top" StartX="1.9" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Top" StartX="1.1" StartY="0" EndX="1.9" EndY="0.1" />
+                <MountPoint Side="Top" StartX="1.1" StartY="0.9" EndX="1.9" EndY="1" />
+                <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="1" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1.1" EndY="1" Default="true" />
+                <MountPoint Side="Bottom" StartX="1.9" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="1.1" StartY="0" EndX="1.9" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="1.1" StartY="0.9" EndX="1.9" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HatchDoorConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HatchDoorConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HatchDoorConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SlidingHatchDoor</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <Center x="1" y="0" z="0" />
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>26</BuildTimeSeconds>
+            <DisassembleRatio>1</DisassembleRatio>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <MaxOpen>3.55</MaxOpen>
+            <OpeningSpeed>2</OpeningSpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <DepressurizationEffectOffset x="0" y="1.25" z ="0" />
+            <DLC>Warfare2</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+            <Id>
+                <TypeId>Door</TypeId>
+                <SubtypeId>SlidingHatchDoorHalf</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SlidingHatchDoorHalf</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HatchDoorHalf.dds</Icon>
+            <Description>Description_Door</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\HatchDoorHalf.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <OpenSound>BlockDoorHangar</OpenSound>
+            <CloseSound>BlockDoorHangar</CloseSound>
+            <Components>
+                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="10" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Display" Count="2" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="30" />
+                <Component Subtype="BulletproofGlass" Count="10" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="1" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="1" StartY="0.5" EndX="2" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0.5" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1.1" EndY="1" />
+                <MountPoint Side="Top" StartX="1.9" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Top" StartX="1.1" StartY="0" EndX="1.9" EndY="0.1" />
+                <MountPoint Side="Top" StartX="1.1" StartY="0.9" EndX="1.9" EndY="1" />
+                <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="1" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HatchDoorHalfConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HatchDoorHalfConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HatchDoorHalfConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SlidingHatchDoorHalf</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <Center x="1" y="0" z="0" />
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>24</BuildTimeSeconds>
+            <DisassembleRatio>1</DisassembleRatio>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <MaxOpen>3.55</MaxOpen>
+            <OpeningSpeed>2</OpeningSpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <DepressurizationEffectOffset x="0" y="1.25" z ="0" />
+            <DLC>Warfare2</DLC>
+        </Definition>
+		
+		<!-- End Sliding Hatch Doors Region -->
+		
 	</CubeBlocks>
 </Definitions>

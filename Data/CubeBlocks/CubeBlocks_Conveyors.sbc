@@ -4558,6 +4558,517 @@
       <DestroySound>PoofExplosionCat3</DestroySound>
       <IsAirTight>true</IsAirTight>
     </Definition>
+	
+	<!-- Conveyor Pipes from HeavyIndustry DLC -->
+	
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>LargeBlockConveyorPipeSeamless</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_ConveyorPipeSeamless</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\PipeSeamless.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="25" />
+        <Component Subtype="AluminumRod" Count="10" />
+        <Component Subtype="BallBearing" Count="20" />
+        <Component Subtype="Belt" Count="10" />
+        <Component Subtype="SteelPulley" Count="20" />
+        <Component Subtype="Solenoid" Count="2" />
+        <Component Subtype="InsulatedCopperWire" Count="2" />
+        <Component Subtype="Construction" Count="160" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PipeSeamlessConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PipeSeamlessConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PipeSeamlessConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ConveyorPipeSeamless</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" Default="true"/>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Top" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+      </MountPoints>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>LargeBlockConveyorPipeCorner</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_ConveyorPipeCorner</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\PipeCorner.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\PipeCorner.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="53" />
+        <Component Subtype="SteelRod" Count="30" />
+        <Component Subtype="PolyCarbonatePlate" Count="26" />
+        <Component Subtype="InteriorPlate" Count="31" />
+        <Component Subtype="BallBearing" Count="20" />
+        <Component Subtype="Belt" Count="10" />
+        <Component Subtype="SteelPulley" Count="20" />
+        <Component Subtype="Solenoid" Count="2" />
+        <Component Subtype="InsulatedCopperWire" Count="2" />
+        <Component Subtype="Construction" Count="200" />
+        <Component Subtype="BrazingRod" Count="158" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PipeCornerConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PipeCornerConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PipeCornerConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ConveyorPipeCorner</BlockPairName>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" Default="true"/>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Right" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+      </MountPoints>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>LargeBlockConveyorPipeJunction</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_ConveyorPipeJunction</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\PipeNode.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\PipeNode.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="23" />
+        <Component Subtype="SteelRod" Count="12" />
+        <Component Subtype="PolyCarbonatePlate" Count="12" />
+        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="BallBearing" Count="8" />
+        <Component Subtype="Belt" Count="4" />
+        <Component Subtype="SteelPulley" Count="8" />
+        <Component Subtype="Solenoid" Count="4" />
+        <Component Subtype="InsulatedCopperWire" Count="4" />
+        <Component Subtype="Construction" Count="63" />
+        <Component Subtype="BrazingRod" Count="70" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PipeNodeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PipeNodeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PipeNodeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ConveyorPipeJunction</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true"/>
+        <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Left" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Right" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Front" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+      </MountPoints>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>LargeBlockConveyorPipeIntersection</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_ConveyorPipeIntersection</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\PipeJunction.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\PipeJunction.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="66" />
+        <Component Subtype="SteelRod" Count="38" />
+        <Component Subtype="PolyCarbonatePlate" Count="33" />
+        <Component Subtype="InteriorPlate" Count="39" />
+        <Component Subtype="BallBearing" Count="30" />
+        <Component Subtype="Belt" Count="15" />
+        <Component Subtype="SteelPulley" Count="30" />
+        <Component Subtype="Solenoid" Count="3" />
+        <Component Subtype="InsulatedCopperWire" Count="3" />
+        <Component Subtype="Construction" Count="250" />
+        <Component Subtype="BrazingRod" Count="197" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PipeJunctionConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PipeJunctionConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PipeJunctionConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ConveyorPipeIntersection</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>12</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true"/>
+        <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Left" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />
+      </MountPoints>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>LargeBlockConveyorPipeFlange</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_ConveyorPipeFlange</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\PipeFlange.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\PipeFlange.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="66" />
+        <Component Subtype="SteelRod" Count="38" />
+        <Component Subtype="PolyCarbonatePlate" Count="33" />
+        <Component Subtype="InteriorPlate" Count="39" />
+        <Component Subtype="BallBearing" Count="30" />
+        <Component Subtype="Belt" Count="15" />
+        <Component Subtype="SteelPulley" Count="30" />
+        <Component Subtype="Solenoid" Count="3" />
+        <Component Subtype="InsulatedCopperWire" Count="3" />
+        <Component Subtype="Construction" Count="250" />
+        <Component Subtype="BrazingRod" Count="197" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PipeFlangeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PipeFlangeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PipeFlangeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ConveyorPipeFlange</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" Default="true"/>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Top" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+      </MountPoints>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>LargeBlockConveyorPipeEnd</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_ConveyorPipeEnd</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\PipeEnd.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\PipeEnd.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="25" />
+        <Component Subtype="AluminumRod" Count="10" />
+        <Component Subtype="BallBearing" Count="20" />
+        <Component Subtype="Belt" Count="10" />
+        <Component Subtype="SteelPulley" Count="20" />
+        <Component Subtype="Solenoid" Count="2" />
+        <Component Subtype="InsulatedCopperWire" Count="2" />
+        <Component Subtype="Construction" Count="160" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PipeEndConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PipeEndConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PipeEndConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ConveyorPipeEnd</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" Default="true"/>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Top" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+      </MountPoints>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>LargeBlockConveyorPipeT</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_ConveyorPipeT</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\PipeT.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\PipeT.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="66" />
+        <Component Subtype="SteelRod" Count="38" />
+        <Component Subtype="PolyCarbonatePlate" Count="33" />
+        <Component Subtype="InteriorPlate" Count="39" />
+        <Component Subtype="BallBearing" Count="30" />
+        <Component Subtype="Belt" Count="15" />
+        <Component Subtype="SteelPulley" Count="30" />
+        <Component Subtype="Solenoid" Count="3" />
+        <Component Subtype="InsulatedCopperWire" Count="3" />
+        <Component Subtype="Construction" Count="250" />
+        <Component Subtype="BrazingRod" Count="197" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" Default="true" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Right" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+        <MountPoint Side="Left" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" />
+        <MountPoint Side="Left" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Left" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Left" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PipeTConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PipeTConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PipeTConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ConveyorPipeT</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeBlockConveyorPipeCap</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_PipeCap</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\PipeCap.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\PipeCap.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="25" />
+        <Component Subtype="AluminumRod" Count="10" />
+        <Component Subtype="BallBearing" Count="20" />
+        <Component Subtype="Belt" Count="10" />
+        <Component Subtype="SteelPulley" Count="20" />
+        <Component Subtype="Solenoid" Count="2" />
+        <Component Subtype="InsulatedCopperWire" Count="2" />
+        <Component Subtype="Construction" Count="160" />
+      </Components>
+      <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PipeCapConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PipeCapConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PipeCapConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>PipeCap</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <IsAirTight>false</IsAirTight>
+      <PCU>1</PCU>
+      <DLC>HeavyIndustry</DLC>
+    </Definition>
+	
+	<!-- End Conveyor Pipes Region -->
+	<!-- Sorter Conveyor Block from HeavyIndustry -->
+	
+        <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+            <Id>
+                <TypeId>ConveyorSorter</TypeId>
+                <SubtypeId>LargeBlockConveyorSorterIndustrial</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ConveyorSorterIndustrial</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\ConveyorSorterReskin.dds</Icon>
+            <Description>Description_ConveyorSorter</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ConveyorSorterReskin.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="40" />
+                <Component Subtype="Construction" Count="100" />
+                <Component Subtype="SmallTube" Count="50" />
+                <Component Subtype="Computer" Count="20" />
+                <Component Subtype="Motor" Count="2" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="InteriorPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.1" EndX="1" EndY="0.2" Default="true" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.8" EndX="1" EndY="0.9" />
+                <MountPoint Side="Top" StartX="0.25" StartY="0.1" EndX="0.75" EndY="0.9" />
+                <MountPoint Side="Left" StartX="0.35" StartY="0.3" EndX="0.65" EndY="0.7" />
+                <MountPoint Side="Right" StartX="0.35" StartY="0.3" EndX="0.65" EndY="0.7" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ConveyorSorterReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ConveyorSorterReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorSorterReskinConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ConveyorSorterIndustrial</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <ResourceSinkGroup>Conveyors</ResourceSinkGroup>
+            <PowerInput>0.00025</PowerInput>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>25</PCU>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
+        <!-- End HeavyIndustry Conveyor Sorter Region -->
 
   </CubeBlocks>
 </Definitions>

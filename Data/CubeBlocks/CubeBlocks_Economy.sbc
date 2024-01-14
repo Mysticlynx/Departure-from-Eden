@@ -315,6 +315,140 @@
             <IsAirTight>false</IsAirTight>
 			<Public>false</Public>
         </Definition>
+		
+        <!-- Food Dispenser and Jukebox from DecorativeBlocks2 DLC -->
+		
+        <Definition xsi:type="MyObjectBuilder_VendingMachineDefinition">
+            <Id>
+                <TypeId>VendingMachine</TypeId>
+                <SubtypeId>FoodDispenser</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_FoodDispenser</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\FoodDispenser.dds</Icon>
+            <Description>Description_FoodDispenser</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\FoodDispenser.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Display" Count="10" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="InteriorPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Front" StartX="0.5" StartY="0" EndX="1.0" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1.0" EndY="1" />
+            </MountPoints>
+            <RequiredPowerInput>0.002</RequiredPowerInput>
+            <DefaultItems>
+                <MyObjectBuilder_StoreItem>
+                    <Id>1136189434942549542</Id>
+                    <Item Type="MyObjectBuilder_ConsumableItem" Subtype="ClangCola" />
+                    <ItemType>PhysicalItem</ItemType>
+                    <Amount>1</Amount>
+                    <RemovedAmount>0</RemovedAmount>
+                    <PricePerUnit>100</PricePerUnit>
+                    <StoreItemType>Offer</StoreItemType>
+                    <UpdateCount>0</UpdateCount>
+                    <PrefabTotalPcu>0</PrefabTotalPcu>
+                    <PricePerUnitDiscount>0</PricePerUnitDiscount>
+                </MyObjectBuilder_StoreItem>
+                <MyObjectBuilder_StoreItem>
+                    <Id>1082521839310786643</Id>
+                    <Item Type="MyObjectBuilder_ConsumableItem" Subtype="CosmicCoffee" />
+                    <ItemType>PhysicalItem</ItemType>
+                    <Amount>1</Amount>
+                    <RemovedAmount>0</RemovedAmount>
+                    <PricePerUnit>100</PricePerUnit>
+                    <StoreItemType>Offer</StoreItemType>
+                    <UpdateCount>0</UpdateCount>
+                    <PrefabTotalPcu>0</PrefabTotalPcu>
+                    <PricePerUnitDiscount>0</PricePerUnitDiscount>
+                </MyObjectBuilder_StoreItem>
+            </DefaultItems>
+            <ThrowOutDummy>FoodDispenserSpawn</ThrowOutDummy>
+            <BlockPairName>FoodDispenser</BlockPairName>
+            <ScreenAreas>
+                <ScreenArea Name="VendingScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="1024" ScreenWidth="15" ScreenHeight="9" Script="TSS_VendingMachine"/>
+            </ScreenAreas>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\FoodDispenserConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\FoodDispenserConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\FoodDispenserConstruction_3.mwm" />
+            </BuildProgressModels>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <ActionSound>BlockCollect</ActionSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DLC>DecorativeBlocks2</DLC>
+            <AdditionalEmissiveMaterials>
+                <string>FoodDispenser</string>
+            </AdditionalEmissiveMaterials>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_JukeboxDefinition">
+            <Id>
+                <TypeId>Jukebox</TypeId>
+                <SubtypeId>Jukebox</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Jukebox</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Jukebox.dds</Icon>
+            <Description>Description_Jukebox</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\Jukebox.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="Speaker" Count="4" />
+                <Component Subtype="Display" Count="4" />
+                <Component Subtype="InteriorPlate" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="Speaker" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0.2" EndX="0.4" EndY="0.8" Default="true" />
+                <MountPoint Side="Left" StartX="0.2" StartY="0" EndX="0.8" EndY="0.6" />
+            </MountPoints>
+            <ScreenAreas>
+                <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="1024" ScreenWidth="15" ScreenHeight="9" Script="TSS_Jukebox"/>
+            </ScreenAreas>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JukeboxConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JukeboxConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JukeboxConstruction_3.mwm" />
+            </BuildProgressModels>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>25</PCU>
+            <RequiredPowerInput>0.02</RequiredPowerInput>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DLC>DecorativeBlocks2</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
     
     </CubeBlocks>
 </Definitions>

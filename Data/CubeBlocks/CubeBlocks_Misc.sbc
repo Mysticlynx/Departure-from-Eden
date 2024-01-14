@@ -118,6 +118,256 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>10</PCU>      
     </Definition>
+	
+	<!-- Air Vents from Automatons DLC -->
+
+        <Definition xsi:type="MyObjectBuilder_AirVentDefinition">
+            <Id>
+                <TypeId>AirVent</TypeId>
+                <SubtypeId>AirVentFan</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AirVentFan</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WallFanVentHalf.dds</Icon>
+            <Description>Description_AirVent</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\WallFanVentHalf.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Motor" Count="10" />
+                <Component Subtype="Computer" Count="5" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WallFanVentHalfConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WallFanVentHalfConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WallFanVentHalfConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AirVentFan</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+
+            <ResourceSourceGroup>Battery</ResourceSourceGroup>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <OperationalPowerConsumption>0.1</OperationalPowerConsumption>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <VentilationCapacityPerSecond>300</VentilationCapacityPerSecond>
+            <RotationSpeed>4</RotationSpeed>
+            <SpinUpSpeed>1</SpinUpSpeed>
+            <SpinDownSpeed>1</SpinDownSpeed>
+
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <PressurizeSound>BlockAirVentExhale</PressurizeSound>
+            <DepressurizeSound>BlockAirVentDepressurize</DepressurizeSound>
+            <IdleSound>BlockAirVentIdle</IdleSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_AirVentDefinition">
+            <Id>
+                <TypeId>AirVent</TypeId>
+                <SubtypeId>AirVentFanFull</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AirVentFanFull</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WallFanVent.dds</Icon>
+            <Description>Description_AirVent</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\WallFanVent.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="30" />
+                <Component Subtype="Construction" Count="30" />
+                <Component Subtype="Motor" Count="10" />
+                <Component Subtype="Computer" Count="5" />
+                <Component Subtype="SteelPlate" Count="15" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.2" />
+                <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0.2" EndX="0.2" EndY="0.8" />
+                <MountPoint Side="Front" StartX="0.8" StartY="0.2" EndX="1" EndY="0.8" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WallFanVentConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WallFanVentConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WallFanVentConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AirventFanFull</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>25</BuildTimeSeconds>
+
+            <ResourceSourceGroup>Battery</ResourceSourceGroup>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <OperationalPowerConsumption>0.1</OperationalPowerConsumption>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <VentilationCapacityPerSecond>300</VentilationCapacityPerSecond>
+            <RotationSpeed>4</RotationSpeed>
+            <SpinUpSpeed>1</SpinUpSpeed>
+            <SpinDownSpeed>1</SpinDownSpeed>
+
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <PressurizeSound>BlockAirVentExhale</PressurizeSound>
+            <DepressurizeSound>BlockAirVentDepressurize</DepressurizeSound>
+            <IdleSound>BlockAirVentIdle</IdleSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_AirVentDefinition">
+            <Id>
+                <TypeId>AirVent</TypeId>
+                <SubtypeId>SmallAirVentFan</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AirVentFan</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WallFanVentHalf.dds</Icon>
+            <Description>Description_AirVent</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\WallFanVentSmallHalf.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Motor" Count="2" />
+                <Component Subtype="Computer" Count="5" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\WallFanVentSmallHalfConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WallFanVentSmallHalfConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AirVentFan</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+
+            <ResourceSourceGroup>Battery</ResourceSourceGroup>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <OperationalPowerConsumption>0.01</OperationalPowerConsumption>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <VentilationCapacityPerSecond>30</VentilationCapacityPerSecond>
+            <RotationSpeed>4</RotationSpeed>
+            <SpinUpSpeed>1</SpinUpSpeed>
+            <SpinDownSpeed>1</SpinDownSpeed>
+
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <PressurizeSound>BlockAirVentExhale</PressurizeSound>
+            <DepressurizeSound>BlockAirVentDepressurize</DepressurizeSound>
+            <IdleSound>BlockAirVentIdle</IdleSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <DLC>Automatons</DLC>
+        </Definition>
+        
+        <Definition xsi:type="MyObjectBuilder_AirVentDefinition">
+            <Id>
+                <TypeId>AirVent</TypeId>
+                <SubtypeId>SmallAirVentFanFull</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AirVentFanFull</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WallFanVent.dds</Icon>
+            <Description>Description_AirVent</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\WallFanVentSmall.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="15" />
+                <Component Subtype="Motor" Count="2" />
+                <Component Subtype="Computer" Count="5" />
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.2" />
+                <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0.2" EndX="0.2" EndY="0.8" />
+                <MountPoint Side="Front" StartX="0.8" StartY="0.2" EndX="1" EndY="0.8" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\WallFanVentSmallConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WallFanVentSmallConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AirventFanFull</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+
+            <ResourceSourceGroup>Battery</ResourceSourceGroup>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <OperationalPowerConsumption>0.01</OperationalPowerConsumption>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <VentilationCapacityPerSecond>30</VentilationCapacityPerSecond>
+            <RotationSpeed>4</RotationSpeed>
+            <SpinUpSpeed>1</SpinUpSpeed>
+            <SpinDownSpeed>1</SpinDownSpeed>
+
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <PressurizeSound>BlockAirVentExhale</PressurizeSound>
+            <DepressurizeSound>BlockAirVentDepressurize</DepressurizeSound>
+            <IdleSound>BlockAirVentIdle</IdleSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <DLC>Automatons</DLC>
+        </Definition>
+		
+		<!-- END Air Vents (Automatons) Region -->
 
     <Definition xsi:type="MyObjectBuilder_SpaceBallDefinition">
       <Id>
@@ -214,6 +464,2353 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
+	
+	<!-- Scrap Race DLC Misc Blocks -->
+	
+        <Definition xsi:type="MyObjectBuilder_ExhaustBlockDefinition">
+            <Id>
+                <TypeId>ExhaustBlock</TypeId>
+                <SubtypeId>SmallExhaustPipe</SubtypeId>
+            </Id>
 
+            <DisplayName>DisplayName_Block_ExhaustPipe</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\ExhaustPipe_Racing_Small.dds</Icon>
+            <Description>Description_ExhaustPipe</Description>
+            <CubeSize>Small</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Small\ExhaustPipe_Racing.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Motor" Count="2" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ExhaustPipe_Racing_Construction1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ExhaustPipe_Racing_Construction2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ExhaustPipe</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+            <PCU>50</PCU>
+            <IsAirTight>false</IsAirTight>
+            <AvailableEffects>
+                <string>Dummy</string>
+                <string>CarSmoke</string>
+                <string>CarSmokeSmall</string>
+                <string>ElectricArc</string>
+                <string>ElectricArcSmall</string>
+                <string>Fire</string>
+                <string>FireSmall</string>
+                <string>FireAndSmoke</string>
+                <string>FireAndSmokeSmall</string>
+                <string>Smoke</string>
+                <string>SmokeSmall</string>
+                <string>SmokeElectric</string>
+                <string>SmokeElectricSmall</string>
+                <string>SmokeReactor</string>
+                <string>SmokeReactorSmall</string>
+                <string>SmokeWhite</string>
+                <string>SmokeWhiteSmall</string>
+            </AvailableEffects>
+            <RequiredPowerInput>0.0002</RequiredPowerInput>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DLC>ScrapRace</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_ExhaustBlockDefinition">
+            <Id>
+                <TypeId>ExhaustBlock</TypeId>
+                <SubtypeId>LargeExhaustPipe</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ExhaustPipe</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\ExhaustPipe_Racing_Large.dds</Icon>
+            <Description>Description_ExhaustPipe</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\ExhaustPipe_Racing.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="LargeTube" Count="2" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ExhaustPipe_Racing_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ExhaustPipe_Racing_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ExhaustPipe_Racing_Construction3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ExhaustPipe</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <PCU>50</PCU>
+            <IsAirTight>false</IsAirTight>
+            <AvailableEffects>
+                <string>Dummy</string>
+                <string>CarSmoke</string>
+                <string>CarSmokeSmall</string>
+                <string>ElectricArc</string>
+                <string>ElectricArcSmall</string>
+                <string>Fire</string>
+                <string>FireSmall</string>
+                <string>FireAndSmoke</string>
+                <string>FireAndSmokeSmall</string>
+                <string>Smoke</string>
+                <string>SmokeSmall</string>
+                <string>SmokeElectric</string>
+                <string>SmokeElectricSmall</string>
+                <string>SmokeReactor</string>
+                <string>SmokeReactorSmall</string>
+                <string>SmokeWhite</string>
+                <string>SmokeWhiteSmall</string>
+            </AvailableEffects>
+            <RequiredPowerInput>0.0002</RequiredPowerInput>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DLC>ScrapRace</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Viewport1</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Viewport1</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Viewport_Racing.dds</Icon>
+            <Description>Description_ViewPort</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\Viewport_Racing.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="BulletproofGlass" Count="8" />
+                <Component Subtype="Construction" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.35" />
+                <MountPoint Side="Left" StartX="0" StartY="0.9" EndX="1" EndY="1.0" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" Enabled="false" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Viewport_Racing_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Viewport_Racing_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Viewport_Racing_Construction3.mwm" />
+            </BuildProgressModels>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>ScrapRace</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Viewport2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Viewport2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Viewport2_Racing.dds</Icon>
+            <Description>Description_ViewPort</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\Viewport2_Racing.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="BulletproofGlass" Count="8" />
+                <Component Subtype="Construction" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.35" />
+                <MountPoint Side="Left" StartX="0" StartY="0.9" EndX="1" EndY="1.0" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" Enabled="false" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Viewport2_Racing_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Viewport2_Racing_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Viewport2_Racing_Construction3.mwm" />
+            </BuildProgressModels>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>ScrapRace</DLC>
+        </Definition>
+		
+		<!-- End Scrap Race Misc Blocks Region-->
+		<!-- Misc Blocks from HeavyIndustry DLC -->
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockCylindricalColumn</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_CylindricalColumn</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\CylindricalColumnLarge.dds</Icon>
+            <Description>Description_InteriorPillar</Description>
+            <CubeSize>Large</CubeSize>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Model>Models\Cubes\Large\CylindricalColumn.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="20" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="InteriorPlate" Count="5" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.45" StartY="0.2" EndX="0.55" EndY="0.8" />
+                <MountPoint Side="Back" StartX="0.45" StartY="0.2" EndX="0.55" EndY="0.8" />
+                <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
+                <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+                <MountPoint Side="Left" StartX="0.45" StartY="0.2" EndX="0.55" EndY="0.8" />
+                <MountPoint Side="Right" StartX="0.45" StartY="0.2" EndX="0.55" EndY="0.8" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CylindricalColumnConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CylindricalColumnConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CylindricalColumnConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>CylindricalColumn</BlockPairName>
+            <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallBlockCylindricalColumn</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_CylindricalColumn</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\CylindricalColumnSmall.dds</Icon>
+            <Description>Description_InteriorPillar</Description>
+            <CubeSize>Small</CubeSize>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Model>Models\Cubes\Small\CylindricalColumn.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="4" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.45" StartY="0.2" EndX="0.55" EndY="0.8" />
+                <MountPoint Side="Back" StartX="0.45" StartY="0.2" EndX="0.55" EndY="0.8" />
+                <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
+                <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+                <MountPoint Side="Left" StartX="0.45" StartY="0.2" EndX="0.55" EndY="0.8" />
+                <MountPoint Side="Right" StartX="0.45" StartY="0.2" EndX="0.55" EndY="0.8" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CylindricalColumnConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CylindricalColumnConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>CylindricalColumn</BlockPairName>
+            <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
+		
+		<!-- End HeavyIndustry Misc Blocks Region -->
+		<!-- Sci Fi Bar Counters from SparksofTheFuture DLC -->
+		
+        <Definition xsi:type="MyObjectBuilder_PlanterDefinition">
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockBarCounter</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_BarCounter</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\BarCounter_SciFi.dds</Icon>
+            <Description>Description_BarCounter</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\BarCounter_SciFi.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="BulletproofGlass" Count="6" />
+                <Component Subtype="InteriorPlate" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.25" Default="true" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.28" EndY="0.37" />
+                <MountPoint Side="Right" StartX="0.72" StartY="0" EndX="1" EndY="0.37" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BarCounter_SciFi_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BarCounter_SciFi_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BarCounter_SciFi_Construction3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>BarCounter</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>SparksOfTheFuture</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_PlanterDefinition">
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockBarCounterCorner</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_BarCounterCorner</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\BarCounterCorner_SciFi.dds</Icon>
+            <Description>Description_BarCounter</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\BarCounterCorner_SciFi.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="14" />
+                <Component Subtype="Construction" Count="14" />
+                <Component Subtype="Motor" Count="2" />
+                <Component Subtype="BulletproofGlass" Count="10" />
+                <Component Subtype="InteriorPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.25" Default="true" />
+                <MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.28" EndY="0.37" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+                <MountPoint Side="Back" StartX="0.72" StartY="0" EndX="1" EndY="0.37" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BarCounterCorner_SciFi_Construction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BarCounterCorner_SciFi_Construction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BarCounterCorner_SciFi_Construction3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>BarCounterCorner</BlockPairName>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>YHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <BuildTimeSeconds>18</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>SparksOfTheFuture</DLC>
+        </Definition>
+		
+		<!-- End Sci Fi Bar Counters Region -->
+		<!-- Large Block Antenna Dish from Frostbite DLC -->
+		
+        <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
+            <Id>
+                <TypeId>RadioAntenna</TypeId>
+                <SubtypeId>LargeBlockRadioAntennaDish</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AntennaDish</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\AntennaDish.dds</Icon>
+            <Description>Description_AntennaDish</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="3" z="5" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AntennaDish.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Girder" Count="120" />
+                <Component Subtype="SteelPlate" Count="60" />
+                <Component Subtype="Construction" Count="30" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="RadioCommunication" Count="40" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="RadioCommunication" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="2" StartY="2" EndX="3" EndY="3" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AntennaDishConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AntennaDishConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AntennaDishConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AntennaDish</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <BuildTimeSeconds>60</BuildTimeSeconds>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>100</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Frostbite</DLC>
+        </Definition>
+		
+		<!-- End Large Block Antenna Dish Region -->
+		<!-- 01 - 06 Dead Bodies from Frostbite DLC -->
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>DeadBody01</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeadBody01</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\DeadBody_1.dds</Icon>
+            <Description>Description_DeadEngineer</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\DeadBody01.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+                <Component Subtype="RadioCommunication" Count="1" />
+                <Component Subtype="Display" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0.7" EndX="0.6" EndY="0.9" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeadBody01.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Both</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Both</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>DeadBody</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Frostbite</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>DeadBody02</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeadBody02</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\DeadBody_2.dds</Icon>
+            <Description>Description_DeadEngineer</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\DeadBody02.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+                <Component Subtype="RadioCommunication" Count="1" />
+                <Component Subtype="Display" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.3" StartY="0.7" EndX="0.6" EndY="0.9" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeadBody02.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Both</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Both</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Frostbite</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>DeadBody03</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeadBody03</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\DeadBody_3.dds</Icon>
+            <Description>Description_DeadEngineer</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\DeadBody03.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+                <Component Subtype="RadioCommunication" Count="1" />
+                <Component Subtype="Display" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0.4" EndX="0.6" EndY="0.8" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeadBody03.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Both</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Both</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Frostbite</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>DeadBody04</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeadBody04</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\DeadBody_4.dds</Icon>
+            <Description>Description_DeadEngineer</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\DeadBody04.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+                <Component Subtype="RadioCommunication" Count="1" />
+                <Component Subtype="Display" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0.5" EndX="0.6" EndY="0.8" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeadBody04.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Both</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Both</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Frostbite</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>DeadBody05</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeadBody05</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\DeadBody_5.dds</Icon>
+            <Description>Description_DeadEngineer</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\DeadBody05.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+                <Component Subtype="RadioCommunication" Count="1" />
+                <Component Subtype="Display" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0.7" EndX="0.7" EndY="0.9" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeadBody05.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Both</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Both</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Frostbite</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>DeadBody06</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeadBody06</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\DeadBody_6.dds</Icon>
+            <Description>Description_DeadEngineer</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\DeadBody06.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+                <Component Subtype="RadioCommunication" Count="1" />
+                <Component Subtype="Display" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0.7" EndX="0.6" EndY="0.9" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeadBody06.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Both</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Both</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Frostbite</DLC>
+        </Definition>
+		
+		<!-- End 01 - 06 Dead Bodies Region -->
+		<!-- Weapon Racks from Warfare 01 DLC -->
+		
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>LargeBlockWeaponRack</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WeaponRack</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WeaponRack.dds</Icon>
+            <Description>Description_WeaponRack</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\WeaponRack.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="20" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.2" Default="true" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+                <MountPoint Side="Right" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.8" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WeaponRackConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WeaponRackConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WeaponRackConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WeaponRack</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <EmissiveColorPreset>Basic</EmissiveColorPreset>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <DLC>Warfare1</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>SmallBlockWeaponRack</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WeaponRack</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\WeaponRack_small.dds</Icon>
+            <Description>Description_WeaponRack</Description>
+            <CubeSize>Small</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="1" />
+            <Model>Models\Cubes\Small\WeaponRack.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="2" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="InteriorPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.2"  />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.4" EndY="2" />
+                <MountPoint Side="Right" StartX="0.6" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0.8" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WeaponRackConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WeaponRackConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WeaponRack</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <EmissiveColorPreset>Basic</EmissiveColorPreset>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <DLC>Warfare1</DLC>
+        </Definition>
+		
+		<!-- End Weapon Racks Region -->
+		<!-- Embrassure Blocks from Warfare 01 DLC -->
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>FireCover</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_FireCover</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\FireCover.dds</Icon>
+            <Description>Description_FireCover</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\FireCover.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="Construction" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.9" StartY="0" EndX="1" EndY="0.4" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.1" EndY="0.4" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.4" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.9" EndX="1" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\FireCoverConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\FireCoverConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\FireCoverConstruction_3.mwm" />
+            </BuildProgressModels>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>Warfare1</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>FireCoverCorner</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_FireCoverCorner</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\FireCoverCorner.dds</Icon>
+            <Description>Description_FireCover</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\FireCoverCorner.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="8" />
+                <Component Subtype="Construction" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.9" StartY="0" EndX="1" EndY="0.4" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.9" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.9" EndY="0.4" />
+                <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="1" EndY="0.4" />
+                <MountPoint Side="Bottom" StartX="0.9" StartY="0" EndX="1" EndY="0.9" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="0.4" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\FireCoverCornerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\FireCoverCornerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\FireCoverCornerConstruction_3.mwm" />
+            </BuildProgressModels>
+            <MirroringX>HalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>Warfare1</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Embrasure</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Embrasure</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Embrasure.dds</Icon>
+            <Description>Description_Embrasure</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\Embrasure.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="MetalGrid" Count="10" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="MetalGrid" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0.15" StartY="0" EndX="0.85" EndY="0.4" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.6" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0.6" StartY="0" EndX="1" EndY="0.85" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.4" EndY="0.85" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Embrasure_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Embrasure_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Embrasure_Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>Embrasure</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>Warfare1</DLC>
+        </Definition>
+		
+		<!-- End Embrassure Blocks Region -->
+		<!-- Passage Blocks from Warfare 01 DLC -->
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>PassageSciFi</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Passage3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PassageSciFi.dds</Icon>
+            <Description>Description_Passage</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\PassageSciFi.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="74" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="48" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+                <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+                <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" Default="true" />
+                <MountPoint Side="Bottom" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassageSciFiConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageSciFiConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageSciFiConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>PassageSciFi</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>16</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>Warfare1</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>PassageSciFiWall</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Passage3Wall</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PassageSciFiWall.dds</Icon>
+            <Description>Description_Passage</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\PassageSciFiWall.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="50" />
+                <Component Subtype="Construction" Count="14" />
+                <Component Subtype="SmallTube" Count="32" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0.9" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0.9" EndX="0.9" EndY="1" />
+                <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" Default="true" />
+                <MountPoint Side="Right" StartX="0" StartY="0.9" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassageSciFiWallConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageSciFiWallConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageSciFiWallConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>PassageSciFiWall</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>Warfare1</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>PassageSciFiIntersection</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Passage3Cross</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PassageSciFiIntersection.dds</Icon>
+            <Description>Description_Passage</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\PassageSciFiIntersection.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="35" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="SmallTube" Count="25" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Left" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.2" Default="true" />
+                <MountPoint Side="Bottom" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassageSciFiIntersectionConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageSciFiIntersectionConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageSciFiIntersectionConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>PassageSciFiIntersection</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>Warfare1</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>PassageSciFiGate</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Passage3Frame</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PassageSciFiGate.dds</Icon>
+            <Description>Description_Passage</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\PassageSciFiGate.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="35" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="SmallTube" Count="25" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+                <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.5" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.5" Default="true" />
+                <MountPoint Side="Bottom" StartX="0.8" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassageSciFiGateConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageSciFiGateConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageSciFiGateConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>PassageSciFiGate</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>Warfare1</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>PassageSciFiLight</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Passage3Light</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PassageSciFiLight.dds</Icon>
+            <Description>Description_Passage</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\PassageSciFiLight.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="74" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="48" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+                <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+                <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" Default="true" />
+                <MountPoint Side="Bottom" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassageSciFiConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageSciFiConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageSciFiLightConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>PassageSciFiLight</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <LightRadius Min="1" Max="10" Default="3.6" />
+            <LightFalloff Min="0" Max="3" Default="1.3" />
+            <LightIntensity Min="0.5" Max="10" Default="5" />
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00006</RequiredPowerInput>
+            <Flare>InteriorLight</Flare>
+            <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+            <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <BuildTimeSeconds>16</BuildTimeSeconds>
+            <PCU>25</PCU>
+            <DLC>Warfare1</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>PassageScifiCorner</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_PassageScifiCorner</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PassageScifiCorner.dds</Icon>
+            <Description>Description_Passage</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\PassageScifiCorner.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="74" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="48" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.2" Default="true" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.2" EndX="0.2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassageScifiCornerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageScifiCornerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageScifiCornerConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>PassageScifiCorner</BlockPairName>
+            <MirroringX>YHalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>16</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>Warfare1</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>PassageSciFiTjunction</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_PassageSciFiTjunction</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PassageSciFiT-junction.dds</Icon>
+            <Description>Description_Passage</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\PassageSciFiT-junction.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="55" />
+                <Component Subtype="Construction" Count="16" />
+                <Component Subtype="SmallTube" Count="38" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" Default="true" />
+                <MountPoint Side="Bottom" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
+                <MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassageSciFiT-junctionConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageSciFiT-junctionConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageSciFiT-junctionConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>PassageSciFiTjunction</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>Warfare1</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>PassageSciFiWindow</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_PassageSciFiWindow</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PassageSciFiWindow.dds</Icon>
+            <Description>Description_Passage</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\PassageSciFiWindow.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="60" />
+                <Component Subtype="Construction" Count="16" />
+                <Component Subtype="BulletproofGlass" Count="16" />
+                <Component Subtype="SmallTube" Count="38" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+                <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+                <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" Default="true" />
+                <MountPoint Side="Bottom" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassageSciFiConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageSciFiConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageSciFiWindowConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>PassageSciFiWindow</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>16</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>Warfare1</DLC>
+        </Definition>
+		
+		<!-- End Sci Fi Passage Blocks Region -->
+		<!-- Heat Vent Blocks from Warfare2 DLC -->
+		
+        <Definition xsi:type="MyObjectBuilder_HeatVentBlockDefinition">
+            <Id>
+                <TypeId>HeatVentBlock</TypeId>
+                <SubtypeId>LargeHeatVentBlock</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_HeatVentWarfare2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HeatVent.dds</Icon>
+            <Description>Description_HeatVent</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <PowerDependency>0.6</PowerDependency>
+            <ColorMinimalPower Hex ="#FF0000" />
+            <ColorMaximalPower Hex ="#FFC514" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\HeatVent.mwm</Model>
+            <SubpartRotations>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45"/>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45"/>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45"/>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45"/>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135"/>
+            </SubpartRotations>
+            <Components>
+                <Component Subtype="SteelPlate" Count="15" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="LargeTube" Count="10" />
+                <Component Subtype="Motor" Count="5" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.1" EndX="0.1" EndY="0.9" />
+                <MountPoint Side="Top" StartX="0.9" StartY="0.1" EndX="1" EndY="0.9" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HeatVentConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HeatVentConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HeatVentConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HeatVentBlock</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <RequiredPowerInput>0.0002</RequiredPowerInput>
+            <Public>true</Public>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <PCU>50</PCU>
+            <IsAirTight>true</IsAirTight>
+            <EmissiveMaterialName>Emissive</EmissiveMaterialName>
+            <LightDummyName>light</LightDummyName>
+            <LightFalloffBounds Min="0" Max="3" Default="1.3" />
+            <LightIntensityBounds Min="0.5" Max="10" Default="2" />
+            <LightRadiusBounds Min="1" Max="10" Default="3.6" />
+            <LightOffsetBounds Min="0" Max="5" Default="0.5" />
+            <IdleSound>BlockOxyGenIdle</IdleSound>
+            <DLC>Warfare2</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_HeatVentBlockDefinition">
+            <Id>
+                <TypeId>HeatVentBlock</TypeId>
+                <SubtypeId>SmallHeatVentBlock</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_HeatVentWarfare2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HeatVent_small.dds</Icon>
+            <Description>Description_HeatVent</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <PowerDependency>0.6</PowerDependency>
+            <ColorMinimalPower Hex ="#FF0000" />
+            <ColorMaximalPower Hex ="#FFC514" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\HeatVent.mwm</Model>
+            <SubpartRotations>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45"/>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45"/>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45"/>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45"/>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135"/>
+            </SubpartRotations>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="LargeTube" Count="1" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.1" EndX="0.1" EndY="0.9" />
+                <MountPoint Side="Top" StartX="0.9" StartY="0.1" EndX="1" EndY="0.9" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\HeatVentConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HeatVentConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HeatVentBlock</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <RequiredPowerInput>0.0002</RequiredPowerInput>
+            <Public>true</Public>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <PCU>50</PCU>
+            <IsAirTight>true</IsAirTight>
+            <EmissiveMaterialName>Emissive</EmissiveMaterialName>
+            <LightDummyName>light</LightDummyName>
+            <LightFalloffBounds Min="0" Max="3" Default="1.3" />
+            <LightIntensityBounds Min="0.5" Max="10" Default="2" />
+            <LightRadiusBounds Min="1" Max="10" Default="3.6" />
+            <LightOffsetBounds Min="0" Max="5" Default="0.5" />
+            <DLC>Warfare2</DLC>
+        </Definition>
+
+		<!-- End Heat Vent Region -->
+		<!-- Freight Decor from DecorativeBlocks2 DLC -->
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Freight1</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Freight1</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Freight_I.dds</Icon>
+            <Description>Description_Freight</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\Freight_I.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="5" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="InteriorPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.7" StartY="0.7" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.3" EndY="0.3" />
+                <MountPoint Side="Back" StartX="0.7" StartY="0" EndX="1" EndY="0.3" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Freight_I_Construction_1.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Both</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Both</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>XHalfX</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <DLC>DecorativeBlocks2</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Freight2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Freight2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Freight_II.dds</Icon>
+            <Description>Description_Freight</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\Freight_II.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="16" />
+                <Component Subtype="InteriorPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0.7" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.3" EndY="0.3" />
+                <MountPoint Side="Back" StartX="0.4" StartY="0" EndX="1" EndY="0.3" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Freight_II_Construction_1.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Both</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Both</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <DLC>DecorativeBlocks2</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Freight3</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Freight3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Freight_III.dds</Icon>
+            <Description>Description_Freight</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\Freight_III.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="15" />
+                <Component Subtype="Construction" Count="24" />
+                <Component Subtype="InteriorPlate" Count="3" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0.7" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.3" EndY="0.3" />
+                <MountPoint Side="Back" StartX="0.4" StartY="0" EndX="1" EndY="0.3" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Freight_III_Construction_1.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Both</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Both</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <DLC>DecorativeBlocks2</DLC>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+		
+		<!-- End Freight Decor2 Region -->
+		<!-- Barrels and Crates from DecorativeBlocks3 -->
+		
+        <Definition>
+            <Id>
+                <TypeId>TerminalBlock</TypeId>
+                <SubtypeId>LargeCrate</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Crate</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Crate01.dds</Icon>
+            <Description>Description_CrateBlock</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\Crate01.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="SmallTube" Count="8" />
+                <Component Subtype="Motor" Count="4" />
+				<Component Subtype="Construction" Count="24" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.5" Default="true" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0.1" EndX="0.95" EndY="0.4" />
+				<MountPoint Side="Left" StartX="0.05" StartY="0.1" EndX="0.5" EndY="0.4" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.4" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\Crate01Construction_1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Crate01Construction_2.mwm" />
+            </BuildProgressModels>
+			<BlockPairName>Crate</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>16</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <EnableUseObjectSimpleTargeting>true</EnableUseObjectSimpleTargeting>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBarrel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Barrel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01.dds</Icon>
+            <Description>Description_Freight</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\Barrel01_Large.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="LargeTube" Count="1" />
+                <Component Subtype="Construction" Count="6" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.6" StartY="0" EndX="1.0" EndY="0.4" Default="true" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.3" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0.7" StartY="0" EndX="0.9" EndY="0.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Barrel01_Large_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Barrel01_Large_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Barrel01_Large_Construction_3.mwm" />
+            </BuildProgressModels>
+			<BlockPairName>Barrel</BlockPairName>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>YHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallBarrel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Barrel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01.dds</Icon>
+            <Description>Description_Freight</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="3" z="2" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Small\Barrel01.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="LargeTube" Count="1" />
+                <Component Subtype="Construction" Count="6" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="1.9" EndY="1.9" Default="true" />
+                <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1.2" EndY="2.5" />
+                <MountPoint Side="Back" StartX="0.8" StartY="0" EndX="1.2" EndY="2.5" />
+                <MountPoint Side="Left" StartX="0.8" StartY="0" EndX="1.2" EndY="2.5" />
+				<MountPoint Side="Right" StartX="0.8" StartY="0" EndX="1.2" EndY="2.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Barrel01_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Barrel01_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Barrel01_Construction_3.mwm" />
+            </BuildProgressModels>
+			<BlockPairName>Barrel</BlockPairName>
+            <MirroringY>XHalfY</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBarrelThree</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_BarrelThree</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01Three.dds</Icon>
+            <Description>Description_Freight</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\Barrel01Three.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="12" />
+				<Component Subtype="LargeTube" Count="3" />
+                <Component Subtype="Construction" Count="18" />
+                <Component Subtype="SteelPlate" Count="3" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.3" StartY="0" EndX="1.0" EndY="0.4" Default="true" />
+				<MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="1.0" EndY="0.6" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.6" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0.3" StartY="0" EndX="0.9" EndY="0.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Barrel01Three_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Barrel01Three_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Barrel01Three_Construction_3.mwm" />
+            </BuildProgressModels>
+			<BlockPairName>BarrelThree</BlockPairName>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>YHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBarrelStack</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_BarrelStack</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01Stack.dds</Icon>
+            <Description>Description_Freight</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\Barrel01Stack.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="40" />
+				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="MetalGrid" Count="4" />
+				<Component Subtype="Girder" Count="8" />
+                <Component Subtype="Construction" Count="60" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="0.3" EndY="1.0" />
+                <MountPoint Side="Right" StartX="0.7" StartY="0" EndX="0.9" EndY="1.0" />
+                <MountPoint Side="Right" StartX="0.3" StartY="0" EndX="0.7" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.3" EndY="1.0" />
+				<MountPoint Side="Front" StartX="0.7" StartY="0" EndX="0.9" EndY="1.0" />
+				<MountPoint Side="Front" StartX="0.3" StartY="0" EndX="0.7" EndY="0.1" />
+                <MountPoint Side="Left" StartX="0.1" StartY="0" EndX="0.3" EndY="1.0" />
+                <MountPoint Side="Left" StartX="0.7" StartY="0" EndX="0.9" EndY="1.0" />
+                <MountPoint Side="Left" StartX="0.3" StartY="0" EndX="0.7" EndY="0.1" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0" EndX="0.3" EndY="1.0" />
+                <MountPoint Side="Back" StartX="0.7" StartY="0" EndX="0.9" EndY="1.0" />
+                <MountPoint Side="Back" StartX="0.3" StartY="0" EndX="0.7" EndY="0.1" />
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="0.4" EndY="0.4" />
+				<MountPoint Side="Top" StartX="0.6" StartY="0" EndX="1.0" EndY="0.4" />
+				<MountPoint Side="Top" StartX="0" StartY="0.6" EndX="0.4" EndY="1.0" />
+				<MountPoint Side="Top" StartX="0.6" StartY="0.6" EndX="1.0" EndY="1.0" />
+				<MountPoint Side="Top" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Barrel01Stack_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Barrel01Stack_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Barrel01Stack_Construction_3.mwm" />
+            </BuildProgressModels>
+			<BlockPairName>BarrelStack</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>22</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+	
+        <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
+            <Id>
+                <TypeId>Warhead</TypeId>
+                <SubtypeId>LargeExplosiveBarrel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ExplosiveBarrel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01Explosive.dds</Icon>
+            <Description>Description_ExplosiveBarrel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\Barrel01ExplosiveLarge.mwm</Model>
+            <Components>		
+                <Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="LargeTube" Count="1" />
+                <Component Subtype="Construction" Count="6" />
+				<Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Computer" Count="1" />
+                <Component Subtype="Explosives" Count="2" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Explosives" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.6" StartY="0" EndX="1.0" EndY="0.4" Default="true" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.4" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0.6" StartY="0" EndX="1.0" EndY="0.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Barrel01_Large_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Barrel01ExplosiveLarge_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Barrel01ExplosiveLarge_Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ExplosiveBarrel</BlockPairName>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>YHalfY</MirroringZ>
+            <ActionSound>WepLrgWarheadExpl</ActionSound>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <ExplosionRadius> 4.4883 </ExplosionRadius>
+            <WarheadExplosionDamage>15000</WarheadExplosionDamage>
+            <EmissiveColorPreset>Timer</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>100</PCU>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>Weapons</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
+            <Id>
+                <TypeId>Warhead</TypeId>
+                <SubtypeId>SmallExplosiveBarrel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ExplosiveBarrel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01Explosive.dds</Icon>
+            <Description>Description_ExplosiveBarrel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="3" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\Barrel01Explosive.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="LargeTube" Count="1" />
+                <Component Subtype="Construction" Count="6" />
+				<Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Computer" Count="1" />
+                <Component Subtype="Explosives" Count="2" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Explosives" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2.0" EndY="2.0" Default="true" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="2.0" EndY="2.5" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2.0" EndY="2.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2.0" EndY="2.5" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="2.0" EndY="2.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Barrel01_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Barrel01Explosive_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Barrel01Explosive_Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ExplosiveBarrel</BlockPairName>
+            <MirroringY>XHalfY</MirroringY>
+            <ActionSound>WepLrgWarheadExpl</ActionSound>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <ExplosionRadius> 4.4883 </ExplosionRadius>
+            <WarheadExplosionDamage>15000</WarheadExplosionDamage>
+            <EmissiveColorPreset>Timer</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>100</PCU>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>Weapons</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+		<!-- END Barrels and Crates (Decor3) Region -->
+		<!-- Aquarium from DecorativeBlocks3 DLC -->
+		
+        <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>LargeBlockInsetAquarium</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_InsetAquarium</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Inset_Aquarium.dds</Icon>
+            <Description>Description_Aquarium</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\Inset_Aquarium.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="30" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="SmallTube" Count="10" />
+                <Component Subtype="GravityGenerator" Count="1" />
+                <Component Subtype="BulletproofGlass" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Inset_Aquarium_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Inset_Aquarium_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Inset_Aquarium_Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>InsetAquarium</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <BuildTimeSeconds>18</BuildTimeSeconds>
+            <LightRadius Min="1" Max="3" Default="1.5" />
+            <LightFalloff Min="0" Max="3" Default="1" />
+            <LightIntensity Min="0.5" Max="5" Default="3" />
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00006</RequiredPowerInput>
+            <Flare>TrussLight</Flare>
+            <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+            <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>true</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+		<!-- END Aquarium Region -->
+		<!-- Bookshelf from DecorativeBlocks3 DLC -->
+		
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>LargeBlockInsetBookshelf</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_InsetBookshelf</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\InteriorBookshelf.dds</Icon>
+            <Description>Description_Lockers</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\InteriorBookshelf.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="20" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\InteriorBookshelfConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InteriorBookshelfConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InteriorBookshelfConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>InsetBookshelf</BlockPairName>
+            <MirroringZ>YHalfY</MirroringZ>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringX>MinusHalfY</MirroringX>
+            <EdgeType>Light</EdgeType>
+            <EmissiveColorPreset>Basic</EmissiveColorPreset>
+            <BuildTimeSeconds>18</BuildTimeSeconds>
+            <IsAirTight>true</IsAirTight>
+            <PCU>10</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+		<!-- END Bookshelf Region -->
+		<!-- Plant Couch from DecorativeBlocks3 DLC -->
+		
+        <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>LargeBlockInsetPlantCouch</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_InsetPlantCouch</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Inset_PlantCouch.dds</Icon>
+            <Description>Description_Couch</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\Inset_PlantCouch.mwm</Model>
+            <CharacterAnimation>passengerseat_small</CharacterAnimation>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="30" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="BulletproofGlass" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0.1" EndX="0.1" EndY="0.8" />
+                <MountPoint Side="Front" StartX="0.9" StartY="0.1" EndX="1" EndY="0.8" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Inset_PlantCouch_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Inset_PlantCouch_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Inset_PlantCouch_Construction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>Inset_PlantCouch</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>false</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>18</BuildTimeSeconds>
+            <PCU>15</PCU>
+            <IsAirTight>true</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+		<!-- END Plant Couch Region -->
+		<!-- Sci Fi Interior Wall from SparksOfTheFuture DLC -->
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockSciFiWall</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SciFiWall</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SciFiWall.dds</Icon>
+            <Description>Description_InteriorWall</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SciFiWall.mwm</Model>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="20" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="InteriorPlate" Count="5" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\InteriorWallConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InteriorWallConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InteriorWallConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SciFiWall</BlockPairName>
+            <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsAirTight>true</IsAirTight>
+            <DLC>SparksOfTheFuture</DLC>
+        </Definition>
+		
+		<!-- END Sci Fi Interior Wall Region -->
+		<!-- Angled Interior Walls from Automatons DLC -->
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>AngledInteriorWallA</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AngledInteriorWallA</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\AngledInteriorWallA.dds</Icon>
+            <Description>Description_InteriorWall</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AngledInteriorWallA.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="20" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="InteriorPlate" Count="5" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="0.5" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AngledInteriorWallAConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AngledInteriorWallAConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AngledInteriorWallAConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AngledInteriorWallA</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>AngledInteriorWallB</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AngledInteriorWallB</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\AngledInteriorWallB.dds</Icon>
+            <Description>Description_InteriorWall</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AngledInteriorWallB.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="20" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="InteriorPlate" Count="5" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="0.5" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="0.1" EndY="0.5" />
+                <MountPoint Side="Top" StartX="0.9" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0.9" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0" StartY="0.9" EndX="0.5" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AngledInteriorWallBConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AngledInteriorWallBConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AngledInteriorWallBConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AngledInteriorWallB</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>Automatons</DLC>
+        </Definition>
+		
+		<!-- END Angled Interior Walls -->
+		<!-- Pipe Works Interior Walls from Automatons DLC -->
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>PipeWorkBlockA</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_PipeWorkBlockA</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PipeworkBlock.dds</Icon>
+            <Description>Description_InteriorWall</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\PipeworkBlock.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="20" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="LargeTube" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="LargeTube" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="1" EndY="0.1" />
+                <MountPoint Side="Back" StartX="0.5" StartY="0.9" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.5" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0.9" EndX="0.5" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+                <MountPoint Side="Right" StartX="0" StartY="0.9" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PipeworkBlock_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PipeworkBlock_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PipeworkBlock_Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>pipeLineBlockA</BlockPairName>
+            <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>16</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <DLC>Automatons</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>PipeWorkBlockB</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_PipeWorkBlockB</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PipeworkBlock_AirTight.dds</Icon>
+            <Description>Description_InteriorWall</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\PipeworkBlock_Airtight.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="20" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="LargeTube" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="LargeTube" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Right" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PipeworkBlock_AirTight_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PipeworkBlock_AirTight_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PipeworkBlock_AirTight_Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>pipeLineBlockB</BlockPairName>
+            <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>16</BuildTimeSeconds>
+            <IsAirTight>true</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>Automatons</DLC>
+        </Definition>
+		
+		<!-- END Pipe Works Interior Walls Region -->
+		
 	</CubeBlocks>
 </Definitions>

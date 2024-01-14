@@ -1083,5 +1083,37 @@
       <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
     </Component>
+	
+	<!-- Component idea for Neon lighting blocks added by SparksofTheFuture DLC - Maybe make "GlassBulb" and another seperate component "Filament" so it could be used for many applications and not just Neon lighting
+	
+    <Component> GlassTube 
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>GlassTube</SubtypeId>
+      </Id>
+      <DisplayName>Glass Tube</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Construction\CarbonTube_Icon.dds</Icon>
+      <Size>
+        <X>1</X>
+        <Y>0.04</Y>
+        <Z>0.04</Z>
+      </Size>
+      <Mass>4</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Components\small_tube_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>1</Health>
+	  <IconSymbol>Glass</IconSymbol>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+    </Component>
+	-->
   </Components>
 </Definitions>
