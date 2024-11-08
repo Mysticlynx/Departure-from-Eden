@@ -45,7 +45,7 @@
       <IsAirTight>true</IsAirTight>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <IceConsumptionPerSecond>25</IceConsumptionPerSecond>
+      <IceConsumptionPerSecond>4</IceConsumptionPerSecond>
       <InventoryMaxVolume>5</InventoryMaxVolume>
       <InventorySize>
         <X>2</X>
@@ -56,14 +56,14 @@
       <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
       <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.15</OperationalPowerConsumption>
+      <OperationalPowerConsumption>0.05</OperationalPowerConsumption>
       <ProducedGases>
         <GasInfo>
           <Id>
             <TypeId>GasProperties</TypeId>
             <SubtypeId>Hydrogen</SubtypeId>
           </Id>
-          <IceToGasRatio>300</IceToGasRatio>
+          <IceToGasRatio>250</IceToGasRatio>
         </GasInfo>
       </ProducedGases>
       <BlueprintClasses>
@@ -130,7 +130,7 @@
       <IsAirTight>true</IsAirTight>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <IceConsumptionPerSecond>25</IceConsumptionPerSecond>
+      <IceConsumptionPerSecond>5</IceConsumptionPerSecond>
       <InventoryMaxVolume>5</InventoryMaxVolume>
       <InventorySize>
         <X>2</X>
@@ -141,7 +141,7 @@
       <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
       <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.15</OperationalPowerConsumption>
+      <OperationalPowerConsumption>0.05</OperationalPowerConsumption>
       <ProducedGases>
         <GasInfo>
           <Id>
@@ -216,7 +216,7 @@
       <IsAirTight>true</IsAirTight>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <IceConsumptionPerSecond>25</IceConsumptionPerSecond>
+      <IceConsumptionPerSecond>5</IceConsumptionPerSecond>
       <InventoryMaxVolume>8</InventoryMaxVolume>
       <InventorySize>
         <X>2</X>
@@ -227,7 +227,7 @@
       <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
       <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.5</OperationalPowerConsumption>
+      <OperationalPowerConsumption>0.165</OperationalPowerConsumption>
       <ProducedGases>
         <GasInfo>
           <Id>
@@ -301,7 +301,7 @@
       <IsAirTight>true</IsAirTight>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <IceConsumptionPerSecond>25</IceConsumptionPerSecond>
+      <IceConsumptionPerSecond>5</IceConsumptionPerSecond>
       <InventoryMaxVolume>8</InventoryMaxVolume>
       <InventorySize>
         <X>2</X>
@@ -312,7 +312,7 @@
       <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
       <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.5</OperationalPowerConsumption>
+      <OperationalPowerConsumption>0.165</OperationalPowerConsumption>
       <ProducedGases>
         <GasInfo>
           <Id>
