@@ -10,6 +10,11 @@
       <Name>Inventory Logistics</Name>
 	  <StrictSearch>true</StrictSearch>
       <ItemIds>
+		
+		<string>CargoContainer/LargeBlockSmallContainer</string>
+		<string>CargoContainer/LargeBlockLargeContainer</string>
+		<string>CargoContainer/SmallBlockMediumContainer</string>
+		
         <string>Conveyor/LargeBlockConveyor</string>
         <string>Conveyor/SmallBlockConveyor</string>
         <string>Collector/Collector</string>

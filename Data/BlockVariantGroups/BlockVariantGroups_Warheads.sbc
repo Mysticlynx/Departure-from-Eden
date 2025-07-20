@@ -8,13 +8,13 @@
             <DisplayName>Warheads</DisplayName>
             <Description>Warheads</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_Warhead" Subtype="LargeWarhead" />				
-                <Block Type="MyObjectBuilder_Warhead" Subtype="LargePlutoniumWarhead" />				
-                <Block Type="MyObjectBuilder_Warhead" Subtype="LargeFusionWarhead" />
-
                 <Block Type="MyObjectBuilder_Warhead" Subtype="SmallWarhead" />             
                 <Block Type="MyObjectBuilder_Warhead" Subtype="SmallPlutoniumWarhead" />                
                 <Block Type="MyObjectBuilder_Warhead" Subtype="SmallFusionWarhead" />
+				
+                <Block Type="MyObjectBuilder_Warhead" Subtype="LargeWarhead" />				
+                <Block Type="MyObjectBuilder_Warhead" Subtype="LargePlutoniumWarhead" />				
+                <Block Type="MyObjectBuilder_Warhead" Subtype="LargeFusionWarhead" />
             </Blocks>
         </BlockVariantGroup>
 	</BlockVariantGroups>

@@ -6,7 +6,7 @@
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
       </Id>
-      <DisplayName>[DFE] Armor Blocks</DisplayName>
+      <DisplayName>All Armor Blocks</DisplayName>
       <Name>DFEArmorBlocks</Name>
 	  <StrictSearch>true</StrictSearch>
       <ItemIds>	  

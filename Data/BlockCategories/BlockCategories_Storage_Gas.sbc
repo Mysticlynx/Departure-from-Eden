@@ -6,8 +6,8 @@
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
       </Id>
-      <DisplayName>Storage Blocks</DisplayName>
-      <Name>Storage Blocks</Name>
+      <DisplayName>Gas Storage Blocks</DisplayName>
+      <Name>Gas Storage Blocks</Name>
       <StrictSearch>true</StrictSearch>
       <ItemIds>	  
 	  
@@ -23,13 +23,6 @@
 		<string>OxygenTank/LargeBlockSmallBasicJetFuelTank</string>
 		<string>OxygenTank/LargeBlockLargeBasicJetFuelTank</string>
 		
-		<string>CargoContainer/LargeBlockSmallContainer</string>
-		<string>CargoContainer/LargeBlockLargeContainer</string>
-		<string>CargoContainer/SmallBlockMediumContainer</string>
-		
-		<string>CargoContainer/LargeBlockLockerRoom</string>
-		<string>CargoContainer/LargeBlockLockerRoomCorner</string>
-		<string>CargoContainer/LargeBlockLockers</string>
       </ItemIds>
     </Category>
   </CategoryClasses>

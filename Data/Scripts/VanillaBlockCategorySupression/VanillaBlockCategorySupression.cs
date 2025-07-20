@@ -8,19 +8,8 @@ namespace VanillaBlockCategorySupression
     {
         public override void LoadData()
         {
-            RemoveCategory("LargeBlocks");
-            RemoveCategory("Armorblocks");
-            RemoveCategory("WarfarePack1");
-            RemoveCategory("WarfarePack2");
-            RemoveCategory("DecorativeBlocks1");
-            RemoveCategory("DecorativeBlocks2");
-            RemoveCategory("DecorativeBlocks3");
-            RemoveCategory("GridAutomation");
-            RemoveCategory("FrozenBlocks");
-            RemoveCategory("SparksOfTheFutureBlocks");
-            RemoveCategory("ScrapRacePack");
-            RemoveCategory("IndustrialPack");
-            RemoveCategory("203Pack");
+            RemoveCategory("Section1_Position1_LargeBlocks");
+            RemoveCategory("Section1_Position1_SmallBlocks");
             // can repeat the above line to remove more
         }
 

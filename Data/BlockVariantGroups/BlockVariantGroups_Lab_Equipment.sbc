@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeUtilityGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\LabEquipment.dds</Icon>
+            <DisplayName>DisplayName_Block_LabEquipment</DisplayName>
+            <Description>Description_LabEquipment</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="LabEquipment" />
+                <Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="MedicalStation" />
+				<Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="LabEquipment1" />
+				<Block Type="MyObjectBuilder_InteriorLight" Subtype="LabEquipment2" />
+				<Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="LabEquipment3" />
+            </Blocks>
+        </BlockVariantGroup>
+	</BlockVariantGroups>
+</Definitions>

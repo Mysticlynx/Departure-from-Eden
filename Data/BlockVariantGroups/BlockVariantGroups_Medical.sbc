@@ -9,8 +9,8 @@
             <Description>Description_BlockGroup_MedicalGroup</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge" />
-                <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockCryoChamber" />
                 <Block Type="MyObjectBuilder_MedicalRoom" Subtype="LargeMedicalRoom" />
+                <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockCryoChamber" />
                 <Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="MedicalStation" />
 
                 <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit" />

@@ -11,6 +11,7 @@
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockSmallAdvancedOxygenTank" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockSmallEliteOxygenTank" />
+				
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmall" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockSmallAdvancedOxygenTank" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockSmallEliteOxygenTank" />
@@ -25,6 +26,7 @@
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockLargeBasicOxygenTank" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockLargeAdvancedOxygenTank" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockLargeEliteOxygenTank" />
+				
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockLargeBasicOxygenTank" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockLargeAdvancedOxygenTank" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallBlockLargeEliteOxygenTank" />
