@@ -1562,15 +1562,20 @@
             <Model>Models\Cubes\Small\ModularIonThrusterSmall.mwm</Model>
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
-            <Components>
-                <Component Subtype="SteelPlate" Count="1" />
-                <Component Subtype="Construction" Count="1" />
-                <Component Subtype="LargeTube" Count="1" />
-                <Component Subtype="Thrust" Count="1" />
-                <Component Subtype="Construction" Count="1" />
-                <Component Subtype="SteelPlate" Count="1" />
-            </Components>
-            <CriticalComponent Subtype="Thrust" Index="0" />
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="24" />
+        <Component Subtype="BrassRod" Count="6" />
+        <Component Subtype="Insulation" Count="8" />
+        <Component Subtype="LargeCopperTube" Count="3" />
+        <Component Subtype="PowerSupply" Count="1" />
+        <Component Subtype="Thrust" Count="4" />
+        <Component Subtype="IonProjector" Count="1" />
+        <Component Subtype="CoolingUnit" Count="1" />
+        <Component Subtype="Superconductor" Count="11" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="BrazingRod" Count="43" />
+      </Components>
+      <CriticalComponent Subtype="Superconductor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
@@ -1659,15 +1664,20 @@
             <Model>Models\Cubes\Small\ModularIonThrusterLarge.mwm</Model>
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
-            <Components>
-                <Component Subtype="SteelPlate" Count="1" />
-                <Component Subtype="Construction" Count="1" />
-                <Component Subtype="LargeTube" Count="5" />
-                <Component Subtype="Thrust" Count="12" />
-                <Component Subtype="Construction" Count="1" />
-                <Component Subtype="SteelPlate" Count="4" />
-            </Components>
-            <CriticalComponent Subtype="Thrust" Index="0" />
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="72" />
+        <Component Subtype="BrassRod" Count="18" />
+        <Component Subtype="Insulation" Count="24" />
+        <Component Subtype="LargeCopperTube" Count="10" />
+        <Component Subtype="PowerSupply" Count="12" />
+        <Component Subtype="Thrust" Count="48" />
+        <Component Subtype="IonProjector" Count="12" />
+        <Component Subtype="CoolingUnit" Count="3" />
+        <Component Subtype="Superconductor" Count="32" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="BrazingRod" Count="130" />
+      </Components>
+      <CriticalComponent Subtype="Superconductor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
                 <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
@@ -1761,15 +1771,20 @@
             <Model>Models\Cubes\Large\ModularIonThrusterSmall.mwm</Model>
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
-            <Components>
-                <Component Subtype="SteelPlate" Count="15" />
-                <Component Subtype="Construction" Count="40" />
-                <Component Subtype="LargeTube" Count="8" />
-                <Component Subtype="Thrust" Count="80" />
-                <Component Subtype="Construction" Count="20" />
-                <Component Subtype="SteelPlate" Count="10" />
-            </Components>
-            <CriticalComponent Subtype="Thrust" Index="0" />
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="120" />
+        <Component Subtype="BrassRod" Count="30" />
+        <Component Subtype="Insulation" Count="40" />
+        <Component Subtype="LargeCopperTube" Count="17" />
+        <Component Subtype="PowerSupply" Count="5" />
+        <Component Subtype="Thrust" Count="20" />
+        <Component Subtype="IonProjector" Count="5" />
+        <Component Subtype="CoolingUnit" Count="3" />
+        <Component Subtype="Superconductor" Count="53" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="BrazingRod" Count="217" />
+      </Components>
+      <CriticalComponent Subtype="Superconductor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
@@ -1858,15 +1873,20 @@
             <Model>Models\Cubes\Large\ModularIonThrusterLarge.mwm</Model>
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
-            <Components>
-                <Component Subtype="SteelPlate" Count="100" />
-                <Component Subtype="Construction" Count="70" />
-                <Component Subtype="LargeTube" Count="40" />
-                <Component Subtype="Thrust" Count="960" />
-                <Component Subtype="Construction" Count="30" />
-                <Component Subtype="SteelPlate" Count="50" />
-            </Components>
-            <CriticalComponent Subtype="Thrust" Index="0" />
+      <Components>
+        <Component Subtype="TitaniumPlate" Count="360" />
+        <Component Subtype="BrassRod" Count="90" />
+        <Component Subtype="Insulation" Count="120" />
+        <Component Subtype="LargeCopperTube" Count="50" />
+        <Component Subtype="PowerSupply" Count="60" />
+        <Component Subtype="Thrust" Count="240" />
+        <Component Subtype="IonProjector" Count="60" />
+        <Component Subtype="CoolingUnit" Count="5" />
+        <Component Subtype="Superconductor" Count="160" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="BrazingRod" Count="350" />
+      </Components>
+      <CriticalComponent Subtype="Superconductor" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
                 <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />

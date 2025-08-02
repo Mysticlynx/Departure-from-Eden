@@ -801,10 +801,10 @@
       <Icon>Textures\GUI\Icons\ingot\Alloys\Rubber_Icon.dds</Icon>
       <DisplayName>Rubber x10</DisplayName>
       <Prerequisites>
-        <Item Amount="0.62" TypeId="Ore" SubtypeId="Hydrogen" />
-        <Item Amount="0.38" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="6.2" TypeId="Ore" SubtypeId="Hydrogen" />
+        <Item Amount="3.8" TypeId="Ingot" SubtypeId="Carbon" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="Rubber" />
+      <Result Amount="10" TypeId="Ingot" SubtypeId="Rubber" />
       <BaseProductionTimeInSeconds>0.9</BaseProductionTimeInSeconds>
     </Blueprint>
 	
@@ -1041,15 +1041,15 @@
       <Icon>Textures\GUI\Icons\ingot\Alloys\Cement_Icon.dds</Icon>
       <DisplayName>Cement</DisplayName>
       <Prerequisites>
-        <Item Amount="0.716" TypeId="Ore" SubtypeId="Oxygen" />
-        <Item Amount="0.47" TypeId="Ingot" SubtypeId="Calcium" />
-        <Item Amount="0.1024" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="0.365" TypeId="Ingot" SubtypeId="Aluminum" />
-        <Item Amount="0.021" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="0.0151" TypeId="Ingot" SubtypeId="Magnesium" />
-        <Item Amount="0.0068" TypeId="Ingot" SubtypeId="Sulfur" />
+        <Item Amount="7.16" TypeId="Ore" SubtypeId="Oxygen" />
+        <Item Amount="4.7" TypeId="Ingot" SubtypeId="Calcium" />
+        <Item Amount="1.024" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="3.65" TypeId="Ingot" SubtypeId="Aluminum" />
+        <Item Amount="0.21" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="0.151" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="0.068" TypeId="Ingot" SubtypeId="Sulfur" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="Cement" />
+      <Result Amount="10" TypeId="Ingot" SubtypeId="Cement" />
       <BaseProductionTimeInSeconds>0.9</BaseProductionTimeInSeconds>
     </Blueprint>
 	

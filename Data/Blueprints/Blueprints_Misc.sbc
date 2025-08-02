@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EngineerPlushie</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_EngineerPlushie</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Plushie.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="Bladder" />
+                <Item Amount="4" TypeId="Component" SubtypeId="RubberTube" />
+                <Item Amount="3" TypeId="Component" SubtypeId="Insulation" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="EngineerPlushie" />
+            <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SabiroidPlushie</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SabiroidPlushie</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SabiroidPlushie.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="Bladder" />
+                <Item Amount="4" TypeId="Component" SubtypeId="RubberTube" />
+                <Item Amount="3" TypeId="Component" SubtypeId="Insulation" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SabiroidPlushie" />
+            <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+        </Blueprint>
+  </Blueprints>
+</Definitions>

@@ -14,5 +14,7 @@
 		<Entry Class="BasicTools" BlueprintSubtypeId="SurvivalKit" />
         <Entry Class="BasicTools" BlueprintSubtypeId="Position0010_OxygenBottle" />
         <Entry Class="BasicTools" BlueprintSubtypeId="Position0020_HydrogenBottle" />
+        <Entry Class="BasicTools" BlueprintSubtypeId="EngineerPlushie" />
+        <Entry Class="BasicTools" BlueprintSubtypeId="SabiroidPlushie" />
   </BlueprintClassEntries>
 </Definitions>
