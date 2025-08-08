@@ -291,15 +291,15 @@
       <Model>Models\Cubes\LBChemPlant.mwm</Model>
       <Components>
         <Component Subtype="TitaniumPlate" Count="350" />
-        <Component Subtype="TitaniumRod" Count="20" />
+        <Component Subtype="TitaniumRod" Count="40" />
         <Component Subtype="PressurizedTubing" Count="32" />
-        <Component Subtype="PneumaticPump" Count="8" />
-        <Component Subtype="CatalyticConvertor" Count="4" />
-        <Component Subtype="MicroChip" Count="8" />
-        <Component Subtype="CoolingUnit" Count="1" />
-        <Component Subtype="PowerSupply" Count="5" />
-        <Component Subtype="Computer" Count="50" />
-        <Component Subtype="InsulatedCopperWire" Count="120" />
+        <Component Subtype="PneumaticPump" Count="10" />
+        <Component Subtype="CatalyticConvertor" Count="10" />
+        <Component Subtype="MicroChip" Count="20" />
+        <Component Subtype="CoolingUnit" Count="10" />
+        <Component Subtype="PowerSupply" Count="12" />
+        <Component Subtype="Computer" Count="100" />
+        <Component Subtype="InsulatedCopperWire" Count="196" />
         <Component Subtype="BrazingRod" Count="650" />
       </Components>
       <CriticalComponent Subtype="InsulatedCopperWire" Index="0" />

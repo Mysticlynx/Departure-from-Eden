@@ -11,10 +11,16 @@
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockAdvancedSolarPanel" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockEliteSolarPanel" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockColorableSolarPanel" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockColorableSolarPanelCorner" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockColorableSolarPanelCornerInverted" />
 
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockSolarPanel" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockAdvancedSolarPanel" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockEliteSolarPanel" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockColorableSolarPanel" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockColorableSolarPanelCorner" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockColorableSolarPanelCornerInverted" />
             </Blocks>
         </BlockVariantGroup>
 
