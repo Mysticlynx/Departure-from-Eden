@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+<!--Lead Batteries-->
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>LargeBlockBasicLeadBattery</SubtypeId>
+      </Id>
+      <DisplayName>Basic Lead Battery</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Description>Description_Battery</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BatteryLarge.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="40" />
+        <Component Subtype="LeadPowerCell" Count="80" />
+        <Component Subtype="Processor" Count="20" />
+        <Component Subtype="Rectifier" Count="20" />
+        <Component Subtype="Insulation" Count="20" />
+        <Component Subtype="InsulatedCopperWire" Count="40" />
+        <Component Subtype="Computer" Count="80" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BasicLeadBattery</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>50</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>18.75</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>18.75</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>6.25</MaxStoredPower>
+      <InitialStoredPowerRatio>0.0625</InitialStoredPowerRatio>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+      <IsAirTight>true</IsAirTight>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>LargeBlockAdvancedLeadBattery</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Lead Battery</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+	    <GuiVisible>false</GuiVisible>
+      <Description>Description_Battery</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BatteryLarge.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="60" />
+        <Component Subtype="LeadPowerCell" Count="120" />
+        <Component Subtype="Processor" Count="30" />
+        <Component Subtype="Rectifier" Count="30" />
+        <Component Subtype="Insulation" Count="30" />
+        <Component Subtype="InsulatedCopperWire" Count="60" />
+        <Component Subtype="Computer" Count="120" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AdvancedLeadBattery</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>75</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>28.125</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>28.125</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>9.375</MaxStoredPower>
+      <InitialStoredPowerRatio>0.09375</InitialStoredPowerRatio>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+      <IsAirTight>true</IsAirTight>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>LargeBlockEliteLeadBattery</SubtypeId>
+      </Id>
+      <DisplayName>Elite Lead Battery</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+	    <GuiVisible>false</GuiVisible>
+      <Description>Description_Battery</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BatteryLarge.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="90" />
+        <Component Subtype="LeadPowerCell" Count="180" />
+        <Component Subtype="Processor" Count="45" />
+        <Component Subtype="Rectifier" Count="45" />
+        <Component Subtype="Insulation" Count="45" />
+        <Component Subtype="InsulatedCopperWire" Count="90" />
+        <Component Subtype="Computer" Count="180" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>EliteLeadBattery</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>112.5</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>42.1875</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>42.1875</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>14.0625</MaxStoredPower>
+      <InitialStoredPowerRatio>0.140625</InitialStoredPowerRatio>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+      <IsAirTight>true</IsAirTight>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>      
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>SmallBlockBasicLeadBattery</SubtypeId>
+      </Id>
+      <DisplayName>Basic Lead Battery</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Description>Description_Battery</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\BatterySmall.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="20" />
+        <Component Subtype="LeadPowerCell" Count="40" />
+        <Component Subtype="Processor" Count="10" />
+        <Component Subtype="Rectifier" Count="10" />
+        <Component Subtype="Insulation" Count="10" />
+        <Component Subtype="InsulatedCopperWire" Count="20" />
+        <Component Subtype="Computer" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BasicLeadBattery</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>6.25</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>6.25</RequiredPowerInput>
+      <MaxStoredPower>1.25</MaxStoredPower>
+      <InitialStoredPowerRatio>0.0125</InitialStoredPowerRatio>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+      <IsAirTight>false</IsAirTight>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>SmallBlockAdvancedLeadBattery</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Lead Battery</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+	    <GuiVisible>false</GuiVisible>
+      <Description>Description_Battery</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\BatterySmall.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="30" />
+        <Component Subtype="LeadPowerCell" Count="60" />
+        <Component Subtype="Processor" Count="15" />
+        <Component Subtype="Rectifier" Count="15" />
+        <Component Subtype="Insulation" Count="15" />
+        <Component Subtype="InsulatedCopperWire" Count="30" />
+        <Component Subtype="Computer" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AdvancedLeadBattery</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>37.5</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>9.375</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>9.375</RequiredPowerInput>
+      <MaxStoredPower>1.875</MaxStoredPower>
+      <InitialStoredPowerRatio>0.01875</InitialStoredPowerRatio>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+      <IsAirTight>false</IsAirTight>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>      
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>SmallBlockEliteLeadBattery</SubtypeId>
+      </Id>
+      <DisplayName>Elite Lead Battery</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+	    <GuiVisible>false</GuiVisible>
+      <Description>Description_Battery</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\BatterySmall.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="45" />
+        <Component Subtype="LeadPowerCell" Count="90" />
+        <Component Subtype="Processor" Count="23" />
+        <Component Subtype="Rectifier" Count="23" />
+        <Component Subtype="Insulation" Count="23" />
+        <Component Subtype="InsulatedCopperWire" Count="45" />
+        <Component Subtype="Computer" Count="90" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>EliteLeadBattery</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>14.0625</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>14.0625</RequiredPowerInput>
+      <MaxStoredPower>2.8125</MaxStoredPower>
+      <InitialStoredPowerRatio>0.028125</InitialStoredPowerRatio>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+      <IsAirTight>false</IsAirTight>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>      
+    </Definition>
+		
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>SmallBlockSmallBasicLeadBattery</SubtypeId>
+      </Id>
+      <DisplayName>Small Basic Lead Battery</DisplayName>
+      <Icon>Textures/GUI/Icons/Cubes/Battery1x1.dds</Icon>
+      <Description>Description_Battery</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\BatterySmall1x1.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="8" />
+        <Component Subtype="LeadPowerCell" Count="16" />
+        <Component Subtype="Processor" Count="4" />
+        <Component Subtype="Rectifier" Count="4" />
+        <Component Subtype="Insulation" Count="4" />
+        <Component Subtype="InsulatedCopperWire" Count="8" />
+        <Component Subtype="Computer" Count="16" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmall1x1_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmall1x1_Construction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallBasicLeadBattery</BlockPairName>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>1.875</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>1.875</RequiredPowerInput>
+      <MaxStoredPower>0.625</MaxStoredPower>
+      <InitialStoredPowerRatio>0.00625</InitialStoredPowerRatio>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>SmallBlockSmallAdvancedLeadBattery</SubtypeId>
+      </Id>
+      <DisplayName>Small Advanced Lead Battery</DisplayName>
+      <Icon>Textures/GUI/Icons/Cubes/Battery1x1.dds</Icon>
+      <Description>Description_Battery</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\BatterySmall1x1.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="12" />
+        <Component Subtype="LeadPowerCell" Count="24" />
+        <Component Subtype="Processor" Count="6" />
+        <Component Subtype="Rectifier" Count="6" />
+        <Component Subtype="Insulation" Count="6" />
+        <Component Subtype="InsulatedCopperWire" Count="12" />
+        <Component Subtype="Computer" Count="24" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmall1x1_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmall1x1_Construction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallAdvancedLeadBattery</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>2.8125</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>2.8125</RequiredPowerInput>
+      <MaxStoredPower>0.9375</MaxStoredPower>
+      <InitialStoredPowerRatio>0.009375</InitialStoredPowerRatio>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>SmallBlockSmallEliteLeadBattery</SubtypeId>
+      </Id>
+      <DisplayName>Small Elite Lead Battery</DisplayName>
+      <Icon>Textures/GUI/Icons/Cubes/Battery1x1.dds</Icon>
+      <Description>Description_Battery</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\BatterySmall1x1.mwm</Model>
+      <Components>
+        <Component Subtype="AluminumPlate" Count="18" />
+        <Component Subtype="LeadPowerCell" Count="36" />
+        <Component Subtype="Processor" Count="9" />
+        <Component Subtype="Rectifier" Count="9" />
+        <Component Subtype="Insulation" Count="9" />
+        <Component Subtype="InsulatedCopperWire" Count="18" />
+        <Component Subtype="Computer" Count="36" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmall1x1_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmall1x1_Construction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallEliteLeadBattery</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>22.5</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>4.21875</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>4.21875</RequiredPowerInput>
+      <MaxStoredPower>1.40625</MaxStoredPower>
+      <InitialStoredPowerRatio>0.0140625</InitialStoredPowerRatio>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+<!-- END Region Batteries-->
+  </CubeBlocks>
+</Definitions>
