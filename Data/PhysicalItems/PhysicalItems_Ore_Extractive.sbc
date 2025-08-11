@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- ORE COUNT: 16 ores -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<PhysicalItems>
 		<PhysicalItem>
@@ -18,6 +19,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>AlienMulch</IconSymbol>
+			<MinimalPricePerUnit>30</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -36,6 +45,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>AlienRock</IconSymbol>
+			<MinimalPricePerUnit>20</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -54,6 +71,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Sand</IconSymbol>
+			<MinimalPricePerUnit>15</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -72,6 +97,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Soil</IconSymbol>
+			<MinimalPricePerUnit>18</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -90,6 +123,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Anorthite</IconSymbol>
+			<MinimalPricePerUnit>25</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -108,6 +149,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>CCl4</IconSymbol>
+			<MinimalPricePerUnit>40</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -126,6 +175,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Rubble</IconSymbol>
+			<MinimalPricePerUnit>10</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -144,6 +201,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Desert</IconSymbol>
+			<MinimalPricePerUnit>20</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -162,6 +227,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>MarsRock</IconSymbol>
+			<MinimalPricePerUnit>22</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -180,6 +253,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Soil</IconSymbol>
+			<MinimalPricePerUnit>18</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -198,6 +279,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Mulch</IconSymbol>
+			<MinimalPricePerUnit>15</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -216,6 +305,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Regolith</IconSymbol>
+			<MinimalPricePerUnit>28</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -234,6 +331,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Sand</IconSymbol>
+			<MinimalPricePerUnit>24</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -252,6 +357,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Soil</IconSymbol>
+			<MinimalPricePerUnit>15</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -270,6 +383,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>IconSymbol_Stone</IconSymbol>
+			<MinimalPricePerUnit>12</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 	</PhysicalItems>
 </Definitions>

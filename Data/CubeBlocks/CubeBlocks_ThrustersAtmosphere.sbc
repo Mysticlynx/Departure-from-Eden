@@ -167,7 +167,7 @@
       <ForceMagnitude>688500</ForceMagnitude>
       <MaxPowerConsumption>4.2</MaxPowerConsumption>
       <MinPowerConsumption>0.000006</MinPowerConsumption>
-      <SlowdownFactor>0.9</SlowdownFactor>
+      <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
@@ -269,7 +269,7 @@
       <ForceMagnitude>1549125</ForceMagnitude>
       <MaxPowerConsumption>7.35</MaxPowerConsumption>
       <MinPowerConsumption>0.000018</MinPowerConsumption>
-      <SlowdownFactor>0.81</SlowdownFactor>
+      <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
@@ -473,7 +473,7 @@
       <ForceMagnitude>117045</ForceMagnitude>
       <MaxPowerConsumption>1.05</MaxPowerConsumption>
       <MinPowerConsumption>0.000006</MinPowerConsumption>
-      <SlowdownFactor>0.9</SlowdownFactor>
+      <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
@@ -576,7 +576,7 @@
       <ForceMagnitude>263351</ForceMagnitude>
       <MaxPowerConsumption>1.8375</MaxPowerConsumption>
       <MinPowerConsumption>0.000018</MinPowerConsumption>
-      <SlowdownFactor>0.81</SlowdownFactor>
+      <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
@@ -780,7 +780,7 @@
       <ForceMagnitude>12150000</ForceMagnitude>
       <MaxPowerConsumption>29.4</MaxPowerConsumption>
       <MinPowerConsumption>0.000006</MinPowerConsumption>
-      <SlowdownFactor>0.9</SlowdownFactor>
+      <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
@@ -881,7 +881,7 @@
       <ForceMagnitude>27337500</ForceMagnitude>
       <MaxPowerConsumption>51.45</MaxPowerConsumption>
       <MinPowerConsumption>0.000018</MinPowerConsumption>
-      <SlowdownFactor>0.81</SlowdownFactor>
+      <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
@@ -1084,7 +1084,7 @@
       <ForceMagnitude>2065500</ForceMagnitude>
       <MaxPowerConsumption>4.2</MaxPowerConsumption>
       <MinPowerConsumption>0.000006</MinPowerConsumption>
-      <SlowdownFactor>0.9</SlowdownFactor>
+      <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
@@ -1186,7 +1186,7 @@
       <ForceMagnitude>4647375</ForceMagnitude>
       <MaxPowerConsumption>7.35</MaxPowerConsumption>
       <MinPowerConsumption>0.000018</MinPowerConsumption>
-      <SlowdownFactor>0.81</SlowdownFactor>
+      <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>

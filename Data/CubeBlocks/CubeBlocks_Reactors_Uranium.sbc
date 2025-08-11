@@ -609,9 +609,8 @@
         <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm" />
       </BuildProgressModels>
       <BlockPairName>SmallEliteUraniumReactor</BlockPairName>
       <MirroringY>Z</MirroringY>

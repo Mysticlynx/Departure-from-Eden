@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- ORE COUNT: 11 ores -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<PhysicalItems>
 		<PhysicalItem>
@@ -18,6 +19,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>H2O+</IconSymbol>
+			<MinimalPricePerUnit>60</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<!--<PhysicalItem>
 			<Id>
@@ -108,6 +117,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>CHON</IconSymbol>
+			<MinimalPricePerUnit>80</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -126,6 +143,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>H2O+</IconSymbol>
+			<MinimalPricePerUnit>55</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -144,6 +169,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>H2O+</IconSymbol>
+			<MinimalPricePerUnit>65</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -162,6 +195,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>H2O</IconSymbol>
+			<MinimalPricePerUnit>40</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -180,6 +221,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>CH6O</IconSymbol>
+			<MinimalPricePerUnit>70</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -198,6 +247,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>H2O+</IconSymbol>
+			<MinimalPricePerUnit>75</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>false</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<!--<PhysicalItem>
 			<Id>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- ORE COUNT: 14 ores -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<PhysicalItems>
 		<PhysicalItem>
@@ -18,7 +19,7 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Al</IconSymbol>
-			<MinimalPricePerUnit>60</MinimalPricePerUnit>
+			<MinimalPricePerUnit>55</MinimalPricePerUnit>
 			<MinimumOfferAmount>500</MinimumOfferAmount>
 			<MaximumOfferAmount>10000</MaximumOfferAmount>
 			<MinimumOrderAmount>1000</MinimumOrderAmount>
@@ -96,7 +97,7 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>IconSymbol_Au</IconSymbol>
-			<MinimalPricePerUnit>550</MinimalPricePerUnit>
+			<MinimalPricePerUnit>600</MinimalPricePerUnit>
 			<MinimumOfferAmount>500</MinimumOfferAmount>
 			<MaximumOfferAmount>10000</MaximumOfferAmount>
 			<MinimumOrderAmount>1000</MinimumOrderAmount>
@@ -122,7 +123,7 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>IconSymbol_Fe</IconSymbol>
-			<MinimalPricePerUnit>20</MinimalPricePerUnit>
+			<MinimalPricePerUnit>15</MinimalPricePerUnit>
 			<MinimumOfferAmount>500</MinimumOfferAmount>
 			<MaximumOfferAmount>10000</MaximumOfferAmount>
 			<MinimumOrderAmount>1000</MinimumOrderAmount>
@@ -174,7 +175,7 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>IconSymbol_Mg</IconSymbol>
-			<MinimalPricePerUnit>430</MinimalPricePerUnit>
+			<MinimalPricePerUnit>80</MinimalPricePerUnit>
 			<MinimumOfferAmount>500</MinimumOfferAmount>
 			<MaximumOfferAmount>10000</MaximumOfferAmount>
 			<MinimumOrderAmount>1000</MinimumOrderAmount>
@@ -252,7 +253,7 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>IconSymbol_Pt</IconSymbol>
-			<MinimalPricePerUnit>1960</MinimalPricePerUnit>
+			<MinimalPricePerUnit>1200</MinimalPricePerUnit>
 			<MinimumOfferAmount>500</MinimumOfferAmount>
 			<MaximumOfferAmount>10000</MaximumOfferAmount>
 			<MinimumOrderAmount>1000</MinimumOrderAmount>
@@ -330,7 +331,7 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Sn</IconSymbol>
-			<MinimalPricePerUnit>50</MinimalPricePerUnit>
+			<MinimalPricePerUnit>40</MinimalPricePerUnit>
 			<MinimumOfferAmount>500</MinimumOfferAmount>
 			<MaximumOfferAmount>10000</MaximumOfferAmount>
 			<MinimumOrderAmount>1000</MinimumOrderAmount>

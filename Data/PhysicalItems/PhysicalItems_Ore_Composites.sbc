@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<!-- ORE COUNT: 54 ores -->
+
+<!-- Rarity Category for each composite material based on several factors:
+
+Real-world rarity and value of the mineral or compound.
+Complexity of the chemical formula (more elements or rare elements = higher value).
+Typical use in industry or technology (e.g., precious metals, rare earths, strategic minerals).
+Game progression and balance (materials needed for advanced crafting or rare recipes are priced higher).
+Common: Abundant minerals, simple compounds, or those with widespread industrial use (e.g., quartz, coal, cerite). 
+Uncommon/complex: Minerals with more complex formulas, less common elements, or moderate rarity (e.g., beryl, chamosite, graphite). 
+Rare/precious: Minerals containing precious metals, rare earths, or strategic elements, or those with very low abundance (e.g., palladseite, wulfenite, titanite) -->
+
 	<PhysicalItems>
+		<!-- Arsenolite - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -18,7 +32,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>As2O3</IconSymbol>
+			<MinimalPricePerUnit>60</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Beryl - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -36,7 +59,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Be3Al2Si6O18</IconSymbol>
+			<MinimalPricePerUnit>50</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Bismutotantalite - Rare/precious -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -54,7 +86,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>BiTaNbO4</IconSymbol>
+			<MinimalPricePerUnit>120</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Boracite - Common -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -72,7 +113,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Mg3B7O13Cl</IconSymbol>
+			<MinimalPricePerUnit>45</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Borcarite - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -90,7 +140,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Ca4MgB4O18H6C2</IconSymbol>
+			<MinimalPricePerUnit>55</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Cadmoindite - Rare/precious -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -108,7 +167,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>CdIn2S4</IconSymbol>
+			<MinimalPricePerUnit>80</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Cadmoselite - Rare/precious -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -126,7 +194,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>CdSe</IconSymbol>
+			<MinimalPricePerUnit>70</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Calaverite - Rare/precious -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -144,7 +221,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>AuTe2</IconSymbol>
+			<MinimalPricePerUnit>55</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Cassiterite - Common -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -162,7 +248,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>SnO2</IconSymbol>
+			<MinimalPricePerUnit>40</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Cerite - Common -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -180,7 +275,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Ce9MgSi7O31H7</IconSymbol>
+			<MinimalPricePerUnit>35</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Chalcopyrite - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -198,7 +302,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>CuFeS2</IconSymbol>
+			<MinimalPricePerUnit>60</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Chamosite - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -216,7 +329,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Fe6Al10Si4O18H8</IconSymbol>
+			<MinimalPricePerUnit>70</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Chaoite - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -234,7 +356,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>C</IconSymbol>
+			<MinimalPricePerUnit>65</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Chromferide - Rare/precious -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -252,7 +383,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Fe3Cr</IconSymbol>
+			<MinimalPricePerUnit>110</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Chromite - Common -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -270,7 +410,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>FeCr2O4</IconSymbol>
+			<MinimalPricePerUnit>40</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Cinnabar - Common -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -288,7 +437,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>HgS</IconSymbol>
+			<MinimalPricePerUnit>35</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Coal - Common -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -306,7 +464,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>C3S</IconSymbol>
+			<MinimalPricePerUnit>60</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Cobaltite - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -324,7 +491,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>CoAsS</IconSymbol>
+			<MinimalPricePerUnit>45</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Columbite - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -342,7 +518,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>MgNb2O6</IconSymbol>
+			<MinimalPricePerUnit>50</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Ferchromide - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -360,7 +545,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Cr3Fe</IconSymbol>
+			<MinimalPricePerUnit>65</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Fluorapatite - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -378,7 +572,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Ca5P3O12F</IconSymbol>
+			<MinimalPricePerUnit>80</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Fontarnauite - Rare/precious -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -396,7 +599,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>K2SrSB5O15H5</IconSymbol>
+			<MinimalPricePerUnit>90</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Germanite - Rare/precious -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -414,7 +626,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Cu13Fe2Ge2S16</IconSymbol>
+			<MinimalPricePerUnit>96</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Graphite - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -432,7 +653,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>C</IconSymbol>
+			<MinimalPricePerUnit>102</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Halite - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -450,7 +680,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>NaCl</IconSymbol>
+			<MinimalPricePerUnit>108</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Hematite - Common -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -468,7 +707,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Fe2O3</IconSymbol>
+			<MinimalPricePerUnit>36</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Ilmenite - Common -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -486,7 +734,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>FeTiO3</IconSymbol>
+			<MinimalPricePerUnit>42</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Indite - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -504,7 +761,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>FeIn2S4</IconSymbol>
+			<MinimalPricePerUnit>38</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Iodargyrite - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -522,7 +788,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>AgI</IconSymbol>
+			<MinimalPricePerUnit>40</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Kentbrooksite - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -540,7 +815,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>REE21Zr3NbSi25F2O74</IconSymbol>
+			<MinimalPricePerUnit>35</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Lepidolite - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -558,7 +842,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>KLi2AlSi4F2O12H2</IconSymbol>
+			<MinimalPricePerUnit>60</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Orpiment - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -576,7 +869,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>As2S3</IconSymbol>
+			<MinimalPricePerUnit>50</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Palladseite - Rare/precious -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -594,7 +896,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Pd17Se15</IconSymbol>
+			<MinimalPricePerUnit>180</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Pyrite - Common -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -612,7 +923,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>FeS2</IconSymbol>
+			<MinimalPricePerUnit>36</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Pyrochlore - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -630,7 +950,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>U2Nb2O6H6</IconSymbol>
+			<MinimalPricePerUnit>32</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Quartz - Common -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -648,6 +977,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>SiO2</IconSymbol>
+			<MinimalPricePerUnit>38</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<!--<PhysicalItem>
 			<Id>
@@ -667,6 +1004,7 @@
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>As4S4</IconSymbol>
 		</PhysicalItem>-->
+		<!-- Rhodochrosite - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -684,7 +1022,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>MnCO3</IconSymbol>
+			<MinimalPricePerUnit>54</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Ruthenarsenite - Rare/precious -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -702,7 +1049,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>RuNiAs</IconSymbol>
+			<MinimalPricePerUnit>58</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Rutheniridosmine - Rare/precious -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -720,7 +1076,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>IrOsRu</IconSymbol>
+			<MinimalPricePerUnit>62</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Sphalerite - Common -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -738,7 +1103,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>ZnS</IconSymbol>
+			<MinimalPricePerUnit>44</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Spodumene - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -756,7 +1130,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>LiAlSi2O6</IconSymbol>
+			<MinimalPricePerUnit>48</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Stibiotantalite - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -774,7 +1157,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>SbTaO4</IconSymbol>
+			<MinimalPricePerUnit>52</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Strontiofluorite - Common -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -792,6 +1184,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>SrCO3</IconSymbol>
+			<MinimalPricePerUnit>36</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<!--<PhysicalItem>
 			<Id>
@@ -811,6 +1211,7 @@
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>S8</IconSymbol>
 		</PhysicalItem>-->
+		<!-- Sylvite - Uncommon/complex -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -828,7 +1229,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>KCl</IconSymbol>
+			<MinimalPricePerUnit>84</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Telluropalladinite - Rare/precious -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -846,7 +1256,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>Pd9Te4</IconSymbol>
+			<MinimalPricePerUnit>90</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Titanite - Rare/precious -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -864,7 +1283,16 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>CaTiSiO5</IconSymbol>
+			<MinimalPricePerUnit>240</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
+		<!-- Wulfenite - Rare/precious -->
 		<PhysicalItem>
 			<Id>
 				<TypeId>Ore</TypeId>
@@ -882,6 +1310,14 @@
 			<Model>Models\Components\Sphere.mwm</Model>
 			<PhysicalMaterial>Stone</PhysicalMaterial>
 			<IconSymbol>PbMoO4</IconSymbol>
+			<MinimalPricePerUnit>270</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 	</PhysicalItems>
 </Definitions>

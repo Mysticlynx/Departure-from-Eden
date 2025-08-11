@@ -18,6 +18,14 @@
 			<Model>Models\Ingots\iron_ingot.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<IconSymbol>201-Fe</IconSymbol>
+			<MinimalPricePerUnit>22</MinimalPricePerUnit>
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>2000</MaximumOfferAmount>
+			<MinimumOrderAmount>200</MinimumOrderAmount>
+			<MaximumOrderAmount>5000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -36,6 +44,14 @@
 			<Model>Models\Ingots\iron_ingot.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<IconSymbol>945-Fe</IconSymbol>
+			<MinimalPricePerUnit>18</MinimalPricePerUnit>
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>2000</MaximumOfferAmount>
+			<MinimumOrderAmount>200</MinimumOrderAmount>
+			<MaximumOrderAmount>5000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -54,6 +70,14 @@
 			<Model>Models\Ingots\iron_ingot.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<IconSymbol>Cu-Zn</IconSymbol>
+			<MinimalPricePerUnit>27</MinimalPricePerUnit>
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>2000</MaximumOfferAmount>
+			<MinimumOrderAmount>200</MinimumOrderAmount>
+			<MaximumOrderAmount>5000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -72,7 +96,7 @@
 			<Model>Models\Ingots\stone_ingot.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<IconSymbol>Cement</IconSymbol>
-			<MinimalPricePerUnit>10</MinimalPricePerUnit>
+			<MinimalPricePerUnit>25</MinimalPricePerUnit>
 			<MinimumOfferAmount>500</MinimumOfferAmount>
 			<MaximumOfferAmount>10000</MaximumOfferAmount>
 			<MinimumOrderAmount>1000</MinimumOrderAmount>
@@ -98,6 +122,14 @@
 			<Model>Models\Ingots\iron_ingot.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<IconSymbol>Cr-Fe</IconSymbol>
+			<MinimalPricePerUnit>24</MinimalPricePerUnit>
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>2000</MaximumOfferAmount>
+			<MinimumOrderAmount>200</MinimumOrderAmount>
+			<MaximumOrderAmount>5000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -116,6 +148,14 @@
 			<Model>Models\Ingots\iron_ingot.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<IconSymbol>Cu-Ni</IconSymbol>
+			<MinimalPricePerUnit>40</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -134,6 +174,14 @@
 			<Model>Models\Ingots\iron_ingot.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<IconSymbol>Au-Ag</IconSymbol>
+			<MinimalPricePerUnit>80</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -152,7 +200,7 @@
 			<Model>Models\Ingots\stone_ingot.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<IconSymbol>Sand</IconSymbol>
-			<MinimalPricePerUnit>10</MinimalPricePerUnit>
+			<MinimalPricePerUnit>35</MinimalPricePerUnit>
 			<MinimumOfferAmount>500</MinimumOfferAmount>
 			<MaximumOfferAmount>10000</MaximumOfferAmount>
 			<MinimumOrderAmount>1000</MinimumOrderAmount>
@@ -178,6 +226,14 @@
 			<Model>Models\Ingots\iron_ingot.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<IconSymbol>SiO2</IconSymbol>
+			<MinimalPricePerUnit>28</MinimalPricePerUnit>
+			<MinimumOfferAmount>500</MinimumOfferAmount>
+			<MaximumOfferAmount>10000</MaximumOfferAmount>
+			<MinimumOrderAmount>1000</MinimumOrderAmount>
+			<MaximumOrderAmount>20000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -196,6 +252,14 @@
 			<Model>Models\Ingots\iron_ingot.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<IconSymbol>TNTZ</IconSymbol>
+			<MinimalPricePerUnit>30</MinimalPricePerUnit>
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>2000</MaximumOfferAmount>
+			<MinimumOrderAmount>200</MinimumOrderAmount>
+			<MaximumOrderAmount>5000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -214,6 +278,14 @@
 			<Model>Models\Ingots\iron_ingot.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<IconSymbol>Nd-Fe</IconSymbol>
+			<MinimalPricePerUnit>45</MinimalPricePerUnit>
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>2000</MaximumOfferAmount>
+			<MinimumOrderAmount>200</MinimumOrderAmount>
+			<MaximumOrderAmount>5000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -232,6 +304,14 @@
 			<Model>Models\Ingots\iron_ingot.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<IconSymbol>Ni-Ti</IconSymbol>
+			<MinimalPricePerUnit>60</MinimalPricePerUnit>
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>2000</MaximumOfferAmount>
+			<MinimumOrderAmount>200</MinimumOrderAmount>
+			<MaximumOrderAmount>5000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -250,6 +330,14 @@
 			<Model>Models\Ingots\iron_ingot.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<IconSymbol>Poly</IconSymbol>
+			<MinimalPricePerUnit>30</MinimalPricePerUnit>
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>2000</MaximumOfferAmount>
+			<MinimumOrderAmount>200</MinimumOrderAmount>
+			<MaximumOrderAmount>5000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -268,6 +356,14 @@
 			<Model>Models\Ingots\iron_ingot.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<IconSymbol>Rubber</IconSymbol>
+			<MinimalPricePerUnit>16</MinimalPricePerUnit>
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>2000</MaximumOfferAmount>
+			<MinimumOrderAmount>200</MinimumOrderAmount>
+			<MaximumOrderAmount>5000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 		<PhysicalItem>
 			<Id>
@@ -312,6 +408,14 @@
 			<Model>Models\Ingots\iron_ingot.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<IconSymbol>WC</IconSymbol>
+			<MinimalPricePerUnit>60</MinimalPricePerUnit>
+			<MinimumOfferAmount>100</MinimumOfferAmount>
+			<MaximumOfferAmount>2000</MaximumOfferAmount>
+			<MinimumOrderAmount>200</MinimumOrderAmount>
+			<MaximumOrderAmount>5000</MaximumOrderAmount>
+			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</PhysicalItem>
 	</PhysicalItems>
 </Definitions>

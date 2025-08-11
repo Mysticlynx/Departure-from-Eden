@@ -329,7 +329,7 @@
         <Z>1</Z>
       </InventorySize>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>1.2</OperationalPowerConsumption>
+      <OperationalPowerConsumption>2.4</OperationalPowerConsumption>
       <BlueprintClasses>
         <Class>Alloys</Class>
         <Class>Fluids</Class>
@@ -468,8 +468,8 @@
         <Y>4</Y>
         <Z>2</Z>
       </InventorySize>
-      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>1.2</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.1</StandbyPowerConsumption>
+      <OperationalPowerConsumption>18</OperationalPowerConsumption>
       <BlueprintClasses>
         <Class>AdvMassProdMech</Class>
         <Class>AdvMassProdElect</Class>
@@ -559,8 +559,8 @@
         <Y>4</Y>
         <Z>2</Z>
       </InventorySize>
-      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>1.2</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.1</StandbyPowerConsumption>
+      <OperationalPowerConsumption>24</OperationalPowerConsumption>
       <BlueprintClasses>
         <Class>MassProdAlloys</Class>
         <Class>MassProdFluids</Class>
@@ -627,7 +627,7 @@
         <Y>1</Y>
         <Z>1</Z>
       </InventorySize>
-      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <StandbyPowerConsumption>0.1</StandbyPowerConsumption>
       <OperationalPowerConsumption>350</OperationalPowerConsumption>
       <BlueprintClasses>
         <Class>NuetronActivation</Class>
@@ -692,7 +692,7 @@
         <Y>4</Y>
         <Z>2</Z>
       </InventorySize>
-      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <StandbyPowerConsumption>0.1</StandbyPowerConsumption>
       <OperationalPowerConsumption>350</OperationalPowerConsumption>
       <BlueprintClasses>
         <Class>MassNuetronActivation</Class>
