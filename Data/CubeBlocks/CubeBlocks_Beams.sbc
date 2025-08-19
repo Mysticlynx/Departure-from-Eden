@@ -50,6 +50,7 @@
       <BuildTimeSeconds>8</BuildTimeSeconds>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -93,6 +94,7 @@
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -136,6 +138,7 @@
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -182,6 +185,7 @@
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -225,6 +229,7 @@
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -269,7 +274,6 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <IsAirTight>false</IsAirTight>
-      <IsAirTight>false</IsAirTight>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
     </Definition>
@@ -313,6 +317,7 @@
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -358,6 +363,7 @@
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -405,6 +411,7 @@
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -451,6 +458,7 @@
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -495,6 +503,7 @@
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -537,6 +546,7 @@
       <BuildTimeSeconds>2</BuildTimeSeconds>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -579,6 +589,7 @@
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -624,6 +635,7 @@
       <BuildTimeSeconds>2</BuildTimeSeconds>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -666,6 +678,7 @@
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -707,6 +720,7 @@
       <BuildTimeSeconds>2</BuildTimeSeconds>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -792,6 +806,7 @@
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -838,6 +853,7 @@
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -883,6 +899,7 @@
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <PCU>1</PCU>
       <DLC>HeavyIndustry</DLC>
+      <IsAirTight>false</IsAirTight>
     </Definition>
 	
     <!-- End of Beam Blocks -->

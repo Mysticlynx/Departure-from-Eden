@@ -1025,6 +1025,7 @@
                 <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="9" ScreenHeight="9" />
                 <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="7" ScreenHeight="4" />
             </ScreenAreas>
+			<BlockPairName>LabEquipment</BlockPairName>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
             <RequiredPowerInput>0.0001</RequiredPowerInput>
             <MirroringZ>Y</MirroringZ>

@@ -1943,6 +1943,7 @@
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Freight_I_Construction_1.mwm" />
             </BuildProgressModels>
+			<BlockPairName>Freight1</BlockPairName>
             <VoxelPlacement>
                 <StaticMode>
                     <PlacementMode>Both</PlacementMode>

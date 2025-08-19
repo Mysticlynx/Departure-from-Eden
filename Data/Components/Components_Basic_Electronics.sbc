@@ -13,8 +13,8 @@
 				<Y>0.01</Y>
 				<Z>0.01</Z>
 			</Size>
-			<Mass>0.00017609375</Mass>
-			<Volume>7.65625e-05</Volume>
+			<Mass>0.00025</Mass>
+			<Volume>0.0001</Volume>
 			<Model>Models\Components\detector_components_component.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<MaxIntegrity>1</MaxIntegrity>
@@ -40,8 +40,8 @@
 				<Y>0.01</Y>
 				<Z>0.01</Z>
 			</Size>
-			<Mass>0.000225801972</Mass>
-			<Volume>9.817477042e-05</Volume>
+			<Mass>0.00025</Mass>
+			<Volume>0.0001</Volume>
 			<Model>Models\Components\construction_components_component.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<MaxIntegrity>1</MaxIntegrity>
@@ -67,8 +67,8 @@
 				<Y>0.01</Y>
 				<Z>0.01</Z>
 			</Size>
-			<Mass>0.0002375829444</Mass>
-			<Volume>0.0001963495408</Volume>
+			<Mass>0.00025</Mass>
+			<Volume>0.0001</Volume>
 			<Model>Models\Components\display_component.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<MaxIntegrity>1</MaxIntegrity>
@@ -95,7 +95,7 @@
 				<Z>0.01</Z>
 			</Size>
 			<Mass>0.0005</Mass>
-			<Volume>0.0003958406744</Volume>
+			<Volume>0.0001</Volume>
 			<Model>Models\Components\construction_components_component.mwm</Model>
 			<PhysicalMaterial>Metal</PhysicalMaterial>
 			<MaxIntegrity>1</MaxIntegrity>
