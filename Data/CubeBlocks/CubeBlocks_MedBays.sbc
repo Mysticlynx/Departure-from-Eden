@@ -50,6 +50,7 @@
       </ScreenAreas>
       <BlueprintClasses>
         <Class>BscRefining</Class>
+        <Class>BasicFoodProcessorRations</Class>
         <Class>StoneCrusher</Class>
         <Class>BasicTools</Class>
         <Class>Construction</Class>
@@ -139,8 +140,9 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <BlueprintClasses>
-        <Class>StoneCrusher</Class>
         <Class>BscRefining</Class>
+        <Class>BasicFoodProcessorRations</Class>
+        <Class>StoneCrusher</Class>
         <Class>BasicTools</Class>
         <Class>Construction</Class>
         <Class>BasicMechanics</Class>

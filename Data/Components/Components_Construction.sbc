@@ -20,6 +20,7 @@
       <MaxIntegrity>12</MaxIntegrity>
       <DropProbability>0.45</DropProbability>
       <Health>89</Health>
+      <MinimalPricePerUnit>1</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -47,6 +48,7 @@
       <MaxIntegrity>2</MaxIntegrity>
       <DropProbability>0.1</DropProbability>
       <Health>15</Health>
+      <MinimalPricePerUnit>1</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -74,6 +76,7 @@
       <MaxIntegrity>6</MaxIntegrity>
       <DropProbability>0.1</DropProbability>
       <Health>15</Health>
+      <MinimalPricePerUnit>1</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -101,6 +104,7 @@
       <MaxIntegrity>7</MaxIntegrity>
       <DropProbability>0.1</DropProbability>
       <Health>15</Health>
+      <MinimalPricePerUnit>1</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -128,6 +132,7 @@
       <MaxIntegrity>1</MaxIntegrity>
       <DropProbability>0.1</DropProbability>
       <Health>15</Health>
+      <MinimalPricePerUnit>1</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -155,6 +160,7 @@
       <MaxIntegrity>25</MaxIntegrity>
       <DropProbability>0.3</DropProbability>
       <Health>10</Health>
+      <MinimalPricePerUnit>1</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -182,6 +188,7 @@
       <MaxIntegrity>5</MaxIntegrity>
       <DropProbability>0.3</DropProbability>
       <Health>10</Health>
+      <MinimalPricePerUnit>1</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -209,6 +216,7 @@
       <MaxIntegrity>1</MaxIntegrity>
       <DropProbability>0.3</DropProbability>
       <Health>10</Health>
+      <MinimalPricePerUnit>1</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -236,6 +244,7 @@
       <MaxIntegrity>2</MaxIntegrity>
       <DropProbability>0.3</DropProbability>
       <Health>10</Health>
+      <MinimalPricePerUnit>3</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -263,6 +272,7 @@
       <MaxIntegrity>15</MaxIntegrity>
       <DropProbability>0.5</DropProbability>
       <Health>10</Health>
+      <MinimalPricePerUnit>5</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -290,6 +300,7 @@
       <MaxIntegrity>45</MaxIntegrity>
       <DropProbability>0.45</DropProbability>
       <Health>45</Health>
+      <MinimalPricePerUnit>7</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -317,6 +328,7 @@
       <MaxIntegrity>5</MaxIntegrity>
       <DropProbability>0.45</DropProbability>
       <Health>35</Health>
+      <MinimalPricePerUnit>1</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -344,6 +356,7 @@
       <MaxIntegrity>2</MaxIntegrity>
       <DropProbability>0.45</DropProbability>
       <Health>25</Health>
+      <MinimalPricePerUnit>2</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -371,6 +384,7 @@
       <MaxIntegrity>3</MaxIntegrity>
       <DropProbability>0.45</DropProbability>
       <Health>15</Health>
+      <MinimalPricePerUnit>4</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -398,6 +412,7 @@
       <MaxIntegrity>60</MaxIntegrity>
       <DropProbability>0.2</DropProbability>
       <Health>55</Health>
+      <MinimalPricePerUnit>6</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -425,6 +440,7 @@
       <MaxIntegrity>38</MaxIntegrity>
       <DropProbability>0.3</DropProbability>
       <Health>14</Health>
+      <MinimalPricePerUnit>12</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -452,6 +468,7 @@
       <MaxIntegrity>25</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
       <Health>20</Health>
+      <MinimalPricePerUnit>9</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -479,6 +496,7 @@
       <MaxIntegrity>100</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
       <Health>53</Health>
+      <MinimalPricePerUnit>11</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -506,6 +524,7 @@
       <MaxIntegrity>175</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
       <Health>90</Health>
+      <MinimalPricePerUnit>15</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -533,6 +552,7 @@
       <MaxIntegrity>225</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
       <Health>90</Health>
+      <MinimalPricePerUnit>16</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -560,6 +580,7 @@
       <MaxIntegrity>100</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
       <Health>70</Health>
+      <MinimalPricePerUnit>10</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -587,6 +608,7 @@
       <MaxIntegrity>15</MaxIntegrity>
       <DropProbability>0.8</DropProbability>
       <Health>36</Health>
+      <MinimalPricePerUnit>8</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -614,6 +636,7 @@
       <MaxIntegrity>7</MaxIntegrity>
       <DropProbability>0.4</DropProbability>
       <Health>7</Health>
+      <MinimalPricePerUnit>7</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -641,6 +664,7 @@
       <MaxIntegrity>30</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
       <Health>69</Health>
+      <MinimalPricePerUnit>25</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -668,6 +692,7 @@
       <MaxIntegrity>15</MaxIntegrity>
       <DropProbability>0.5</DropProbability>
       <Health>18</Health>
+      <MinimalPricePerUnit>6</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -695,6 +720,7 @@
       <MaxIntegrity>60</MaxIntegrity>
       <DropProbability>0.6</DropProbability>
       <Health>22</Health>
+      <MinimalPricePerUnit>12</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -722,6 +748,7 @@
       <MaxIntegrity>5</MaxIntegrity>
       <DropProbability>0.5</DropProbability>
       <Health>9</Health>
+      <MinimalPricePerUnit>7</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -749,6 +776,7 @@
       <MaxIntegrity>20</MaxIntegrity>
       <DropProbability>0.6</DropProbability>
       <Health>11</Health>
+      <MinimalPricePerUnit>13</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -776,6 +804,7 @@
       <MaxIntegrity>23</MaxIntegrity>
       <DropProbability>0.5</DropProbability>
       <Health>100</Health>
+      <MinimalPricePerUnit>7</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -803,6 +832,7 @@
       <MaxIntegrity>75</MaxIntegrity>
       <DropProbability>0.5</DropProbability>
       <Health>50</Health>
+      <MinimalPricePerUnit>10</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -830,6 +860,7 @@
       <MaxIntegrity>25</MaxIntegrity>
       <DropProbability>0.75</DropProbability>
       <Health>35</Health>
+      <MinimalPricePerUnit>3</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -857,6 +888,7 @@
       <MaxIntegrity>15</MaxIntegrity>
       <DropProbability>0.75</DropProbability>
       <Health>15</Health>
+      <MinimalPricePerUnit>3</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -884,6 +916,7 @@
       <MaxIntegrity>45</MaxIntegrity>
       <DropProbability>0.75</DropProbability>
       <Health>45</Health>
+      <MinimalPricePerUnit>10</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -911,6 +944,7 @@
       <MaxIntegrity>10</MaxIntegrity>
       <DropProbability>0.75</DropProbability>
       <Health>10</Health>
+      <MinimalPricePerUnit>6</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -938,6 +972,7 @@
       <MaxIntegrity>5</MaxIntegrity>
       <DropProbability>0.75</DropProbability>
       <Health>5</Health>
+      <MinimalPricePerUnit>6</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -965,6 +1000,7 @@
       <MaxIntegrity>60</MaxIntegrity>
       <DropProbability>0.75</DropProbability>
       <Health>65</Health>
+      <MinimalPricePerUnit>14</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -992,6 +1028,7 @@
       <MaxIntegrity>1</MaxIntegrity>
       <DropProbability>0.45</DropProbability>
       <Health>5</Health>
+      <MinimalPricePerUnit>5</MinimalPricePerUnit>
 	  <IconSymbol>Hose</IconSymbol>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
@@ -1020,6 +1057,7 @@
       <MaxIntegrity>1</MaxIntegrity>
       <DropProbability>0.45</DropProbability>
       <Health>5</Health>
+      <MinimalPricePerUnit>5</MinimalPricePerUnit>
 	  <IconSymbol>Tube</IconSymbol>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
@@ -1048,6 +1086,7 @@
       <MaxIntegrity>1</MaxIntegrity>
       <DropProbability>0.2</DropProbability>
       <Health>1</Health>
+      <MinimalPricePerUnit>2</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -1075,6 +1114,7 @@
       <MaxIntegrity>250</MaxIntegrity>
       <DropProbability>0.4</DropProbability>
       <Health>20</Health>
+      <MinimalPricePerUnit>8</MinimalPricePerUnit>
       <MinimumOfferAmount>50</MinimumOfferAmount>
       <MaximumOfferAmount>500</MaximumOfferAmount>
       <MinimumOrderAmount>100</MinimumOrderAmount>

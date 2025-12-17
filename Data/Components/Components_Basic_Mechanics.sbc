@@ -25,6 +25,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>2</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -52,6 +53,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>3</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -79,6 +81,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>4</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -106,6 +109,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>5</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -133,6 +137,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>6</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -160,6 +165,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>10</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -187,6 +193,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>7</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -214,6 +221,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>8</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -241,6 +249,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>9</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -268,6 +277,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>10</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -295,6 +305,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>11</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -322,6 +333,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>12</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -349,6 +361,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>13</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -376,6 +389,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>14</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -403,6 +417,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>15</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -430,6 +445,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>16</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -457,6 +473,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>17</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -484,6 +501,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>18</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -511,6 +529,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>19</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -538,6 +557,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>20</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -565,6 +585,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>21</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -592,6 +613,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>22</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -619,6 +641,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>23</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>
@@ -646,6 +669,7 @@
 			<MinimumOrderAmount>100</MinimumOrderAmount>
 			<MaximumOrderAmount>1000</MaximumOrderAmount>
 			<CanPlayerOrder>true</CanPlayerOrder>
+			<MinimalPricePerUnit>24</MinimalPricePerUnit>
 			<MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
 			<MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
 		</Component>

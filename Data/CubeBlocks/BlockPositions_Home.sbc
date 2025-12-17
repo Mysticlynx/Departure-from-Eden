@@ -52,6 +52,13 @@
                 <Y>0</Y>
             </Position>
         </BlockPosition>
+		<BlockPosition>
+			<Name>RoundEdge</Name>
+			<Position>
+				<X>7</X>
+				<Y>0</Y>
+			</Position>
+		</BlockPosition>
         <!-- End Region Row 0 -->
 
         <!-- Region Row 1 -->
@@ -326,6 +333,13 @@
                 <Y>25</Y>
             </Position>
         </BlockPosition>
+		<BlockPosition>
+			<Name>FoodProcessor</Name>
+			<Position>
+				<X>4</X>
+				<Y>25</Y>
+			</Position>
+		</BlockPosition>
         <!-- End Region Row 5 -->
 
         <!-- Region Row 6 -->
@@ -1114,6 +1128,20 @@
                 <Y>90</Y>
             </Position>
         </BlockPosition>
+		<BlockPosition>
+			<Name>ConduitStraight</Name>
+			<Position>
+				<X>8</X>
+				<Y>90</Y>
+			</Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>RoundWindow</Name>
+			<Position>
+				<X>9</X>
+				<Y>90</Y>
+			</Position>
+		</BlockPosition>
         <!-- End Region Row 18 -->
 
         <!-- Region Row 19 -->
@@ -1166,6 +1194,13 @@
                 <Y>95</Y>
             </Position>
         </BlockPosition>
+		<BlockPosition>
+			<Name>StorageBin1</Name>
+			<Position>
+				<X>7</X>
+				<Y>95</Y>
+			</Position>
+		</BlockPosition>
         <!-- End Region Row 18 -->
 
         <!-- Region Row 19 -->
@@ -1270,24 +1305,31 @@
                 <Y>105</Y>
             </Position>
         </BlockPosition>
+		<BlockPosition>
+			<Name>BedFree</Name>
+			<Position>
+				<X>6</X>
+				<Y>105</Y>
+			</Position>
+		</BlockPosition>
         <BlockPosition>
             <Name>KitchenSink</Name>
-            <Position>
-                <X>6</X>
-                <Y>105</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>ConsoleModule</Name>
             <Position>
                 <X>7</X>
                 <Y>105</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>LabEquipment</Name>
+            <Name>ConsoleModule</Name>
             <Position>
                 <X>8</X>
+                <Y>105</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>LabEquipment</Name>
+            <Position>
+                <X>9</X>
                 <Y>105</Y>
             </Position>
         </BlockPosition>
