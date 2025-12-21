@@ -1,49 +1,47 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Definition xsi:type="PlanetGeneratorDefinition"> <!-- Mars -->
+		<Id>
+			<TypeId>PlanetGeneratorDefinition</TypeId>
+			<SubtypeId>Mars</SubtypeId>
+		</Id>
+		<DisplayName>Mars</DisplayName>
+		<Difficulty>DifficultyNormal</Difficulty>
+		<Public>true</Public>
 
+		<PlanetMaps Material="true" Ores="true" Biome="false" Occlusion="true"/>
 
-  <Definition xsi:type="PlanetGeneratorDefinition">
-    <Id>
-      <TypeId>PlanetGeneratorDefinition</TypeId>
-      <SubtypeId>Mars</SubtypeId>
-    </Id>
-    <!--!!!Important!! Read if you want to mod Planets! -->
-    <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->
-    <!--Make sure you are not modding a switched off channel-->
-    <PlanetMaps Material="true" Ores="true" Biome="false" Occlusion="true"/>
+		<MesherPostprocessing xsi:type="MyObjectBuilder_VoxelMesherComponentDefinition">
+			<PostprocessingSteps>
+				<Step xsi:type="MyObjectBuilder_VoxelPostprocessingDecimate" ForPhysics="true">
+					<LodSettings>
+						<Settings FromLod="0">
+							<FeatureAngle>15</FeatureAngle>
+							<EdgeThreshold>.04</EdgeThreshold>
+							<PlaneThreshold>.02</PlaneThreshold>
+						</Settings>
+						<Settings FromLod="1">
+							<FeatureAngle>15</FeatureAngle>
+							<EdgeThreshold>.04</EdgeThreshold>
+							<PlaneThreshold>.04</PlaneThreshold>
+						</Settings>
+						<Settings FromLod="2">
+							<FeatureAngle>15</FeatureAngle>
+							<EdgeThreshold>.06</EdgeThreshold>
+							<PlaneThreshold>.06</PlaneThreshold>
+						</Settings>
+					</LodSettings>
+				</Step>
+			</PostprocessingSteps>
+		</MesherPostprocessing>
 
-    <MesherPostprocessing xsi:type="MyObjectBuilder_VoxelMesherComponentDefinition">
-      <PostprocessingSteps>
-        <Step xsi:type="MyObjectBuilder_VoxelPostprocessingDecimate" ForPhysics="true">
-          <LodSettings>
-            <Settings FromLod="0">
-              <FeatureAngle>15</FeatureAngle>
-              <EdgeThreshold>.04</EdgeThreshold>
-              <PlaneThreshold>.02</PlaneThreshold>
-            </Settings>
-            <Settings FromLod="1">
-              <FeatureAngle>15</FeatureAngle>
-              <EdgeThreshold>.04</EdgeThreshold>
-              <PlaneThreshold>.04</PlaneThreshold>
-            </Settings>
-            <Settings FromLod="2">
-              <FeatureAngle>15</FeatureAngle>
-              <EdgeThreshold>.06</EdgeThreshold>
-              <PlaneThreshold>.06</PlaneThreshold>
-            </Settings>
-          </LodSettings>
-        </Step>
-      </PostprocessingSteps>
-    </MesherPostprocessing>
-
-    <SurfaceDetail>
-      <Texture>Data/PlanetDataFiles/Extra/material_detail_1</Texture>
-      <Size>64</Size>
-      <Scale>1</Scale>
-      <Slope Min="30" Max="90" />
-      <Transition>5</Transition>
-      <!-- <Transition>7.5</Transition> -->
-    </SurfaceDetail>
+		<SurfaceDetail>
+			<Texture>Data/PlanetDataFiles/Extra/material_detail_1</Texture>
+			<Size>64</Size>
+			<Scale>1</Scale>
+			<Slope Min="30" Max="90" />
+			<Transition>5</Transition>
+		</SurfaceDetail>
 
     <OreMappings>
       <Ore Value="1" Type="Aluminum" Start="10" Depth="5"/>
@@ -246,403 +244,453 @@
       <Ore Value="226" Type="Indite" Start="337" Depth="7"/>
     </OreMappings>
 
-    <!-- Mars ambient -->
-    <SoundRules>
-      <SoundRule>
-        <Height Min="0" Max="1"/>
-        <Latitude Min="0" Max="90"/>
-        <SunAngleFromZenith Min="0" Max="180"/>
-        <EnvironmentSound>AmbMarsLoop</EnvironmentSound>
-      </SoundRule>
-    </SoundRules>
+		<SoundRules>
+			<SoundRule>
+				<Height Min="0" Max="1"/>
+				<Latitude Min="0" Max="90"/>
+				<SunAngleFromZenith Min="0" Max="180"/>
+				<EnvironmentSound>AmbMarsLoop</EnvironmentSound>
+			</SoundRule>
+		</SoundRules>
 
-    <MusicCategories>
-      <MusicCategory Category="Planet" Frequency="0.7" />
-      <MusicCategory Category="Mystery" Frequency="0.05" />
-      <MusicCategory Category="Danger" Frequency="0.125" />
-      <MusicCategory Category="Calm" Frequency="0.125" />
-    </MusicCategories>
+		<MusicCategories>
+			<MusicCategory Category="Planet" Frequency="0.7" />
+			<MusicCategory Category="Mystery" Frequency="0.05" />
+			<MusicCategory Category="Danger" Frequency="0.125" />
+			<MusicCategory Category="Calm" Frequency="0.125" />
+		</MusicCategories>
 
-    <!-- Marz named for easier finding  -->
-    <ComplexMaterials>
-      <MaterialGroup Name="All features" Value="0">
+		<ComplexMaterials>
+			<MaterialGroup Name="All features" Value="0">
+				<Rule>
+					<Layers>
+						<Layer Material="Snow" Depth="2"/>
+					</Layers>
+					<Height Min="0.455" Max="1.0"/>
+					<Latitude Min="0" Max="90"/>
+					<Slope Min="0" Max="15"/>
+				</Rule>
 
-        <!-- Snow on top mountains -->
-        <Rule>
-          <Layers>
-            <Layer Material="Snow" Depth="2"/>
-          </Layers>
-          <Height Min="0.455" Max="1.0"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="15"/>
-        </Rule>
+				<Rule>
+					<Layers>
+						<Layer Material="Snow" Depth="5"/>
+					</Layers>
+					<Height Min="0" Max="1"/>
+					<Latitude Min="80" Max="90"/>
+					<Slope Min="0" Max="60"/>
+				</Rule>
 
-        <!-- Snow on top mountains END -->
+				<Rule>
+					<Layers>
+						<Layer Material="MarsRocks" Depth="5"/>
+					</Layers>
+					<Height Min="0.6" Max="1"/>
+					<Latitude Min="0" Max="90"/>
+					<Slope Min="0" Max="90"/>
+				</Rule>
 
-        <Rule>
-          <Layers>
-            <Layer Material="Snow" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="1"/>
-          <Latitude Min="80" Max="90"/>
-          <Slope Min="0" Max="60"/>
-        </Rule>
+				<Rule>
+					<Layers>
+						<Layer Material="MarsRocks" Depth="5"/>
+					</Layers>
+					<Height Min="0.15" Max="1"/>
+					<Latitude Min="0" Max="90"/>
+					<Slope Min="20" Max="90"/>
+				</Rule>
 
-        <Rule>
-          <Layers>
-            <Layer Material="MarsRocks" Depth="5"/>
-          </Layers>
-          <Height Min="0.6" Max="1"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
+				<Rule>
+					<Layers>
+						<Layer Material="MarsRocks" Depth="5"/>
+					</Layers>
+					<Height Min="0.15" Max="0.18"/>
+					<Latitude Min="0" Max="90"/>
+					<Slope Min="60" Max="90"/>
+				</Rule>
 
-        <Rule>
-          <Layers>
-            <Layer Material="MarsRocks" Depth="5"/>
-          </Layers>
-          <Height Min="0.15" Max="1"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="20" Max="90"/>
-        </Rule>
+				<Rule>
+					<Layers>
+						<Layer Material="MarsRocks" Depth="5"/>
+					</Layers>
+					<Height Min="0.09" Max="0.12"/>
+					<Latitude Min="0" Max="90"/>
+					<Slope Min="30" Max="50"/>
+				</Rule>
 
-        <Rule>
-          <Layers>
-            <Layer Material="MarsRocks" Depth="5"/>
-          </Layers>
-          <Height Min="0.15" Max="0.18"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="60" Max="90"/>
-        </Rule>
+				<Rule>
+					<Layers>
+						<Layer Material="MarsRocks" Depth="5"/>
+					</Layers>
+					<Height Min="0" Max="0.1"/>
+					<Latitude Min="0" Max="90"/>
+					<Slope Min="10" Max="70"/>
+				</Rule>
+			</MaterialGroup>
+		</ComplexMaterials>
 
-        <Rule>
-          <Layers>
-            <Layer Material="MarsRocks" Depth="5"/>
-          </Layers>
-          <Height Min="0.09" Max="0.12"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="30" Max="50"/>
-        </Rule>
+		<EnvironmentItems>
+			<Item>
+				<Biomes>
+					<Biome>0</Biome>
+				</Biomes>
+				<Materials>
+					<Material>MarsSoil</Material>
+				</Materials>
+				<Items>
+					<Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Mars" Density="0.003" />
+				</Items>
+				<Rule>
+					<Height Min="0" Max="0.7"/>
+					<Latitude Min="0" Max="90"/>
+					<Slope Min="0" Max="15"/>
+				</Rule>
+			</Item>
 
-        <Rule>
-          <Layers>
-            <Layer Material="MarsRocks" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="0.1"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="10" Max="70"/>
-        </Rule>
+			<Item>
+				<Biomes>
+					<Biome>0</Biome>
+				</Biomes>
+				<Materials>
+					<Material>MarsRocks</Material>
+				</Materials>
+				<Items>
+					<Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Mars" Density="0.003" />
+				</Items>
+				<Rule>
+					<Height Min="0" Max="0.7"/>
+					<Latitude Min="0" Max="90"/>
+					<Slope Min="0" Max="15"/>
+				</Rule>
+			</Item>
+		</EnvironmentItems>
 
-      </MaterialGroup>
-    </ComplexMaterials>
+		<AtmosphereSettings>
+			<RayleighScattering>
+				<X>2.51488018</X>
+				<Y>16.398098</Y>
+				<Z>100</Z>
+			</RayleighScattering>
+			<MieScattering>147.671082</MieScattering>
+			<MieColorScattering>
+				<X>31</X>
+				<Y>48</Y>
+				<Z>112</Z>
+			</MieColorScattering>
+			<RayleighHeight>10</RayleighHeight>
+			<RayleighHeightSpace>6</RayleighHeightSpace>
+			<RayleighTransitionModifier>0.415</RayleighTransitionModifier>
+			<MieHeight>200</MieHeight>
+			<MieG>0.999732332</MieG>
+			<SeaLevelModifier>0.982</SeaLevelModifier>
+			<AtmosphereTopModifier>1.1</AtmosphereTopModifier>
+			<Intensity>6.0</Intensity>
+			<FogIntensity>1.0</FogIntensity>
+		</AtmosphereSettings>
 
-    <EnvironmentItems>
-      <Item>
-        <Biomes>
-          <Biome>0</Biome>
-        </Biomes>
-        <Materials>
-          <Material>MarsSoil</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Mars" Density="0.003" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="15"/>
-        </Rule>
-      </Item>
+		<Atmosphere>
+			<Breathable>false</Breathable>
+			<OxygenDensity>0</OxygenDensity>
+			<Density>1.0</Density>
+			<LimitAltitude>2.0</LimitAltitude>
+			<MaxWindSpeed>80</MaxWindSpeed>
+		</Atmosphere>
 
-      <Item>
-        <Biomes>
-          <Biome>0</Biome>
-        </Biomes>
-        <Materials>
-          <Material>MarsRocks</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Mars" Density="0.003" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="15"/>
-        </Rule>
-      </Item>
-    </EnvironmentItems>
+		<DefaultSurfaceMaterial Material="MarsSoil" MaxDepth="5"/>
+		<DefaultSubSurfaceMaterial Material="MarsRocks"/>
 
-    <!-- Mars Planet's Atmosphere settings-->
+		<AllowMeteors>true</AllowMeteors>
+		<SolarRadiationProtectionFactor>0.2</SolarRadiationProtectionFactor>
+		<HasAtmosphere>true</HasAtmosphere>
 
-    <AtmosphereSettings>
-      <RayleighScattering>
-        <X>2.51488018</X>
-        <Y>16.398098</Y>
-        <Z>100</Z>
-      </RayleighScattering>
-      <MieScattering>147.671082</MieScattering>
-      <MieColorScattering>
-        <X>31</X>
-        <Y>48</Y>
-        <Z>112</Z>
-      </MieColorScattering>
-      <RayleighHeight>10</RayleighHeight>
-      <RayleighHeightSpace>6</RayleighHeightSpace>
-      <RayleighTransitionModifier>0.415</RayleighTransitionModifier>
-      <MieHeight>200</MieHeight>
-      <MieG>0.999732332</MieG>
-      <SeaLevelModifier>0.982</SeaLevelModifier>
-      <AtmosphereTopModifier>1.1</AtmosphereTopModifier>
-      <Intensity>6.0</Intensity>
-      <FogIntensity>1.0</FogIntensity>
-    </AtmosphereSettings>
+		<CloudLayers>
+			<CloudLayer>
+				<Color>
+					<X>0.94</X>
+					<Y>0.73</Y>
+					<Z>0.48</Z>
+					<W>1</W>
+				</Color>
+				<Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+				<Textures>
+					<Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
+				</Textures>
+				<RelativeAltitude>-0.2</RelativeAltitude>
+				<RotationAxis>
+					<X>-0.2</X>
+					<Y>1</Y>
+					<Z>0.2</Z>
+				</RotationAxis>
+				<AngularVelocity>0.0002</AngularVelocity>
+				<InitialRotation>1.2</InitialRotation>
+				<ScalingEnabled>false</ScalingEnabled>
+				<FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+				<FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+				<ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
+			</CloudLayer>
 
-    <Atmosphere>
-      <Breathable>false</Breathable>
-      <OxygenDensity>0</OxygenDensity>
-      <Density>1.0</Density>
-      <LimitAltitude>2.0</LimitAltitude>
-      <MaxWindSpeed>80</MaxWindSpeed>
-    </Atmosphere>
+			<CloudLayer>
+				<Color>
+					<X>0.94</X>
+					<Y>0.73</Y>
+					<Z>0.48</Z>
+					<W>1</W>
+				</Color>
+				<Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+				<Textures>
+					<Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
+				</Textures>
+				<RelativeAltitude>-0.2</RelativeAltitude>
+				<RotationAxis>
+					<X>-0.2</X>
+					<Y>0.2</Y>
+					<Z>1</Z>
+				</RotationAxis>
+				<AngularVelocity>0.0002</AngularVelocity>
+				<InitialRotation>3.2</InitialRotation>
+				<ScalingEnabled>false</ScalingEnabled>
+				<FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+				<FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+				<ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
+			</CloudLayer>
+			<CloudLayer>
+				<Color>
+					<X>0.94</X>
+					<Y>0.73</Y>
+					<Z>0.48</Z>
+					<W>1</W>
+				</Color>
+				<Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+				<Textures>
+					<Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
+				</Textures>
+				<RelativeAltitude>-0.2</RelativeAltitude>
+				<RotationAxis>
+					<X>0.5</X>
+					<Y>-0.2</Y>
+					<Z>1</Z>
+				</RotationAxis>
+				<AngularVelocity>0.0002</AngularVelocity>
+				<InitialRotation>0.2</InitialRotation>
+				<ScalingEnabled>false</ScalingEnabled>
+				<FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+				<FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+				<ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
+			</CloudLayer>
 
-    <DefaultSurfaceMaterial Material="MarsSoil" MaxDepth="5"/>
-    <DefaultSubSurfaceMaterial Material="MarsRocks"/>
+			<CloudLayer>
+				<Color>
+					<X>0.94</X>
+					<Y>0.73</Y>
+					<Z>0.48</Z>
+					<W>1</W>
+				</Color>
+				<Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+				<Textures>
+					<Texture>Textures/Models/Environment/Sky/MartianSky02.dds</Texture>
+				</Textures>
+				<RelativeAltitude>1</RelativeAltitude>
+				<RotationAxis>
+					<X>0</X>
+					<Y>1</Y>
+					<Z>0</Z>
+				</RotationAxis>
+				<AngularVelocity>0.0006</AngularVelocity>
+				<InitialRotation>0.15</InitialRotation>
+				<ScalingEnabled>false</ScalingEnabled>
+				<FadeOutRelativeAltitudeStart>0.5</FadeOutRelativeAltitudeStart>
+				<FadeOutRelativeAltitudeEnd>1.6</FadeOutRelativeAltitudeEnd>
+			</CloudLayer>
 
-    <HasAtmosphere>true</HasAtmosphere>
+			<CloudLayer>
+				<Color>
+					<X>0.94</X>
+					<Y>0.73</Y>
+					<Z>0.48</Z>
+					<W>1</W>
+				</Color>
+				<Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+				<Textures>
+					<Texture>Textures/Models/Environment/Sky/MartianSky02.dds</Texture>
+				</Textures>
+				<RelativeAltitude>1.2</RelativeAltitude>
+				<RotationAxis>
+					<X>0.2</X>
+					<Y>1</Y>
+					<Z>-0.2</Z>
+				</RotationAxis>
+				<AngularVelocity>0.0006</AngularVelocity>
+				<InitialRotation>0.5</InitialRotation>
+				<ScalingEnabled>false</ScalingEnabled>
+				<FadeOutRelativeAltitudeStart>0.7</FadeOutRelativeAltitudeStart>
+				<FadeOutRelativeAltitudeEnd>1.5</FadeOutRelativeAltitudeEnd>
+			</CloudLayer>
+			<CloudLayer>
+				<Color>
+					<X>0.94</X>
+					<Y>0.73</Y>
+					<Z>0.48</Z>
+					<W>1</W>
+				</Color>
+				<Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+				<Textures>
+					<Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
+				</Textures>
+				<RelativeAltitude>1.4</RelativeAltitude>
+				<RotationAxis>
+					<X>-0.2</X>
+					<Y>1</Y>
+					<Z>0.2</Z>
+				</RotationAxis>
+				<AngularVelocity>0.0006</AngularVelocity>
+				<InitialRotation>1.2</InitialRotation>
+				<ScalingEnabled>false</ScalingEnabled>
+				<FadeOutRelativeAltitudeStart>0.8</FadeOutRelativeAltitudeStart>
+				<FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+			</CloudLayer>
+		</CloudLayers>
 
-    <CloudLayers>
-      <CloudLayer>
-        <!-- Far layer -->
-          <Color>
-              <X>0.94</X>
-              <Y>0.73</Y>
-              <Z>0.48</Z>
-              <W>1</W>
-          </Color>
-        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky_cm.dds</Texture>
-        </Textures>
-        <RelativeAltitude>-0.2</RelativeAltitude>
-        <RotationAxis>
-          <X>-0.2</X>
-          <Y>1</Y>
-          <Z>0.2</Z>
-        </RotationAxis>
-        <AngularVelocity>0.0002</AngularVelocity>
-        <InitialRotation>1.2</InitialRotation>
-        <ScalingEnabled>false</ScalingEnabled>
-        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
-        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
-        <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
-      </CloudLayer>
+		<SurfaceGravity>0.9</SurfaceGravity>
 
-      <CloudLayer>
-          <Color>
-              <X>0.94</X>
-              <Y>0.73</Y>
-              <Z>0.48</Z>
-              <W>1</W>
-          </Color>
-        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky_cm.dds</Texture>
-        </Textures>
-        <RelativeAltitude>-0.2</RelativeAltitude>
-        <RotationAxis>
-          <X>-0.2</X>
-          <Y>0.2</Y>
-          <Z>1</Z>
-        </RotationAxis>
-        <AngularVelocity>0.0002</AngularVelocity>
-        <InitialRotation>3.2</InitialRotation>
-        <ScalingEnabled>false</ScalingEnabled>
-        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
-        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
-        <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
-      </CloudLayer>
-      <CloudLayer>
-          <Color>
-              <X>0.94</X>
-              <Y>0.73</Y>
-              <Z>0.48</Z>
-              <W>1</W>
-          </Color>
-        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky_cm.dds</Texture>
-        </Textures>
-        <RelativeAltitude>-0.2</RelativeAltitude>
-        <RotationAxis>
-          <X>0.5</X>
-          <Y>-0.2</Y>
-          <Z>1</Z>
-        </RotationAxis>
-        <AngularVelocity>0.0002</AngularVelocity>
-        <InitialRotation>0.2</InitialRotation>
-        <ScalingEnabled>false</ScalingEnabled>
-        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
-        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
-        <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
-      </CloudLayer>
+		<WeatherFrequencyMin>900</WeatherFrequencyMin>
+		<WeatherFrequencyMax>1500</WeatherFrequencyMax>
+		<WeatherGenerators>
+			<WeatherGenerator>
+				<Voxel>MarsSoil</Voxel>
+				<Weathers>
+					<Weather>
+						<Name>LowWinds</Name>
+						<Weight>2</Weight>
+						<MinLength>600</MinLength>
+						<MaxLength>900</MaxLength>
+						<SpawnOffset>1000</SpawnOffset>
+					</Weather>
+					<Weather>
+						<Name>HighWinds</Name>
+						<Weight>2</Weight>
+						<MinLength>600</MinLength>
+						<MaxLength>900</MaxLength>
+						<SpawnOffset>1000</SpawnOffset>
+					</Weather>
+					<Weather>
+						<Name>MarsStormLight</Name>
+						<Weight>2</Weight>
+						<MinLength>600</MinLength>
+						<MaxLength>900</MaxLength>
+						<SpawnOffset>1000</SpawnOffset>
+					</Weather>
+					<Weather>
+						<Name>MarsStormHeavy</Name>
+						<Weight>1</Weight>
+						<MinLength>600</MinLength>
+						<MaxLength>900</MaxLength>
+						<SpawnOffset>1000</SpawnOffset>
+					</Weather>
+					<Weather>
+						<Name>Dust</Name>
+						<Weight>2</Weight>
+						<MinLength>600</MinLength>
+						<MaxLength>900</MaxLength>
+						<SpawnOffset>1000</SpawnOffset>
+					</Weather>
+					<Weather>
+						<Name>Hailstorm</Name>
+						<Weight>1</Weight>
+						<MinLength>600</MinLength>
+						<MaxLength>900</MaxLength>
+						<SpawnOffset>1000</SpawnOffset>
+					</Weather>
+				</Weathers>
+			</WeatherGenerator>
+			<WeatherGenerator>
+				<Voxel>Rock</Voxel>
+				<Weathers>
+					<Weather>
+						<Name>LowWinds</Name>
+						<Weight>2</Weight>
+						<MinLength>600</MinLength>
+						<MaxLength>900</MaxLength>
+						<SpawnOffset>1000</SpawnOffset>
+					</Weather>
+					<Weather>
+						<Name>HighWinds</Name>
+						<Weight>2</Weight>
+						<MinLength>600</MinLength>
+						<MaxLength>900</MaxLength>
+						<SpawnOffset>1000</SpawnOffset>
+					</Weather>
+					<Weather>
+						<Name>MarsStormLight</Name>
+						<Weight>2</Weight>
+						<MinLength>600</MinLength>
+						<MaxLength>900</MaxLength>
+						<SpawnOffset>1000</SpawnOffset>
+					</Weather>
+					<Weather>
+						<Name>MarsStormHeavy</Name>
+						<Weight>1</Weight>
+						<MinLength>600</MinLength>
+						<MaxLength>900</MaxLength>
+						<SpawnOffset>1000</SpawnOffset>
+					</Weather>
+					<Weather>
+						<Name>Dust</Name>
+						<Weight>2</Weight>
+						<MinLength>600</MinLength>
+						<MaxLength>900</MaxLength>
+						<SpawnOffset>1000</SpawnOffset>
+					</Weather>
+					<Weather>
+						<Name>Hailstorm</Name>
+						<Weight>1</Weight>
+						<MinLength>600</MinLength>
+						<MaxLength>900</MaxLength>
+						<SpawnOffset>1000</SpawnOffset>
+					</Weather>
+				</Weathers>
+			</WeatherGenerator>
+			<WeatherGenerator>
+				<Voxel>Snow</Voxel>
+				<Weathers>
+					<Weather>
+						<Name>LowWinds</Name>
+						<Weight>2</Weight>
+						<MinLength>600</MinLength>
+						<MaxLength>900</MaxLength>
+						<SpawnOffset>1000</SpawnOffset>
+					</Weather>
+					<Weather>
+						<Name>HighWinds</Name>
+						<Weight>2</Weight>
+						<MinLength>600</MinLength>
+						<MaxLength>900</MaxLength>
+						<SpawnOffset>1000</SpawnOffset>
+					</Weather>
+					<Weather>
+						<Name>ColdFront</Name>
+						<Weight>2</Weight>
+						<MinLength>600</MinLength>
+						<MaxLength>900</MaxLength>
+						<SpawnOffset>1000</SpawnOffset>
+					</Weather>
+					<Weather>
+						<Name>MarsSnow</Name>
+						<Weight>2</Weight>
+						<MinLength>600</MinLength>
+						<MaxLength>900</MaxLength>
+						<SpawnOffset>1000</SpawnOffset>
+					</Weather>
+					<Weather>
+						<Name>Hailstorm</Name>
+						<Weight>1</Weight>
+						<MinLength>600</MinLength>
+						<MaxLength>900</MaxLength>
+						<SpawnOffset>1000</SpawnOffset>
+					</Weather>
+				</Weathers>
+			</WeatherGenerator>
+		</WeatherGenerators>
 
-      <!-- Near layers -->
-      <CloudLayer>
-          <Color>
-              <X>0.94</X>
-              <Y>0.73</Y>
-              <Z>0.48</Z>
-              <W>1</W>
-          </Color>
-              <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky02_cm.dds</Texture>
-        </Textures>
-        <RelativeAltitude>1</RelativeAltitude>
-        <RotationAxis>
-          <X>0</X>
-          <Y>1</Y>
-          <Z>0</Z>
-        </RotationAxis>
-        <AngularVelocity>0.0006</AngularVelocity>
-        <InitialRotation>0.15</InitialRotation>
-        <ScalingEnabled>false</ScalingEnabled>
-        <FadeOutRelativeAltitudeStart>0.5</FadeOutRelativeAltitudeStart>
-        <FadeOutRelativeAltitudeEnd>1.6</FadeOutRelativeAltitudeEnd>
-      </CloudLayer>
-
-      <CloudLayer>
-          <Color>
-              <X>0.94</X>
-              <Y>0.73</Y>
-              <Z>0.48</Z>
-              <W>1</W>
-          </Color>
-              <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky02_cm.dds</Texture>
-        </Textures>
-        <RelativeAltitude>1.2</RelativeAltitude>
-        <RotationAxis>
-          <X>0.2</X>
-          <Y>1</Y>
-          <Z>-0.2</Z>
-        </RotationAxis>
-        <AngularVelocity>0.0006</AngularVelocity>
-        <InitialRotation>0.5</InitialRotation>
-        <ScalingEnabled>false</ScalingEnabled>
-        <FadeOutRelativeAltitudeStart>0.7</FadeOutRelativeAltitudeStart>
-        <FadeOutRelativeAltitudeEnd>1.5</FadeOutRelativeAltitudeEnd>
-      </CloudLayer>
-      <CloudLayer>
-          <Color>
-              <X>0.94</X>
-              <Y>0.73</Y>
-              <Z>0.48</Z>
-              <W>1</W>
-          </Color>
-        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky_cm.dds</Texture>
-        </Textures>
-        <RelativeAltitude>1.4</RelativeAltitude>
-        <RotationAxis>
-          <X>-0.2</X>
-          <Y>1</Y>
-          <Z>0.2</Z>
-        </RotationAxis>
-        <AngularVelocity>0.0006</AngularVelocity>
-        <InitialRotation>1.2</InitialRotation>
-        <ScalingEnabled>false</ScalingEnabled>
-        <FadeOutRelativeAltitudeStart>0.8</FadeOutRelativeAltitudeStart>
-        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
-      </CloudLayer>
-    </CloudLayers>
-
-    <MaximumOxygen>0.0</MaximumOxygen>
-    <SurfaceGravity>0.9</SurfaceGravity>
-    <MaterialsMaxDepth Min="4000" Max="4000"/>
-    <MaterialsMinDepth Min="20" Max="20"/>
-
-    <HillParams Min = "-0.01" Max ="0.12"/>
-    <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
-	<!-- Mars Planet's Weather Settings -->
-	
-	<WeatherFrequencyMin>1800</WeatherFrequencyMin>
-	<WeatherFrequencyMax>5400</WeatherFrequencyMax>
-	<WeatherGenerators>
-		<WeatherGenerator>
-			<Voxel>MarsSoil</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>MarsStormLight</Name>
-					<Weight>2</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1800</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>MarsStormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>1200</MinLength>
-					<MaxLength>3600</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-            	<Weather>
-					<Name>Dust</Name>
-					<Weight>2</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		<WeatherGenerator>
-			<Voxel>Rock</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>MarsStormLight</Name>
-					<Weight>2</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1800</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>MarsStormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>1200</MinLength>
-					<MaxLength>3600</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-            	<Weather>
-					<Name>Dust</Name>
-					<Weight>2</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-        <WeatherGenerator>
-            <Voxel>Snow</Voxel>
-            <Weathers>
-                <Weather>
-                    <Name>SnowLight</Name>
-                    <Weight>1</Weight>
-                    <MinLength>300</MinLength>
-                    <MaxLength>900</MaxLength>
-                    <SpawnOffset>2000</SpawnOffset>
-                </Weather>
-                <Weather>
-                    <Name>FogLight</Name>
-                    <Weight>2</Weight>
-                    <MinLength>300</MinLength>
-                    <MaxLength>900</MaxLength>
-                    <SpawnOffset>2000</SpawnOffset>
-                </Weather>
-            </Weathers>
-        </WeatherGenerator>
-	</WeatherGenerators>
-  </Definition>
+		<HillParams Min = "-0.01" Max ="0.12"/>
+		<MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
+	</Definition>
 
 </Definitions>

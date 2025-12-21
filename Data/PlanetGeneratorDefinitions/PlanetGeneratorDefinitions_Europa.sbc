@@ -1,55 +1,71 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <Definition xsi:type="PlanetGeneratorDefinition">
-    <Id>
-      <TypeId>PlanetGeneratorDefinition</TypeId>
-      <SubtypeId>Europa</SubtypeId>
-    </Id>
-    <!--!!!Important!! Read if you want to mod Planets! -->
-    <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->
-    <!--Make sure you are not modding a switched off channel-->
-    <PlanetMaps Material="true" Ores="true" Biome="false" Occlusion="true"/>
+	<Definition xsi:type="PlanetGeneratorDefinition"> <!-- Europa -->
+		<Id>
+			<TypeId>PlanetGeneratorDefinition</TypeId>
+			<SubtypeId>Europa</SubtypeId>
+		</Id>
+		<DisplayName>Europa</DisplayName>
+		<Difficulty>DifficultyHard</Difficulty>
+		<Public>true</Public>
 
-    <MesherPostprocessing xsi:type="MyObjectBuilder_VoxelMesherComponentDefinition">
-      <PostprocessingSteps>
-        <Step xsi:type="MyObjectBuilder_VoxelPostprocessingDecimate" ForPhysics="true">
-          <LodSettings>
-            <Settings FromLod="0">
-              <FeatureAngle>15</FeatureAngle>
-              <EdgeThreshold>.04</EdgeThreshold>
-              <PlaneThreshold>.02</PlaneThreshold>
-            </Settings>
-            <Settings FromLod="1">
-              <FeatureAngle>15</FeatureAngle>
-              <EdgeThreshold>.04</EdgeThreshold>
-              <PlaneThreshold>.04</PlaneThreshold>
-            </Settings>
-            <Settings FromLod="2">
-              <FeatureAngle>15</FeatureAngle>
-              <EdgeThreshold>.06</EdgeThreshold>
-              <PlaneThreshold>.06</PlaneThreshold>
-            </Settings>
-          </LodSettings>
-        </Step>
-      </PostprocessingSteps>
-    </MesherPostprocessing>
+		<PlanetMaps Material="true" Ores="true" Biome="false" Occlusion="true"/>
 
-    <SurfaceDetail>
-      <Texture>Data/PlanetDataFiles/Extra/material_detail_1</Texture>
-      <Size>384</Size>
-      <Scale>5</Scale>
-      <Slope Min="30" Max="90" />
-      <Transition>10</Transition>
-      <!-- <Transition>7.5</Transition> -->
-    </SurfaceDetail>
+		<MesherPostprocessing xsi:type="MyObjectBuilder_VoxelMesherComponentDefinition">
+			<PostprocessingSteps>
+				<Step xsi:type="MyObjectBuilder_VoxelPostprocessingDecimate" ForPhysics="true">
+					<LodSettings>
+						<Settings FromLod="0">
+							<FeatureAngle>15</FeatureAngle>
+							<EdgeThreshold>.04</EdgeThreshold>
+							<PlaneThreshold>.02</PlaneThreshold>
+						</Settings>
+						<Settings FromLod="1">
+							<FeatureAngle>15</FeatureAngle>
+							<EdgeThreshold>.04</EdgeThreshold>
+							<PlaneThreshold>.04</PlaneThreshold>
+						</Settings>
+						<Settings FromLod="2">
+							<FeatureAngle>15</FeatureAngle>
+							<EdgeThreshold>.06</EdgeThreshold>
+							<PlaneThreshold>.06</PlaneThreshold>
+						</Settings>
+					</LodSettings>
+				</Step>
+			</PostprocessingSteps>
+		</MesherPostprocessing>
 
-    <CustomMaterialTable>
-      <Material Material="Stone_04" Value ="190" MaxDepth ="5"/>
-      <Material Material="Ice" Value ="174" MaxDepth ="5"/>
-      <Material Material="IceEuropa2" Value ="158" MaxDepth ="5"/>
-      <Material Material="Ice_01" Value ="142" MaxDepth ="5"/>
-    </CustomMaterialTable>
+		<SurfaceDetail>
+			<Texture>Data/PlanetDataFiles/Extra/material_detail_1</Texture>
+			<Size>384</Size>
+			<Scale>5</Scale>
+			<Slope Min="30" Max="90" />
+			<Transition>10</Transition>
+		</SurfaceDetail>
+
+		<CustomMaterialTable>
+			<Material Material="Stone_04" Value ="190" MaxDepth ="5"/>
+			<Material Material="Ice" Value ="174" MaxDepth ="5"/>
+			<Material Material="IceEuropa2" Value ="158" MaxDepth ="5"/>
+			<Material Material="Ice_01" Value ="142" MaxDepth ="5"/>
+		</CustomMaterialTable>
+
+		<SoundRules>
+			<SoundRule>
+				<Height Min="0" Max="0.75"/>
+				<Latitude Min="0" Max="90"/>
+				<SunAngleFromZenith Min="0" Max="90"/>
+				<EnvironmentSound>AmbEuropaMoonDay</EnvironmentSound>
+			</SoundRule>
+
+			<SoundRule>
+				<Height Min="0" Max="0.75"/>
+				<Latitude Min="0" Max="90"/>
+				<SunAngleFromZenith Min="90" Max="180"/>
+				<EnvironmentSound>AmbEuropaMoonNight</EnvironmentSound>
+			</SoundRule>
+		</SoundRules>
 
     <OreMappings>
       <Ore Value="1" Type="Ice_01" Start="1" Depth="6"/>
@@ -252,208 +268,162 @@
       <Ore Value="230" Type="MethaneHydrate" Start="146" Depth="10"/>
     </OreMappings>
 
-    <SoundRules>
-      <!-- Day -->
-      <SoundRule>
-        <Height Min="0" Max="0.75"/>
-        <Latitude Min="0" Max="90"/>
-        <SunAngleFromZenith Min="0" Max="90"/>
-        <EnvironmentSound>AmbEuropaMoonDay</EnvironmentSound>
-      </SoundRule>
+		<MusicCategories>
+			<MusicCategory Category="Planet" Frequency="0.90" />
+			<MusicCategory Category="Mystery" Frequency="0.1" />
+		</MusicCategories>
 
-      <!-- Night -->
-      <SoundRule>
-        <Height Min="0" Max="0.75"/>
-        <Latitude Min="0" Max="90"/>
-        <SunAngleFromZenith Min="90" Max="180"/>
-        <EnvironmentSound>AmbEuropaMoonNight</EnvironmentSound>
-      </SoundRule>
-    </SoundRules>
+		<ComplexMaterials>
+			<MaterialGroup Name="Iron Valleys" Value="48">
+				<Rule>
+					<Layers>
+						<Layer Material="IceEuropa2" Depth="5"/>
+					</Layers>
+					<Height Min="0.1" Max="0.5"/>
+					<Latitude Min="0" Max="90"/>
+					<Slope Min="0" Max="20"/>
+				</Rule>
 
-    <MusicCategories>
-      <MusicCategory Category="Planet" Frequency="0.90" />
-      <MusicCategory Category="Mystery" Frequency="0.1" />
-    </MusicCategories>
+				<Rule>
+					<Layers>
+						<Layer Material="Ice" Depth="5"/>
+					</Layers>
+					<Height Min="0" Max="3"/>
+					<Latitude Min="0" Max="90"/>
+					<Slope Min="20" Max="90"/>
+				</Rule>
+			</MaterialGroup>
 
-    <!-- Eumoon definitions - name shortened for better navigation -->
-    <ComplexMaterials>
+			<MaterialGroup Name="General Ice" Value="127">
+				<Rule>
+					<Layers>
+						<Layer Material="IceEuropa2" Depth="5"/>
+					</Layers>
+					<Height Min="0" Max="1"/>
+					<Latitude Min="0" Max="90"/>
+					<Slope Min="20" Max="90"/>
+				</Rule>
 
-      <MaterialGroup Name="Iron Valleys" Value="48">
+				<Rule>
+					<Layers>
+						<Layer Material="IceEuropa2" Depth="5"/>
+					</Layers>
+					<Height Min="0.1" Max="3"/>
+					<Latitude Min="0" Max="90"/>
+					<Slope Min="0" Max="20"/>
+				</Rule>
+			</MaterialGroup>
 
-        <Rule>
-          <Layers>
-            <Layer Material="IceEuropa2" Depth="5"/>
-          </Layers>
-          <Height Min="0.1" Max="0.5"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="20"/>
-        </Rule>
+			<MaterialGroup Name="Top ice" Value="255">
+				<Rule>
+					<Layers>
+						<Layer Material="IceEuropa2" Depth="5"/>
+					</Layers>
+					<Height Min="0" Max="1"/>
+					<Latitude Min="0" Max="90"/>
+					<Slope Min="30" Max="90"/>
+				</Rule>
 
-        <Rule>
-          <Layers>
-            <Layer Material="Ice" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="3"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="20" Max="90"/>
-        </Rule>
+				<Rule>
+					<Layers>
+						<Layer Material="IceEuropa2" Depth="5"/>
+					</Layers>
+					<Height Min="0" Max="1"/>
+					<Latitude Min="0" Max="90"/>
+					<Slope Min="0" Max="30"/>
+				</Rule>
+			</MaterialGroup>
 
-      </MaterialGroup>
+			<MaterialGroup Name="Top ice 2" Value="0">
+				<Rule>
+					<Layers>
+						<Layer Material="Ice_03" Depth="5"/>
+					</Layers>
+					<Height Min="0" Max="1"/>
+					<Latitude Min="0" Max="90"/>
+					<Slope Min="20" Max="90"/>
+				</Rule>
+			</MaterialGroup>
+		</ComplexMaterials>
 
-      <MaterialGroup Name="General Ice" Value="127">
+		<EnvironmentItems>
+			<Item>
+				<Biomes>
+					<Biome>0</Biome>
+				</Biomes>
+				<Materials>
+					<Material>Ice</Material>
+				</Materials>
+				<Items>
+					<Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="Europa" Density="0.003" />
+				</Items>
+				<Rule>
+					<Height Min="0" Max="0.7"/>
+					<Latitude Min="0" Max="80"/>
+					<Slope Min="0" Max="15"/>
+				</Rule>
+			</Item>
 
-        <Rule>
-          <Layers>
-            <Layer Material="IceEuropa2" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="1"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="20" Max="90"/>
-        </Rule>
+			<Item>
+				<Biomes>
+					<Biome>0</Biome>
+				</Biomes>
+				<Materials>
+					<Material>Ice_02</Material>
+				</Materials>
+				<Items>
+					<Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="Europa" Density="0.003" />
+				</Items>
+				<Rule>
+					<Height Min="0" Max="0.7"/>
+					<Latitude Min="0" Max="80"/>
+					<Slope Min="0" Max="15"/>
+				</Rule>
+			</Item>
+		</EnvironmentItems>
 
-        <Rule>
-          <Layers>
-            <Layer Material="IceEuropa2" Depth="5"/>
-          </Layers>
-          <Height Min="0.1" Max="3"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="20"/>
-        </Rule>
+		<DefaultSurfaceMaterial Material="Ice" MaxDepth="5"/>
+		<DefaultSubSurfaceMaterial Material="Ice_03"/>
 
-      </MaterialGroup>
+		<AllowMeteors>true</AllowMeteors>
+		<SolarRadiationProtectionFactor>0</SolarRadiationProtectionFactor> <!-- No protection from solar radiation -->
+		<RadiationGain>0.6</RadiationGain> <!-- The value is per second, expected increase of 1 Radiation per Update100 -->
 
-      <MaterialGroup Name="Top ice" Value="255">
+		<DefaultSurfaceTemperature>ExtremeFreeze</DefaultSurfaceTemperature>
 
-        <Rule>
-          <Layers>
-            <Layer Material="IceEuropa2" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="1"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="30" Max="90"/>
-        </Rule>
+		<HasAtmosphere>true</HasAtmosphere>
 
-        <Rule>
-          <Layers>
-            <Layer Material="IceEuropa2" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="1"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
+        <Atmosphere>
+		  <Breathable>false</Breathable>
+		  <OxygenDensity>0</OxygenDensity>
+          <MaxWindSpeed>30</MaxWindSpeed>
+        </Atmosphere>
 
-      </MaterialGroup>
+		<AtmosphereSettings>
+			<RayleighScattering>
+				<X>17.1</X>
+				<Y>24.3</Y>
+				<Z>47</Z>
+			</RayleighScattering>
+			<MieScattering>147.671082</MieScattering>
+			<MieColorScattering>
+				<X>121</X>
+				<Y>132</Y>
+				<Z>143</Z>
+			</MieColorScattering>
+			<RayleighHeight>10</RayleighHeight>
+			<MieHeight>41</MieHeight>
+			<MieG>0.999832332</MieG>
+			<Intensity>4.1</Intensity>
+			<FogIntensity>1</FogIntensity>
+			<SeaLevelModifier>0.933</SeaLevelModifier>
+			<AtmosphereTopModifier>0.9</AtmosphereTopModifier>
+		</AtmosphereSettings>
 
-      <MaterialGroup Name="Top ice 2" Value="0">
+		<SurfaceGravity>0.25</SurfaceGravity>
 
-        <Rule>
-          <Layers>
-            <Layer Material="Ice_03" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="1"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="20" Max="90"/>
-        </Rule>
-
-      </MaterialGroup>
-    </ComplexMaterials>
-    <!-- END Eumoon definitions - name shortened for better navigation -->
-
-    <EnvironmentItems>
-      <Item>
-        <Biomes>
-          <Biome>0</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Ice</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="Europa" Density="0.003" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="15"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>0</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Ice_02</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="Europa" Density="0.003" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="15"/>
-        </Rule>
-      </Item>
-    </EnvironmentItems>
-
-    <DefaultSurfaceMaterial Material="Ice" MaxDepth="5"/>
-    <DefaultSubSurfaceMaterial Material="Ice_03"/>
-
-    <HasAtmosphere>true</HasAtmosphere>
-    <Atmosphere>
-      <MaxWindSpeed>80</MaxWindSpeed>
-    </Atmosphere>
-
-    <AtmosphereSettings>
-      <RayleighScattering>
-        <X>17.1</X>
-        <Y>24.3</Y>
-        <Z>47</Z>
-      </RayleighScattering>
-      <MieScattering>147.671082</MieScattering>
-      <MieColorScattering>
-        <X>121</X>
-        <Y>132</Y>
-        <Z>143</Z>
-      </MieColorScattering>
-      <RayleighHeight>10</RayleighHeight>
-      <MieHeight>41</MieHeight>
-      <MieG>0.999832332</MieG>
-      <Intensity>4.1</Intensity>
-      <FogIntensity>1</FogIntensity>
-      <SeaLevelModifier>0.933</SeaLevelModifier>
-      <AtmosphereTopModifier>0.9</AtmosphereTopModifier>
-    </AtmosphereSettings>
-
-    <SurfaceGravity>0.25</SurfaceGravity>
-    <MaterialsMaxDepth Min="4000" Max="4000"/>
-    <MaterialsMinDepth Min="20" Max="20"/>
-
-    <HillParams Min = "-0.03" Max ="0.06"/>
-
-    <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
-	<!-- Europa Planet's Weather Settings -->
-	
-	<WeatherFrequencyMin>300</WeatherFrequencyMin>
-	<WeatherFrequencyMax>600</WeatherFrequencyMax>
-	<GlobalWeather>true</GlobalWeather>
-	<WeatherGenerators>
-		<WeatherGenerator>
-			<Weathers>
-				<Weather>
-					<Name>FogHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-				</Weather>
-				<Weather>
-					<Name>SnowHeavy</Name>
-					<Weight>6</Weight>
-					<MinLength>1200</MinLength>
-					<MaxLength>3600</MaxLength>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-	</WeatherGenerators>
-  </Definition>
+		<HillParams Min = "-0.03" Max ="0.06"/>
+		<MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
+	</Definition>
 
 </Definitions>

@@ -776,6 +776,7 @@
       <Results>
         <Item Amount="118.8" TypeId="Ore" SubtypeId="Oxygen" />
         <Item Amount="59.4" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Gold" />
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -792,6 +793,7 @@
       <Results>
         <Item Amount="594" TypeId="Ore" SubtypeId="Oxygen" />
         <Item Amount="297" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="Gold" />
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -808,6 +810,7 @@
       <Results>
         <Item Amount="2970" TypeId="Ore" SubtypeId="Oxygen" />
         <Item Amount="1485" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="12.5" TypeId="Ingot" SubtypeId="Gold" />
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>

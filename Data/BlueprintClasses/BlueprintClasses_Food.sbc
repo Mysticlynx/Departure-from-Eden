@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlueprintClasses>
+
+		<!-- Food Processor -->
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>FoodProcessorRations</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_FoodItems</DisplayName>
+            <Description>Description_BlueprintClass_FoodItems</Description>
+            <Icon>Textures\GUI\Icons\buttons\Food.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\Food.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\FoodFocus.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_foodcontainer.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_food.dds</OutputConstraintIcon>
+			<InputConstraintDescription>ToolTipItemFilter_FoodProcessorInput</InputConstraintDescription>
+        </Class>
+		
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>FoodProcessorSeeds</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_GardenItems</DisplayName>
+            <Description>Description_BlueprintClass_GardenItems</Description>
+            <Icon>Textures\GUI\Icons\buttons\Garden.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\Garden.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\GardenFocus.dds</FocusIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>BasicFoodProcessorRations</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_FoodItems</DisplayName>
+            <Description>Description_BlueprintClass_FoodItems</Description>
+            <Icon>Textures\GUI\Icons\buttons\Food.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\Food.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\FoodFocus.dds</FocusIcon>
+        </Class>
+
+    </BlueprintClasses>
+
+
+    <BlueprintClassEntries>
+		<!-- Meal Pack Crafting -->
+        <Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0010_CookMammalMeat" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0020_CookSpiderMeat" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0030_MealPack_KelpCrisp" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0040_MealPack_FruitBar" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0050_MealPack_GardenSlaw" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0060_MealPack_RedPellets" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0070_MealPack_Chili" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0080_MealPack_Flatbread" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0090_MealPack_Ramen" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0100_MealPack_FruitPastry" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0110_MealPack_VeggieBurger" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0120_MealPack_Curry" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0130_MealPack_GreenPellets" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0140_MealPack_Dumplings" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0150_MealPack_Spaghetti" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0160_MealPack_Lasagna" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0170_MealPack_Burrito" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0180_MealPack_FrontierStew" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0190_MealPack_SearedSabiroid" />
+		<Entry Class="FoodProcessorRations" BlueprintSubtypeId="Position0200_MealPack_SteakDinner" />
+
+        <!-- Basic Meal Pack Crafting -->
+        <Entry Class="BasicFoodProcessorRations" BlueprintSubtypeId="Position0030_MealPack_KelpCrisp" />
+        <Entry Class="BasicFoodProcessorRations" BlueprintSubtypeId="Position0010_CookMammalMeat" />
+		<Entry Class="BasicFoodProcessorRations" BlueprintSubtypeId="Position0020_CookSpiderMeat" />
+		
+		<!-- Seed Harvesting -->
+		<Entry Class="FoodProcessorSeeds" BlueprintSubtypeId="Position0010_Seeds_Fruit" />
+		<Entry Class="FoodProcessorSeeds" BlueprintSubtypeId="Position0020_Seeds_Grain" />
+		<Entry Class="FoodProcessorSeeds" BlueprintSubtypeId="Position0030_Seeds_Vegetables" />
+		<Entry Class="FoodProcessorSeeds" BlueprintSubtypeId="Position0040_Spores_Mushrooms" />
+    </BlueprintClassEntries>
+</Definitions>
