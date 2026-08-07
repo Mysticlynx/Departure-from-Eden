@@ -62,27 +62,6 @@
         <!-- End Region Row 0 -->
 
         <!-- Region Row 1 -->
-        <BlockPosition>
-            <Name>Emitter</Name>
-            <Position>
-                <X>0</X>
-                <Y>5</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>DS_Control</Name>
-            <Position>
-                <X>1</X>
-                <Y>5</Y>
-            </Position>
-        </BlockPosition>
-        <BlockPosition>
-            <Name>O2Generator</Name>
-            <Position>
-                <X>2</X>
-                <Y>5</Y>
-            </Position>
-        </BlockPosition>
         <!-- End Region Row 1 -->
 
         <!-- Region Row 2 -->
@@ -306,37 +285,58 @@
 
         <!-- Region Row 5 -->
         <BlockPosition>
-            <Name>SurvivalKit</Name>
+            <Name>Emitter</Name>
             <Position>
                 <X>0</X>
                 <Y>25</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>MedicalRoom</Name>
+            <Name>DS_Control</Name>
             <Position>
                 <X>1</X>
                 <Y>25</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>CryoChamber</Name>
+            <Name>O2Generator</Name>
             <Position>
                 <X>2</X>
                 <Y>25</Y>
             </Position>
         </BlockPosition>
         <BlockPosition>
-            <Name>RefillStation</Name>
+            <Name>SurvivalKit</Name>
             <Position>
                 <X>3</X>
+                <Y>25</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>MedicalRoom</Name>
+            <Position>
+                <X>4</X>
+                <Y>25</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>CryoChamber</Name>
+            <Position>
+                <X>5</X>
+                <Y>25</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>RefillStation</Name>
+            <Position>
+                <X>6</X>
                 <Y>25</Y>
             </Position>
         </BlockPosition>
 		<BlockPosition>
 			<Name>FoodProcessor</Name>
 			<Position>
-				<X>4</X>
+				<X>7</X>
 				<Y>25</Y>
 			</Position>
 		</BlockPosition>
@@ -923,6 +923,13 @@
                 <Y>75</Y>
             </Position>
         </BlockPosition>
+        <BlockPosition>
+			<Name>CableRun</Name>
+			<Position>
+				<X>8</X>
+				<Y>75</Y>
+			</Position>
+		</BlockPosition>
         <!-- End Region Row 15 -->
 
         <!-- Region Row 16 -->
@@ -1201,6 +1208,20 @@
 				<Y>95</Y>
 			</Position>
 		</BlockPosition>
+        <BlockPosition>
+			<Name>Stairs</Name>
+			<Position>
+				<X>8</X>
+				<Y>95</Y>
+			</Position>
+		</BlockPosition>
+        <BlockPosition>
+			<Name>LargeBlockStructuralPlatform</Name>
+			<Position>
+				<X>9</X>
+				<Y>95</Y>
+			</Position>
+		</BlockPosition>
         <!-- End Region Row 18 -->
 
         <!-- Region Row 19 -->
@@ -1257,6 +1278,13 @@
             <Name>RemoteControl</Name>
             <Position>
                 <X>7</X>
+                <Y>100</Y>
+            </Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>FloorPlanSign1</Name>
+            <Position>
+                <X>8</X>
                 <Y>100</Y>
             </Position>
         </BlockPosition>
